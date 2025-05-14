@@ -35,16 +35,14 @@ def generate_csv(log_name, case_id=CASE_ID_KEY, activity=ACTIVITY_KEY, timestamp
             org_file = path.join('eventlog', 'ORI', log_name + '.xes')
         if Path(org_file).suffix == '.csv':
             print('Generating CSV file from CSV log...')
-            dataframe = pd.read_csv(org_file)
             if log_name =='helpdesk2017':
                 dataset_column = ['Case ID', 'Activity','Complete Timestamp']
+                dataframe = pd.read_csv(org_file)
             elif log_name == 'SP2020':
                 dataset_column = ['CASE_ID', 'ACTIVITY', 'TIMESTAMP']
+                dataframe = pd.read_csv(org_file, sep=';')
 
-            dataframe.columns = dataset_column
             default = ['case:concept:name', 'concept:name', 'time:timestamp']
-
-
             dataframe.rename(columns=dict(zip(dataset_column, default)), inplace=True)
             
             dataframe[timestamp] = pd.to_datetime(dataframe[timestamp], utc=True)

@@ -11,12 +11,14 @@ from utils import SEED, fix_seed, generate_csv
 
 
 event_logs = [
-    # "BPIC2020_DomesticDeclarations",
-    # "BPIC2020_InternationalDeclarations",
+    # "Receipt",
+    # "helpdesk2017",
+    # "Sepsis",
+    # "SP2020",
+    # "BPIC2020_PrepaidTravelCost",
+    "BPIC2020_RequestForPayment",
     # "BPIC2020_PermitLog",
-    "BPIC2020_PrepaidTravelCost",
-    # "BPIC2020_RequestForPayment",
-    # "BPIC2013_Incidents"
+    # "BPIC2020_InternationalDeclarations",
 ]
 
 discovery_algorithms = [
@@ -55,19 +57,19 @@ use_only_conflict_data_settings=[
 ]
 
 confidence_threshold_settings = [
-    0.4,
-    0.45,
+    # 0.4,
+    # 0.45,
     0.5, # default
-    0.55,
-    0.6,
+    # 0.55,
+    # 0.6,
 ]
 
 consistency_alpha_settings= [
-    0,
-    0.25,
+    # 0,
+    # 0.25,
     0.5, # default
-    0.75,
-    1, 
+    # 0.75,
+    # 1, 
 ]
 
 adwin_min_settings = [
@@ -78,8 +80,8 @@ adwin_min_settings = [
 
 adwin_threshold_settings= [
     0.05, # default
-    0.1, 
-    0.2, 
+    # 0.1, 
+    # 0.2, 
 ]
 
 

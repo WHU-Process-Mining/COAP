@@ -71,7 +71,6 @@ class OnlinePredictor:
             "start_time",
             "log_name",
             "processed_events",
-            "processed_traces",
             "discovery_algorithm",
             "prediction_algorithm",
             "dynamic_update",
