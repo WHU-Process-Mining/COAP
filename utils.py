@@ -61,6 +61,7 @@ def generate_csv(log_name, case_id=CASE_ID_KEY, activity=ACTIVITY_KEY, timestamp
             for trace in log:
                 trace.append({activity: FINAL_ACTIVITY, timestamp: trace[-1][timestamp] + timedelta(seconds=1)})
             dataframe = log_converter.apply(log, variant=log_converter.Variants.TO_DATA_FRAME)
+            dataframe[timestamp] = pd.to_datetime(dataframe[timestamp], format="mixed", utc=True)
         dataframe = dataframe.filter(items=[activity, timestamp, case_id]).sort_values(timestamp, kind='mergesort')
         dataframe = dataframe.rename(columns={activity: ACTIVITY_KEY, case_id: CASE_ID_KEY})
         makedirs(path.dirname(csv_path), exist_ok=True)

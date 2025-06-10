@@ -7,7 +7,7 @@ from pm4py.algo.discovery.ilp import algorithm as ilp_miner
 from pm4py.objects.conversion.process_tree import converter as pt_converter
 from pm4py.objects.petri_net.semantics import weak_execute, enabled_transitions
 from utils import ACTIVITY_KEY
-import networkx
+
 
 
 class DiscoveryAlgorithm(Enum):
