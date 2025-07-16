@@ -5,11 +5,11 @@ from os import path, makedirs
 import time
 import numpy as np
 import pandas
-from prediction_model import PredicitionModel, PredictionAlgorithm
-from process_model import DiscoveryAlgorithm, construct_model_constraints, construct_process_model, generate_executable_activities
-from utils import CASE_ID_KEY, ACTIVITY_KEY, SEED, TIMESTAMP_KEY, FINAL_ACTIVITY, fix_seed
-from pm4py.streaming.importer.csv import importer as csv_stream_importer
-from dateutil.parser import parse
+from prediction_model import PredicitionModel
+from process_model import construct_process_model, generate_executable_activities
+from utils import CASE_ID_KEY, ACTIVITY_KEY, FINAL_ACTIVITY
+from pm4py.streaming.importer.csv.importer import apply as csv_stream_importer
+from sklearn.metrics import f1_score
 
 class OnlinePredictor:
     def __init__(
@@ -29,18 +29,14 @@ class OnlinePredictor:
         adwin_threshold=0.05,
     ) -> None:
         self.log_name = log_name
-        self.event_stream = csv_stream_importer.apply(path.join('eventlog', 'CSV', self.log_name + '.csv'))
+        self.event_stream = csv_stream_importer(path.join('eventlog', 'CSV', self.log_name + '.csv'))
         self.event_num = len(pandas.read_csv(path.join("eventlog", "CSV", self.log_name + ".csv")))
         self.cut_val = (self.event_num // 100) * 10
         self.discovery_algorithm = discovery_algorithm
         self.prediction_algorithm = prediction_algorithm
         self.prediction_model = PredicitionModel(torch_device, prediction_algorithm)
         self.process_model = None
-        self.process_model_constraints = None
         self.update_model_flag = False
-        self.old_prediction_model = None
-        self.old_process_model = None
-        self.old_process_model_constraints = None
         self.processed_events = 0
         self.completed_traces = OrderedDict()
         self.ongoing_traces = OrderedDict()
@@ -48,6 +44,8 @@ class OnlinePredictor:
         self.next_executable_activities = OrderedDict()
         self.next_activity_prediction = OrderedDict()
         self.drift_moments = []
+        self.predict = []
+        self.ground_truth = []
         self.prediction_accuracy = []
         self.constraint_accuracy_list = []
         self.test_event_idxs = []  # 记录每次测试的event的id
@@ -77,7 +75,7 @@ class OnlinePredictor:
             "update_strategy",
             "apply_constraint",
             "use_consistency",
-            # "use_only_conflict_data",
+            "use_only_conflict_data",
             "confidence_threshold",
             "consistency_alpha",
             "adwin_min",
@@ -86,6 +84,7 @@ class OnlinePredictor:
             "drift_count",
             "average_accuracy",
             "average_consistency",
+            "average_fscore",
             "total_time",
         ]
         # 获取每个实验的结果，并将其存储到 experiment_results 列表中
@@ -99,7 +98,7 @@ class OnlinePredictor:
             "update_strategy": self.update_strategy,
             "apply_constraint": self.apply_constraint,
             "use_consistency": self.use_consistency,
-            # "use_only_conflict_data":self.use_only_conflict_data,
+            "use_only_conflict_data":self.use_only_conflict_data,
             "confidence_threshold": self.confidence_threshold,
             "consistency_alpha": self.consistency_alpha,
             "adwin_min": self.adwin_min,
@@ -108,6 +107,7 @@ class OnlinePredictor:
             "drift_count": len(self.drift_moments),
             "average_accuracy": sum(self.prediction_accuracy) / len(self.prediction_accuracy),
             "average_consistency": sum(self.prediction_consistency) / len(self.prediction_consistency),
+            "average_fscore": (round(f1_score(self.ground_truth, self.predict, average='macro'), 5)),
             "total_time": self.total_time,
         }
 
@@ -127,13 +127,8 @@ class OnlinePredictor:
 
     # TODO:融合模型约束的活动预测
     def predict_next_activity(self, case_id, ongoing_trace):
-        if self.update_model_flag: # 模型更新,使用旧模型
-            print("model is updating, using old model, at case:{}, event index:{}".format(case_id, self.processed_events))
-            next_activity_probabilities = self.old_prediction_model.predict(ongoing_trace)
-            executable_activities = generate_executable_activities(self.old_process_model, self.old_process_model_constraints, ongoing_trace)
-        else: # 模型未更新，使用新模型
-            next_activity_probabilities = self.prediction_model.predict(ongoing_trace)
-            executable_activities = generate_executable_activities(self.process_model, self.process_model_constraints, ongoing_trace)
+        next_activity_probabilities = self.prediction_model.predict(ongoing_trace)
+        executable_activities = generate_executable_activities(self.process_model, ongoing_trace)
 
         # 对概率排序，取top-k
         k = 5
@@ -153,25 +148,12 @@ class OnlinePredictor:
         )
 
         if self.apply_constraint:
-            # if max_activity != max_constrainted_activity:
-            # print(
-            #     "case_id: ",
-            #     case_id,
-            #     ", ongoing_trace: ",
-            #     ongoing_trace,
-            #     ", origin_activity: ",
-            #     max_activity,
-            #     ", constrainted_activity: ",
-            #     max_constrainted_activity,
-            # )
             return max_constrainted_activity
         else:
             return max_activity
 
     # TODO:计算流程模型的可执行活动集、预测模型的活动概率、真实活动之间的一致性
     def compute_prediction_consistency(self, case_id, activity):
-        # top_k_activities = {k: v for k, v in self.next_activity_prediction_probabilities[case_id]}
-        # prediciton_accuracy = 1 if activity in top_k_activities and top_k_activities[activity] > 0.4 else 0
         prediciton_accuracy = 1 if activity == self.next_activity_prediction[case_id] else 0
         constraint_accuracy = 1 if activity in self.next_executable_activities[case_id] else 0
         self.constraint_accuracy_list.append(constraint_accuracy)
@@ -206,7 +188,6 @@ class OnlinePredictor:
             self.processed_events += 1
             case_id = event[CASE_ID_KEY]
             activity = event[ACTIVITY_KEY]
-            event_time = event[TIMESTAMP_KEY]
             # print(type(case_id),type(activity),type(event_time)) # 均为str类型
             if case_id not in self.ongoing_traces:
                 self.ongoing_traces[case_id] = [[activity], self.processed_events]  # 记录轨迹最后一个事件的发生位置
@@ -218,7 +199,6 @@ class OnlinePredictor:
             if self.processed_events == self.cut_val:
                 training_set = deepcopy([row[0] for row in list(self.completed_traces.values())])
                 self.process_model = construct_process_model(self.discovery_algorithm, training_set)
-                self.process_model_constraints = construct_model_constraints(self.process_model)
                 training_set.extend(deepcopy([row[0] for row in list(self.ongoing_traces.values())]))
                 self.prediction_model.retrain(training_set)
                 self.completed_traces = OrderedDict()
@@ -231,20 +211,13 @@ class OnlinePredictor:
             self.processed_events += 1
             case_id = event[CASE_ID_KEY]
             activity = event[ACTIVITY_KEY]
-            event_time = parse(event[TIMESTAMP_KEY])
-            if self.update_model_flag:
-                diff = event_time - last_event_time
-                sec = diff.total_seconds()
-                if sec > training_time:  # 时间间隔超过训练时间，更新模型,并对现有ongoing trace进行更新
-                    print("model updating is over, at case:{}, event index:{}".format(case_id, self.processed_events))
-                    self.update_model_flag = False
-                    # update predictions of ongoing traces
-                    for case_id, (ongoing_trace, last_event) in self.ongoing_traces.items():
-                        self.next_activity_prediction[case_id] = self.predict_next_activity(case_id, ongoing_trace)
+
             if case_id not in self.ongoing_traces:
                 self.ongoing_traces[case_id] = [[activity], self.processed_events]  # 记录轨迹最后一个事件的发生位置
                 self.next_activity_prediction[case_id] = self.predict_next_activity(case_id, self.ongoing_traces[case_id][0])
             else:
+                self.predict.append(self.next_activity_prediction[case_id])
+                self.ground_truth.append(activity)
                 self.prediction_accuracy.append(1 if activity == self.next_activity_prediction[case_id] else 0)
                 self.compute_prediction_consistency(case_id, activity)
                 self.test_event_idxs.append(self.processed_events)
@@ -259,11 +232,6 @@ class OnlinePredictor:
                 if self.dynamic_update and self.detect_drift():
                     print("------------Updating Models------------")
                     self.drift_moments.append(self.processed_events)
-                    last_event_time = event_time
-                    self.update_model_flag = True
-                    self.old_prediction_model = deepcopy(self.prediction_model)
-                    self.old_process_model = deepcopy(self.process_model)
-                    self.old_process_model_constraints = deepcopy(self.process_model_constraints)
 
                     if self.use_only_conflict_data:
                         training_set = deepcopy(
@@ -273,27 +241,21 @@ class OnlinePredictor:
                         training_set = deepcopy([row[0] for row in list(self.completed_traces.values())])
                     if len(training_set) > 0:
                         self.process_model = construct_process_model(self.discovery_algorithm, training_set)
-                        self.process_model_constraints = construct_model_constraints(self.process_model)
                     training_set.extend(deepcopy([row[0] for row in list(self.ongoing_traces.values())]))
-                    update_start_time = time.process_time()
                     if self.update_strategy == "finetune":
                         self.prediction_model.update(training_set)
                     else:
                         self.prediction_model.retrain(training_set)
-                    training_time = time.process_time() - update_start_time
                     self.completed_traces = OrderedDict()
+                    for case_id, (ongoing_trace, last_event) in self.ongoing_traces.items():
+                        self.next_activity_prediction[case_id] = self.predict_next_activity(case_id, ongoing_trace)
     
         self.total_time = time.process_time() - start_time
 
         print("------------Saving Results------------")
         print("drift: ", len(self.drift_moments), self.drift_moments)
         print("average accuracy: ", sum(self.prediction_accuracy) / len(self.prediction_accuracy))
+        print("average fscore: ", f1_score(self.ground_truth, self.predict, average='macro'))
         print("average consistency: ", sum(self.prediction_consistency) / len(self.prediction_consistency))
         print("total time: ", self.total_time)
         self.save_results_to_csv()
-
-
-if __name__ == "__main__":
-    fix_seed(SEED)
-    online_predictor = OnlinePredictor("BPIC2020PrepaidTravelCost", DiscoveryAlgorithm.IND, PredictionAlgorithm.LSTM)
-    online_predictor.process_event_stream()

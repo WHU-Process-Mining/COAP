@@ -92,11 +92,12 @@ class PositionalEncoding(nn.Module):
 
     def forward(self, x):
         seq_len = x.size(1)
-        return x + self.encoding[:, :seq_len, :]
+        encoding = self.encoding.to(x.device)
+        return x + encoding[:, :seq_len, :]
 
 
 class TransformerActivityPredictor(nn.Module):
-    def __init__(self, vocab_size, embedding_dim, num_heads, num_layers, hidden_dim, dropout, max_seq_len=128):
+    def __init__(self, vocab_size, embedding_dim, num_heads, num_layers, hidden_dim, dropout, max_seq_len=1024):
         super(TransformerActivityPredictor, self).__init__()
         self.embedding = nn.Embedding(vocab_size, embedding_dim, padding_idx=PADDING_VALUE)
         self.positional_encoding = PositionalEncoding(embedding_dim, max_seq_len)
@@ -115,10 +116,11 @@ class TransformerActivityPredictor(nn.Module):
         batch_size, seq_len = x.size(0), x.size(1)
         mask = torch.arange(seq_len).unsqueeze(0).expand(batch_size, seq_len)
         mask = mask >= lengths.unsqueeze(1)  # True 表示需要忽略的位置
+        mask = mask.to(x.device)
         # 4. Transformer Encoder 前向传播
         encoded = self.transformer_encoder(embedded, src_key_padding_mask=mask)
         # 5. 提取最后一个有效位置的表示
-        last_hidden = encoded[torch.arange(len(lengths)), lengths - 1]
+        last_hidden = encoded[torch.arange(len(lengths),device=x.device), lengths - 1]
         # 6. 全连接层输出
         return self.fc(last_hidden)  # TODO:transformer预测是只用最后一个位置的还是所有的？
 
@@ -236,12 +238,13 @@ class PredicitionModel:
         if new_vocab_size > self.model.embedding.num_embeddings:
             with torch.no_grad():
                 # 随机初始化新的权重
-                new_weights = torch.randn(
-                    new_vocab_size - self.model.embedding.num_embeddings, self.model.embedding.embedding_dim, device=self.device
-                )
+                old_w = self.model.embedding.weight.data
+                new_weights = old_w.new_empty(new_vocab_size - self.model.embedding.num_embeddings, self.model.embedding.embedding_dim)
+                std = min(max(old_w.std().item(), (1.0 / self.model.embedding.embedding_dim) ** 0.5 * 0.7), (1.0 / self.model.embedding.embedding_dim) ** 0.5 * 1.5)
+                nn.init.normal_(new_weights, mean=0.0, std=std)
                 # 扩展当前的嵌入层权重
                 updated_weights = torch.cat([self.model.embedding.weight.data, new_weights], dim=0)
-                self.model.embedding = nn.Embedding.from_pretrained(updated_weights, freeze=False).to(self.device)
+                self.model.embedding = nn.Embedding.from_pretrained(updated_weights, freeze=False,padding_idx=PADDING_VALUE).to(self.device)
 
     def update_output_layer(self, new_vocab_size):
         old_vocab_size = self.model.fc.out_features
@@ -251,9 +254,10 @@ class PredicitionModel:
                 old_weights = self.model.fc.weight.data
                 old_bias = self.model.fc.bias.data
 
-                # 初始化新的权重和偏置
-                new_weights = torch.randn(new_vocab_size - old_vocab_size, self.model.fc.in_features, device=self.device)
-                new_bias = torch.randn(new_vocab_size - old_vocab_size, device=self.device)
+                new_weights = old_weights.new_empty(new_vocab_size - old_vocab_size, self.model.fc.in_features)
+                nn.init.xavier_uniform_(new_weights)
+                new_bias = old_bias.new_empty(new_vocab_size - old_vocab_size)
+                nn.init.zeros_(new_bias)
 
                 # 扩展并更新
                 updated_weights = torch.cat([old_weights, new_weights], dim=0)
