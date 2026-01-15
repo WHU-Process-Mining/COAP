@@ -1,0 +1,3020 @@
+nohup: 忽略输入
+Processing event log: helpdesk2017
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  13
+------------Updating Models------------
+update activity num:  13  ->  14
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  14 [2931, 3116, 3319, 3541, 3706, 3889, 7131, 8924, 9730, 9900, 10376, 10392, 10579, 24327]
+average accuracy:  0.8344074844074844
+average fscore:  0.3145943401377081
+average consistency:  0.0
+total time:  206.526565508
+Experiment results saved to results/result_helpdesk2017.csv
+New best accuracy: 0.8344074844074844
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+update activity num:  14  ->  17
+------------Saving Results------------
+drift:  7 [2931, 3116, 3640, 3658, 7075, 9817, 23584]
+average accuracy:  0.7938669438669439
+average fscore:  0.2986228650097539
+average consistency:  0.0
+total time:  210.633180309
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+update activity num:  14  ->  17
+------------Saving Results------------
+drift:  7 [2931, 3182, 3612, 3663, 7330, 9804, 23396]
+average accuracy:  0.8069646569646569
+average fscore:  0.32710297215401035
+average consistency:  0.0
+total time:  200.80871848700002
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  13
+------------Updating Models------------
+update activity num:  13  ->  14
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  8 [2931, 3188, 3775, 7435, 9157, 10065, 10586, 23281]
+average accuracy:  0.8233367983367983
+average fscore:  0.2979683399189719
+average consistency:  0.0
+total time:  198.76189625099994
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  5 [2931, 9745, 10071, 10651, 24006]
+average accuracy:  0.81995841995842
+average fscore:  0.30306782331171683
+average consistency:  0.0
+total time:  192.41134164099992
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  5 [2931, 9795, 10213, 10782, 23726]
+average accuracy:  0.831081081081081
+average fscore:  0.3093140976874973
+average consistency:  0.0
+total time:  188.54167351399997
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+update activity num:  14  ->  17
+------------Saving Results------------
+drift:  3 [2948, 10164, 23943]
+average accuracy:  0.8208419958419958
+average fscore:  0.3524359603040148
+average consistency:  0.0
+total time:  184.23236116399994
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  13
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  13  ->  14
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  30 [2931, 3116, 3308, 3509, 3684, 3868, 6349, 6365, 6393, 6579, 6769, 6955, 7132, 7303, 7620, 7724, 7890, 8196, 8354, 8514, 8700, 9020, 9130, 9357, 9503, 9691, 9870, 10515, 10664, 24029]
+average accuracy:  0.830977130977131
+average fscore:  0.2988551989179591
+average consistency:  0.0
+total time:  230.38639795899985
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  16
+------------Updating Models------------
+update activity num:  16  ->  17
+------------Updating Models------------
+------------Saving Results------------
+drift:  29 [2931, 3116, 3308, 3552, 3711, 3892, 7104, 7193, 7325, 7598, 8065, 8068, 8253, 9536, 9719, 9895, 10489, 10656, 11138, 11159, 12075, 12186, 13048, 13060, 13171, 13345, 22549, 25797, 25854]
+average accuracy:  0.8244282744282744
+average fscore:  0.3059447028256942
+average consistency:  0.0
+total time:  227.786195164
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+update activity num:  14  ->  16
+------------Updating Models------------
+update activity num:  16  ->  17
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  19 [2931, 3184, 3343, 3545, 3722, 3912, 7121, 7330, 7363, 7586, 7700, 8349, 8425, 9721, 21065, 23325, 25326, 25398, 25501]
+average accuracy:  0.8148128898128898
+average fscore:  0.2786868882213704
+average consistency:  0.0
+total time:  210.8836421840001
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  7 [2931, 3191, 3570, 3645, 7489, 10853, 23321]
+average accuracy:  0.8075883575883576
+average fscore:  0.3371511895481559
+average consistency:  0.0
+total time:  182.6268971100003
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  6 [2931, 9762, 9844, 10639, 10921, 23839]
+average accuracy:  0.8498440748440749
+average fscore:  0.3045858463692458
+average consistency:  0.0
+total time:  180.5147894239999
+Experiment results saved to results/result_helpdesk2017.csv
+New best accuracy: 0.8498440748440749
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  6 [2935, 10051, 10103, 10585, 10828, 24165]
+average accuracy:  0.8488565488565488
+average fscore:  0.31257244867977135
+average consistency:  0.0
+total time:  181.36205340700008
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  4 [2952, 10157, 10608, 23449]
+average accuracy:  0.8289501039501039
+average fscore:  0.2986347418408503
+average consistency:  0.0
+total time:  185.90739877199985
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  13
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  13  ->  14
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  30 [2931, 3116, 3308, 3509, 3684, 3868, 6349, 6365, 6393, 6579, 6769, 6955, 7132, 7303, 7620, 7724, 7890, 8196, 8354, 8514, 8700, 9020, 9130, 9357, 9503, 9691, 9870, 10515, 10664, 24029]
+average accuracy:  0.830977130977131
+average fscore:  0.2988551989179591
+average consistency:  0.0
+total time:  234.62966066799981
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  24 [2931, 3116, 3308, 3592, 3728, 3918, 6336, 6349, 6374, 6395, 6602, 6782, 7042, 7180, 7351, 7620, 8284, 10018, 10033, 10136, 10519, 10599, 10774, 23016]
+average accuracy:  0.8219334719334719
+average fscore:  0.3014781480838538
+average consistency:  0.0
+total time:  215.32101227900012
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  19 [2931, 3192, 3350, 3574, 3738, 3930, 7267, 7535, 7631, 8636, 10242, 10243, 10255, 10334, 10551, 13587, 13726, 13856, 23039]
+average accuracy:  0.8267671517671518
+average fscore:  0.29336393650585674
+average consistency:  0.0
+total time:  200.04384670499985
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  10 [2931, 9745, 9840, 9966, 10142, 10519, 10612, 13524, 13587, 23269]
+average accuracy:  0.7733887733887734
+average fscore:  0.30960748989154546
+average consistency:  0.0
+total time:  181.35663434399976
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  5 [3054, 10187, 10321, 10635, 24029]
+average accuracy:  0.8256237006237006
+average fscore:  0.3040020689223345
+average consistency:  0.0
+total time:  175.24895438299973
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  5 [3065, 10512, 10604, 10708, 23259]
+average accuracy:  0.8450623700623701
+average fscore:  0.3161636866396977
+average consistency:  0.0
+total time:  173.53072338799984
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  7 [5482, 10812, 10826, 10840, 10845, 10990, 23191]
+average accuracy:  0.8306652806652807
+average fscore:  0.3029501268903481
+average consistency:  0.0
+total time:  175.88155110699972
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  13
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  13  ->  14
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  30 [2931, 3116, 3308, 3509, 3684, 3868, 6349, 6365, 6393, 6579, 6769, 6955, 7132, 7303, 7620, 7724, 7890, 8196, 8354, 8514, 8700, 9020, 9130, 9357, 9503, 9691, 9870, 10515, 10664, 24029]
+average accuracy:  0.830977130977131
+average fscore:  0.2988551989179591
+average consistency:  0.0
+total time:  231.54903663599998
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  8 [2931, 9732, 9804, 9930, 10109, 10456, 10556, 24821]
+average accuracy:  0.8318087318087318
+average fscore:  0.3102869088142512
+average consistency:  0.0
+total time:  182.87839086700023
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  16
+------------Saving Results------------
+drift:  13 [4306, 7540, 7584, 7713, 11105, 11138, 11948, 12035, 12869, 12928, 14104, 14309, 22741]
+average accuracy:  0.7816008316008316
+average fscore:  0.26674415967628146
+average consistency:  0.0
+total time:  186.33792683800039
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  6 [4327, 10994, 11008, 11122, 11217, 23394]
+average accuracy:  0.85
+average fscore:  0.3142758151533119
+average consistency:  0.0
+total time:  176.3466287199999
+Experiment results saved to results/result_helpdesk2017.csv
+New best accuracy: 0.85
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  8 [4637, 11458, 11519, 11972, 13982, 14088, 14130, 23191]
+average accuracy:  0.7874740124740125
+average fscore:  0.2824085947230809
+average consistency:  0.0
+total time:  177.2337078800001
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  6 [4647, 11647, 11967, 14129, 14924, 23103]
+average accuracy:  0.8411642411642412
+average fscore:  0.30069849849126
+average consistency:  0.0
+total time:  174.11270556199997
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  6 [5048, 12225, 12241, 12779, 13079, 23431]
+average accuracy:  0.8320686070686071
+average fscore:  0.2961623402116588
+average consistency:  0.0
+total time:  185.54015683200032
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  16
+------------Saving Results------------
+drift:  6 [4300, 13956, 13964, 14340, 14461, 22679]
+average accuracy:  0.7786902286902286
+average fscore:  0.2897274197013971
+average consistency:  0.0
+total time:  180.37311168799988
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  16
+------------Saving Results------------
+drift:  6 [4300, 13956, 13964, 14340, 14461, 22679]
+average accuracy:  0.7786902286902286
+average fscore:  0.2897274197013971
+average consistency:  0.0
+total time:  192.66973730799964
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  6 [4329, 13982, 14036, 14105, 14114, 23282]
+average accuracy:  0.7701663201663201
+average fscore:  0.2866149605725777
+average consistency:  0.0
+total time:  189.16469176400005
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  5 [4346, 14086, 14135, 14181, 23085]
+average accuracy:  0.772972972972973
+average fscore:  0.27865786250698654
+average consistency:  0.0
+total time:  183.80327577900061
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  4 [4517, 15079, 15261, 24548]
+average accuracy:  0.7812370062370062
+average fscore:  0.2898118156545951
+average consistency:  0.0
+total time:  190.09745790099987
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  4 [4641, 15115, 15305, 24580]
+average accuracy:  0.830977130977131
+average fscore:  0.30436947625972754
+average consistency:  0.0
+total time: /home/inspur/anaconda3/envs/coap/lib/python3.12/site-packages/torch/nn/modules/transformer.py:508: UserWarning: The PyTorch API of nested tensors is in prototype stage and will change in the near future. We recommend specifying layout=torch.jagged when constructing a nested tensor, as this layout receives active development, has better operator coverage, and works with torch.compile. (Triggered internally at /pytorch/aten/src/ATen/NestedTensorImpl.cpp:178.)
+  output = torch._nested_tensor_from_mask(
+ 193.9085561259999
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5042]
+average accuracy:  0.766008316008316
+average fscore:  0.2516393101098849
+average consistency:  0.0
+total time:  127.54001438900013
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  13
+------------Updating Models------------
+update activity num:  13  ->  14
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  14 [2931, 3116, 3628, 3653, 3853, 7147, 7429, 8495, 9020, 9586, 9694, 9873, 10473, 23725]
+average accuracy:  0.8072245322245323
+average fscore:  0.2760217332060005
+average consistency:  0.0
+total time:  384.6136934240003
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  13
+------------Updating Models------------
+update activity num:  13  ->  14
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  14 [2931, 3116, 3640, 3658, 3839, 7293, 7429, 7608, 8431, 8955, 9614, 9711, 10423, 23537]
+average accuracy:  0.8114345114345114
+average fscore:  0.2734625834206508
+average consistency:  0.0
+total time:  334.99049731500054
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  14 [2931, 3152, 3785, 7293, 7330, 7624, 7703, 8406, 10122, 10223, 10408, 10410, 10593, 24693]
+average accuracy:  0.830977130977131
+average fscore:  0.29990294248244365
+average consistency:  0.0
+total time:  369.8513466539998
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+update activity num:  14  ->  17
+------------Saving Results------------
+drift:  6 [2931, 3186, 3635, 3674, 9600, 24898]
+average accuracy:  0.774948024948025
+average fscore:  0.2802058741555581
+average consistency:  0.0
+total time:  346.14916599499975
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  5 [2952, 9900, 10147, 10867, 24418]
+average accuracy:  0.8443866943866943
+average fscore:  0.30282758689949224
+average consistency:  0.0
+total time:  330.5201513410011
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  4 [3055, 10149, 10410, 23449]
+average accuracy:  0.8271829521829522
+average fscore:  0.31278673958262343
+average consistency:  0.0
+total time:  324.76742385700163
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  17
+------------Saving Results------------
+drift:  4 [3184, 10212, 10324, 23916]
+average accuracy:  0.8228690228690229
+average fscore:  0.2730247832553429
+average consistency:  0.0
+total time:  334.5019260670015
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  16
+------------Updating Models------------
+update activity num:  16  ->  17
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  35 [2931, 3116, 3308, 3540, 3704, 3887, 6264, 6290, 6323, 6506, 6686, 6878, 7057, 7227, 7406, 7590, 7758, 8120, 8207, 8384, 9556, 9579, 9761, 11289, 11754, 11807, 11994, 13205, 13229, 13401, 22372, 25273, 25438, 25630, 25809]
+average accuracy:  0.8310291060291061
+average fscore:  0.28004176508094336
+average consistency:  0.0
+total time:  443.26317309499973
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  13
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  13  ->  14
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  17
+------------Saving Results------------
+drift:  23 [2931, 3116, 3308, 3552, 3711, 3892, 6247, 6328, 6334, 6520, 6697, 6890, 7072, 7809, 7923, 8112, 8294, 8927, 9092, 9361, 9488, 9677, 23814]
+average accuracy:  0.8028586278586278
+average fscore:  0.2656207814911414
+average consistency:  0.0
+total time:  389.42972061100045
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  16 [2931, 3182, 3342, 3545, 3722, 4295, 5923, 7356, 7846, 8255, 10147, 10224, 10275, 10324, 10502, 23208]
+average accuracy:  0.8241164241164242
+average fscore:  0.2811273674286024
+average consistency:  0.0
+total time:  367.2896395330008
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  12 [2935, 3188, 3593, 3654, 7471, 7884, 8207, 10058, 10236, 10249, 10427, 23332]
+average accuracy:  0.8021309771309771
+average fscore:  0.28768525145256757
+average consistency:  0.0
+total time:  351.963636208
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  7 [3054, 9859, 9920, 10549, 10550, 10652, 24605]
+average accuracy:  0.8334199584199584
+average fscore:  0.29453501723098263
+average consistency:  0.0
+total time:  341.0607422519988
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  4 [3064, 10324, 10606, 23500]
+average accuracy:  0.8198024948024948
+average fscore:  0.2908251045809113
+average consistency:  0.0
+total time:  341.64844032900146
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  5 [3186, 10244, 10362, 10975, 24488]
+average accuracy:  0.8492203742203742
+average fscore:  0.3024249231768366
+average consistency:  0.0
+total time:  353.37009083500016
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  16
+------------Updating Models------------
+update activity num:  16  ->  17
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  35 [2931, 3116, 3308, 3540, 3704, 3887, 6264, 6290, 6323, 6506, 6686, 6878, 7057, 7227, 7406, 7590, 7758, 8120, 8207, 8384, 9556, 9579, 9761, 11289, 11754, 11807, 11994, 13205, 13229, 13401, 22372, 25273, 25438, 25630, 25809]
+average accuracy:  0.8310291060291061
+average fscore:  0.28004176508094336
+average consistency:  0.0
+total time:  502.63612416399883
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  24 [2931, 3116, 3308, 3559, 3714, 3904, 7108, 7197, 7328, 7582, 7716, 9738, 9822, 10308, 10349, 10520, 24737, 24738, 24743, 24806, 25114, 25199, 25373, 25569]
+average accuracy:  0.8216216216216217
+average fscore:  0.2981160337230305
+average consistency:  0.0
+total time:  399.58493888200064
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  23 [2935, 3191, 3350, 3592, 3746, 4181, 4233, 5910, 5923, 6046, 6228, 7100, 7195, 7370, 7587, 7738, 8205, 8236, 9536, 9717, 10587, 10675, 24015]
+average accuracy:  0.8268711018711019
+average fscore:  0.28615208165855766
+average consistency:  0.0
+total time:  339.56225356699906
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  7 [2952, 9900, 9998, 10186, 10553, 10625, 23665]
+average accuracy:  0.815956340956341
+average fscore:  0.2851869062946539
+average consistency:  0.0
+total time:  331.54170766900097
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  12 [5050, 7140, 7201, 7342, 7634, 8654, 10368, 10413, 10468, 13188, 13367, 23077]
+average accuracy:  0.8252598752598752
+average fscore:  0.26940387119238096
+average consistency:  0.0
+total time:  361.89274539600046
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  6 [5174, 7090, 7193, 10408, 10472, 25808]
+average accuracy:  0.8070686070686071
+average fscore:  0.2870549968386049
+average consistency:  0.0
+total time:  374.4919228179988
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  5 [5482, 11253, 11394, 12100, 23321]
+average accuracy:  0.8502079002079002
+average fscore:  0.27965443451766325
+average consistency:  0.0
+total time:  333.38255261700033
+Experiment results saved to results/result_helpdesk2017.csv
+New best accuracy: 0.8502079002079002
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  16
+------------Updating Models------------
+update activity num:  16  ->  17
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  35 [2931, 3116, 3308, 3540, 3704, 3887, 6264, 6290, 6323, 6506, 6686, 6878, 7057, 7227, 7406, 7590, 7758, 8120, 8207, 8384, 9556, 9579, 9761, 11289, 11754, 11807, 11994, 13205, 13229, 13401, 22372, 25273, 25438, 25630, 25809]
+average accuracy:  0.8310291060291061
+average fscore:  0.28004176508094336
+average consistency:  0.0
+total time:  470.80537679699955
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  7 [2948, 9864, 9911, 10044, 10354, 10466, 23103]
+average accuracy:  0.8133056133056134
+average fscore:  0.2752785101232069
+average consistency:  0.0
+total time:  339.3132232150001
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  11 [4320, 11026, 11033, 11054, 11188, 11398, 12085, 14135, 14139, 14811, 24206]
+average accuracy:  0.8434511434511435
+average fscore:  0.28029846845134243
+average consistency:  0.0
+total time:  365.77050385999974
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  4 [4336, 11189, 11373, 23599]
+average accuracy:  0.826091476091476
+average fscore:  0.275755981694552
+average consistency:  0.0
+total time:  324.30285089099925
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  5 [4637, 11989, 12114, 12210, 23277]
+average accuracy:  0.7805613305613306
+average fscore:  0.27045826610661644
+average consistency:  0.0
+total time:  236.49431005400038
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  5 [4647, 11951, 12096, 12186, 23348]
+average accuracy:  0.7806652806652806
+average fscore:  0.27898241059218
+average consistency:  0.0
+total time:  343.5973193519985
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  4 [5048, 13474, 13565, 23394]
+average accuracy:  0.8353430353430353
+average fscore:  0.2714083118660823
+average consistency:  0.0
+total time:  338.1124997989973
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  16
+------------Saving Results------------
+drift:  6 [4300, 13956, 13964, 14340, 14461, 22679]
+average accuracy:  0.7853950103950104
+average fscore:  0.25892753556687936
+average consistency:  0.0
+total time:  324.86490875399977
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  16
+------------Saving Results------------
+drift:  6 [4300, 13956, 13964, 14340, 14461, 22679]
+average accuracy:  0.7853950103950104
+average fscore:  0.25892753556687936
+average consistency:  0.0
+total time:  343.6335729849998
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  6 [4329, 13982, 14036, 14105, 14114, 23282]
+average accuracy:  0.7764553014553015
+average fscore:  0.2575606115047569
+average consistency:  0.0
+total time:  356.45058212000004
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  5 [4346, 14086, 14135, 14181, 23085]
+average accuracy:  0.7772869022869023
+average fscore:  0.25661246778513436
+average consistency:  0.0
+total time:  354.76008964599896
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  4 [4517, 15079, 15261, 24548]
+average accuracy:  0.837941787941788
+average fscore:  0.2984811755253748
+average consistency:  0.0
+total time:  350.1788125259991
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  4 [4641, 15115, 15305, 24580]
+average accuracy:  0.8435031185031185
+average fscore:  0.29051837752246845
+average consistency:  0.0
+total time:  343.2266290189982
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5042]
+average accuracy:  0.8146049896049896
+average fscore:  0.2650687877989846
+average consistency:  0.0
+total time:  239.79328884600181
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  13
+------------Updating Models------------
+update activity num:  13  ->  14
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  14 [2931, 3116, 3319, 3541, 3706, 3889, 7131, 8924, 9730, 9900, 10376, 10392, 10579, 24327]
+average accuracy:  0.8331081081081081
+average fscore:  0.31421425006522563
+average consistency:  0.0
+total time:  220.84445327100184
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+update activity num:  14  ->  17
+------------Saving Results------------
+drift:  7 [2931, 3116, 3640, 3658, 7075, 9817, 23584]
+average accuracy:  0.8132016632016632
+average fscore:  0.30426009617087163
+average consistency:  0.0
+total time:  192.12438183300037
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+update activity num:  14  ->  17
+------------Saving Results------------
+drift:  7 [2931, 3182, 3612, 3663, 7330, 9804, 23396]
+average accuracy:  0.8248440748440748
+average fscore:  0.33212683767540246
+average consistency:  0.0
+total time:  191.04913428800137
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  13
+------------Updating Models------------
+update activity num:  13  ->  14
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  8 [2931, 3188, 3775, 7435, 9157, 10065, 10586, 23281]
+average accuracy:  0.8244282744282744
+average fscore:  0.29825389501346866
+average consistency:  0.0
+total time:  197.8255428449993
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  5 [2931, 9745, 10071, 10651, 24006]
+average accuracy:  0.8201143451143451
+average fscore:  0.3032247042847443
+average consistency:  0.0
+total time:  184.64112704299987
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  5 [2931, 9795, 10213, 10782, 23726]
+average accuracy:  0.8320686070686071
+average fscore:  0.3096051943245369
+average consistency:  0.0
+total time:  174.25118873099927
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+update activity num:  14  ->  17
+------------Saving Results------------
+drift:  3 [2948, 10164, 23943]
+average accuracy:  0.8204261954261954
+average fscore:  0.3522940861009016
+average consistency:  0.0
+total time:  174.01006529299775
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  13
+------------Updating Models------------
+update activity num:  13  ->  14
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  14 [2931, 3116, 3319, 3541, 3706, 3889, 7131, 8924, 9730, 9900, 10054, 10234, 10411, 23394]
+average accuracy:  0.8182432432432433
+average fscore:  0.3147874463097796
+average consistency:  0.0
+total time:  189.67845457599833
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  13
+------------Updating Models------------
+update activity num:  13  ->  14
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  12 [2931, 3116, 3640, 3658, 3839, 7169, 7282, 9015, 10335, 10336, 10387, 23276]
+average accuracy:  0.8098232848232848
+average fscore:  0.31156454631799646
+average consistency:  0.0
+total time:  183.2110731440007
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+update activity num:  14  ->  17
+------------Saving Results------------
+drift:  7 [2931, 3184, 3593, 3653, 7325, 9804, 23394]
+average accuracy:  0.8182432432432433
+average fscore:  0.3416121043676333
+average consistency:  0.0
+total time:  180.78310861200225
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+update activity num:  14  ->  17
+------------Saving Results------------
+drift:  7 [2931, 3191, 3593, 3654, 7444, 9861, 23583]
+average accuracy:  0.8151247401247401
+average fscore:  0.3463045513509197
+average consistency:  0.0
+total time:  190.28848171799837
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  5 [2931, 9762, 10171, 10772, 23443]
+average accuracy:  0.8326923076923077
+average fscore:  0.3184459226943669
+average consistency:  0.0
+total time:  177.88876131800134
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  5 [2935, 10051, 10119, 10644, 24085]
+average accuracy:  0.8191268191268192
+average fscore:  0.31112527560287473
+average consistency:  0.0
+total time:  178.90645116700034
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+update activity num:  14  ->  17
+------------Saving Results------------
+drift:  3 [2952, 10157, 24009]
+average accuracy:  0.8178794178794179
+average fscore:  0.2936616823756188
+average consistency:  0.0
+total time:  177.00462459700066
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  13
+------------Updating Models------------
+update activity num:  13  ->  14
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  14 [2931, 3116, 3319, 3541, 3706, 3889, 7131, 8924, 9730, 9900, 10054, 10234, 10411, 23394]
+average accuracy:  0.8182432432432433
+average fscore:  0.3147874463097796
+average consistency:  0.0
+total time:  197.41143882599863
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+update activity num:  14  ->  17
+------------Saving Results------------
+drift:  13 [2931, 3116, 3647, 3663, 3842, 7265, 7266, 7313, 7429, 7608, 8474, 9817, 23493]
+average accuracy:  0.8141372141372142
+average fscore:  0.31047097345913593
+average consistency:  0.0
+total time:  202.89295031299844
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  7 [2931, 3192, 3593, 3655, 7487, 10854, 23331]
+average accuracy:  0.8193866943866944
+average fscore:  0.3218451564492931
+average consistency:  0.0
+total time:  174.97889436200057
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  5 [2931, 9745, 10072, 10650, 23947]
+average accuracy:  0.8194386694386694
+average fscore:  0.3042330852788401
+average consistency:  0.0
+total time:  184.71386164100113
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  4 [3054, 10187, 10405, 24253]
+average accuracy:  0.8168918918918919
+average fscore:  0.3191856579435925
+average consistency:  0.0
+total time:  183.63382834000004
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  3 [3065, 10512, 24131]
+average accuracy:  0.816995841995842
+average fscore:  0.35013097402280563
+average consistency:  0.0
+total time:  190.80435917100112
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  3 [10361, 10689, 24764]
+average accuracy:  0.8446465696465697
+average fscore:  0.30641393103870274
+average consistency:  0.0
+total time:  192.06941972099958
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  13
+------------Updating Models------------
+update activity num:  13  ->  14
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  14 [2931, 3116, 3319, 3541, 3706, 3889, 7131, 8924, 9730, 9900, 10054, 10234, 10411, 23394]
+average accuracy:  0.8182432432432433
+average fscore:  0.3147874463097796
+average consistency:  0.0
+total time:  196.72267909499715
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  17
+------------Saving Results------------
+drift:  6 [2931, 9732, 9804, 9822, 9940, 24295]
+average accuracy:  0.8056652806652806
+average fscore:  0.29805187720350196
+average consistency:  0.0
+total time:  191.64183815399883
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  3 [10242, 10638, 24143]
+average accuracy:  0.8228170478170478
+average fscore:  0.3169719955219957
+average consistency:  0.0
+total time:  182.17007672600084
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  3 [10551, 11192, 23077]
+average accuracy:  0.8477130977130977
+average fscore:  0.3094037774019653
+average consistency:  0.0
+total time:  181.52577891699912
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  2 [12710, 25733]
+average accuracy:  0.8418399168399169
+average fscore:  0.2831794270700127
+average consistency:  0.0
+total time:  192.91150574199855
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  2 [12847, 25780]
+average accuracy:  0.8373700623700624
+average fscore:  0.319486104839889
+average consistency:  0.0
+total time:  207.18465064599877
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  2 [13191, 25733]
+average accuracy:  0.8367463617463617
+average fscore:  0.29903484835076183
+average consistency:  0.0
+total time:  195.1577853939998
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.7619022869022869
+average fscore:  0.24989140308734314
+average consistency:  0.0
+total time:  116.89080146199922
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.7619022869022869
+average fscore:  0.24989140308734314
+average consistency:  0.0
+total time:  116.05259357199975
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.7619022869022869
+average fscore:  0.24989140308734314
+average consistency:  0.0
+total time:  116.53114121500039
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.7619022869022869
+average fscore:  0.24989140308734314
+average consistency:  0.0
+total time:  115.21397661300216
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.7619022869022869
+average fscore:  0.24989140308734314
+average consistency:  0.0
+total time:  116.08195348400113
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.7619022869022869
+average fscore:  0.24989140308734314
+average consistency:  0.0
+total time:  124.33843794899803
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.7619022869022869
+average fscore:  0.24989140308734314
+average consistency:  0.0
+total time:  120.5708684980018
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  13
+------------Updating Models------------
+update activity num:  13  ->  14
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  14 [2931, 3116, 3628, 3653, 3853, 7147, 7429, 8495, 9020, 9586, 9694, 9873, 10473, 23725]
+average accuracy:  0.8093035343035343
+average fscore:  0.2766173277856509
+average consistency:  0.0
+total time:  382.0964002690016
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  13
+------------Updating Models------------
+update activity num:  13  ->  14
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  14 [2931, 3116, 3640, 3658, 3839, 7293, 7429, 7608, 8431, 8955, 9614, 9711, 10423, 23537]
+average accuracy:  0.8114345114345114
+average fscore:  0.2734840110895207
+average consistency:  0.0
+total time:  326.79634047799846
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  14 [2931, 3152, 3785, 7293, 7330, 7624, 7703, 8406, 10122, 10223, 10408, 10410, 10593, 24693]
+average accuracy:  0.831081081081081
+average fscore:  0.2999246002167824
+average consistency:  0.0
+total time:  291.8460787440017
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+update activity num:  14  ->  17
+------------Saving Results------------
+drift:  6 [2931, 3186, 3635, 3674, 9600, 24898]
+average accuracy:  0.8054573804573805
+average fscore:  0.2889300913791862
+average consistency:  0.0
+total time:  344.40785724300076
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  5 [2952, 9900, 10147, 10867, 24418]
+average accuracy:  0.8453742203742204
+average fscore:  0.3032650285350416
+average consistency:  0.0
+total time:  305.24279130300056
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  4 [3055, 10149, 10410, 23449]
+average accuracy:  0.8272349272349272
+average fscore:  0.31271470446603594
+average consistency:  0.0
+total time:  325.12375584599795
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  17
+------------Saving Results------------
+drift:  4 [3184, 10212, 10324, 23916]
+average accuracy:  0.8237525987525988
+average fscore:  0.2730998590001877
+average consistency:  0.0
+total time:  337.28784744899895
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  13
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  13  ->  14
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  17
+------------Saving Results------------
+drift:  19 [2931, 3116, 3628, 3653, 3833, 7121, 7258, 7439, 7616, 8474, 8484, 8570, 8765, 8948, 9135, 9481, 9573, 9755, 23796]
+average accuracy:  0.8022869022869022
+average fscore:  0.26410648437413803
+average consistency:  0.0
+total time:  388.165719634002
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  17
+------------Saving Results------------
+drift:  15 [2931, 3116, 3640, 3658, 3839, 7293, 7429, 7608, 8474, 8492, 8571, 9741, 9766, 9935, 23500]
+average accuracy:  0.8153326403326403
+average fscore:  0.2675215513777898
+average consistency:  0.0
+total time:  378.8243425440014
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+update activity num:  14  ->  17
+------------Saving Results------------
+drift:  7 [2931, 3182, 3593, 3652, 7444, 10122, 23284]
+average accuracy:  0.8199064449064449
+average fscore:  0.273867375181943
+average consistency:  0.0
+total time:  344.27285193199714
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  10 [2935, 3188, 3748, 7435, 9648, 9793, 10142, 10243, 10467, 23442]
+average accuracy:  0.8264033264033264
+average fscore:  0.285117656526273
+average consistency:  0.0
+total time:  360.18734858300013
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  17
+------------Saving Results------------
+drift:  4 [3054, 9859, 10212, 23631]
+average accuracy:  0.8217775467775468
+average fscore:  0.275514669994393
+average consistency:  0.0
+total time:  321.42843994000214
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+update activity num:  14  ->  17
+------------Saving Results------------
+drift:  3 [3064, 10324, 23720]
+average accuracy:  0.8248960498960499
+average fscore:  0.2932492759939848
+average consistency:  0.0
+total time:  318.5938058699976
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  4 [3186, 10244, 10587, 24202]
+average accuracy:  0.8189189189189189
+average fscore:  0.3003570927407173
+average consistency:  0.0
+total time:  275.9091642550011
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  13
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  13  ->  14
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  17
+------------Saving Results------------
+drift:  19 [2931, 3116, 3628, 3653, 3833, 7121, 7258, 7439, 7616, 8474, 8484, 8570, 8765, 8948, 9135, 9481, 9573, 9755, 23796]
+average accuracy:  0.8022869022869022
+average fscore:  0.26410648437413803
+average consistency:  0.0
+total time:  385.89066084399747
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+update activity num:  14  ->  17
+------------Saving Results------------
+drift:  13 [2931, 3116, 3647, 3663, 3842, 7245, 7266, 7271, 7405, 7589, 8492, 9735, 23280]
+average accuracy:  0.821101871101871
+average fscore:  0.30190725870098045
+average consistency:  0.0
+total time:  376.3858084179992
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  12 [2935, 3191, 3593, 3655, 9661, 9779, 10076, 10362, 10475, 23277, 23281, 23440]
+average accuracy:  0.8366943866943867
+average fscore:  0.30624368686423775
+average consistency:  0.0
+total time:  357.6500403229984
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  5 [2952, 9900, 10147, 10867, 24418]
+average accuracy:  0.8453742203742204
+average fscore:  0.3032650285350416
+average consistency:  0.0
+total time:  339.6788985179992
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  4 [10071, 10142, 10410, 23566]
+average accuracy:  0.8257796257796258
+average fscore:  0.29470444689694286
+average consistency:  0.0
+total time:  336.16792824300137
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  5 [10179, 10248, 10287, 10512, 23466]
+average accuracy:  0.8257276507276508
+average fscore:  0.28472003444726096
+average consistency:  0.0
+total time:  328.6212159880015
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  3 [10397, 10577, 24143]
+average accuracy:  0.8338877338877339
+average fscore:  0.3021474357575847
+average consistency:  0.0
+total time:  333.36509000300066
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  13
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  13  ->  14
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  17
+------------Saving Results------------
+drift:  19 [2931, 3116, 3628, 3653, 3833, 7121, 7258, 7439, 7616, 8474, 8484, 8570, 8765, 8948, 9135, 9481, 9573, 9755, 23796]
+average accuracy:  0.8022869022869022
+average fscore:  0.26410648437413803
+average consistency:  0.0
+total time:  384.81879069099887
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  14
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  14  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  5 [2948, 9864, 10164, 11040, 24670]
+average accuracy:  0.8511954261954262
+average fscore:  0.30631140556505265
+average consistency:  0.0
+total time:  257.8110842380047
+Experiment results saved to results/result_helpdesk2017.csv
+New best accuracy: 0.8511954261954262
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  3 [10733, 11780, 23260]
+average accuracy:  0.8504677754677755
+average fscore:  0.30113
+average consistency:  0.0
+total time:  313.978396757
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  3 [10584, 11493, 23076]
+average accuracy:  0.849012474012474
+average fscore:  0.30063307002428996
+average consistency:  0.0
+total time:  322.36365921599645
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  2 [12991, 25126]
+average accuracy:  0.8190748440748441
+average fscore:  0.2786282138120985
+average consistency:  0.0
+total time:  332.5826492480046
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  2 [13192, 25733]
+average accuracy:  0.8420997920997921
+average fscore:  0.30699067583602196
+average consistency:  0.0
+total time:  343.4299765839969
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  11  ->  15
+------------Updating Models------------
+update activity num:  15  ->  17
+------------Saving Results------------
+drift:  2 [13853, 25646]
+average accuracy:  0.8408523908523908
+average fscore:  0.33955417772044655
+average consistency:  0.0
+total time:  357.6476048869954
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.7996361746361746
+average fscore:  0.2613444172939673
+average consistency:  0.0
+total time:  194.7098320160003
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.7996361746361746
+average fscore:  0.2613444172939673
+average consistency:  0.0
+total time:  193.94239613500395
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.7996361746361746
+average fscore:  0.2613444172939673
+average consistency:  0.0
+total time:  185.66290579699853
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.7996361746361746
+average fscore:  0.2613444172939673
+average consistency:  0.0
+total time:  191.74896771199565
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.7996361746361746
+average fscore:  0.2613444172939673
+average consistency:  0.0
+total time:  192.3116169970017
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.7996361746361746
+average fscore:  0.2613444172939673
+average consistency:  0.0
+total time:  193.82515602800413
+Experiment results saved to results/result_helpdesk2017.csv
+event_log:helpdesk2017, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.7996361746361746
+average fscore:  0.2613444172939673
+average consistency:  0.0
+total time:  190.14533027800644
+Experiment results saved to results/result_helpdesk2017.csv

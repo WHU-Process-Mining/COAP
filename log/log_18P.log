@@ -1,0 +1,2853 @@
+nohup: 忽略输入
+Processing event log: BPIC2018_P
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  34 [19316, 49783, 49936, 50093, 50224, 50493, 50586, 50743, 50929, 51326, 51353, 51567, 51930, 51958, 52179, 52302, 52488, 52621, 55432, 63938, 68197, 68319, 70141, 70176, 70325, 70873, 72147, 76613, 78619, 80932, 80944, 81001, 88187, 117084]
+average accuracy:  0.6693353832565975
+average fscore:  0.36526327372307976
+average consistency:  0.0
+total time:  6159.228694374
+Experiment results saved to results/result_BPIC2018_P.csv
+New best accuracy: 0.6693353832565975
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  33 [19316, 49783, 49936, 50787, 50852, 51439, 52214, 52349, 52637, 52900, 55230, 57932, 58454, 58485, 60489, 60732, 62668, 62700, 65121, 65216, 65966, 66145, 66220, 66322, 67648, 70866, 70891, 72163, 77248, 79260, 81195, 81241, 115765]
+average accuracy:  0.6585323966928631
+average fscore:  0.3577032766289449
+average consistency:  0.0
+total time:  6372.444426198
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  14 [19316, 49783, 49936, 50803, 50863, 52489, 56215, 63534, 68110, 68751, 70255, 79733, 81450, 119709]
+average accuracy:  0.6745937635446226
+average fscore:  0.3669572015043403
+average consistency:  0.0
+total time:  3067.344974668
+Experiment results saved to results/result_BPIC2018_P.csv
+New best accuracy: 0.6745937635446226
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  13 [19316, 49783, 49936, 50837, 52896, 56324, 56767, 62569, 62580, 65961, 70191, 70194, 70200]
+average accuracy:  0.6266713553209411
+average fscore:  0.36131296959730297
+average consistency:  0.0
+total time:  2688.8519866650004
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  11 [19316, 49783, 49936, 52642, 57196, 58016, 62910, 67530, 67590, 68402, 71621]
+average accuracy:  0.6406473614052878
+average fscore:  0.3572102711379487
+average consistency:  0.0
+total time:  2628.1081491799996
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Saving Results------------
+drift:  6 [19316, 49783, 49936, 52660, 57175, 64786]
+average accuracy:  0.6354053368879875
+average fscore:  0.3481106888220762
+average consistency:  0.0
+total time:  1761.6944773890027
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  11
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Saving Results------------
+drift:  5 [19316, 49783, 49946, 58036, 65322]
+average accuracy:  0.6302123796828616
+average fscore:  0.34333800352082205
+average consistency:  0.0
+total time:  1595.226591519
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  62 [15249, 19310, 46537, 46555, 46704, 46854, 47090, 47216, 49704, 49840, 50817, 50837, 51432, 51891, 52042, 52192, 52342, 52494, 52644, 52881, 52989, 53151, 53333, 53467, 54679, 54693, 54841, 63908, 74227, 75180, 75291, 75315, 75465, 75619, 75768, 75919, 77422, 77516, 77776, 77871, 78022, 78172, 78322, 78472, 78667, 78836, 78969, 79218, 79319, 79469, 79662, 79793, 79943, 80108, 80251, 80467, 80699, 80795, 80945, 81215, 81305, 81536]
+average accuracy:  0.6632755702030569
+average fscore:  0.36314725942433457
+average consistency:  0.0
+total time:  10251.697723256999
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  12  ->  13
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  59 [19316, 46537, 46579, 46725, 49768, 49870, 50843, 50864, 51421, 52896, 55135, 56740, 62606, 65965, 66085, 66094, 66244, 66475, 66676, 66782, 66973, 67201, 67306, 67455, 67773, 67908, 68024, 68174, 68324, 69010, 70135, 70166, 70258, 81015, 111993, 112285, 115149, 115746, 115761, 116871, 116914, 117035, 117185, 117335, 117485, 119106, 121252, 135308, 135549, 135706, 138011, 144551, 144580, 144664, 144953, 145034, 145683, 145784, 147475]
+average accuracy:  0.6690982245810878
+average fscore:  0.3598243970720139
+average consistency:  0.0
+total time:  10507.106347302004
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  12  ->  13
+------------Saving Results------------
+drift:  28 [19316, 46537, 46582, 46729, 49795, 49895, 50806, 52867, 53070, 53176, 53236, 53386, 54784, 54915, 57626, 62633, 62634, 65637, 65847, 66387, 68101, 68178, 68210, 68244, 70192, 70230, 87086, 123972]
+average accuracy:  0.6758776915465199
+average fscore:  0.360911687108297
+average consistency:  0.0
+total time:  5316.033754566
+Experiment results saved to results/result_BPIC2018_P.csv
+New best accuracy: 0.6758776915465199
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  15 [19316, 46537, 46582, 49828, 50745, 52851, 55640, 63837, 68306, 68637, 69985, 107246, 113123, 116920, 117002]
+average accuracy:  0.6622206229913069
+average fscore:  0.3534211675640879
+average consistency:  0.0
+total time:  3464.4568664960025
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+update activity num:  10  ->  12
+------------Saving Results------------
+drift:  6 [19316, 46537, 46593, 49885, 52464, 66976]
+average accuracy:  0.635315380149001
+average fscore:  0.3433105988199895
+average consistency:  0.0
+total time:  1755.8625431530018
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+update activity num:  10  ->  12
+------------Saving Results------------
+drift:  6 [19316, 46537, 46599, 49915, 52775, 66558]
+average accuracy:  0.6501500641964001
+average fscore:  0.3500875954641229
+average consistency:  0.0
+total time:  1733.5424475109976
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  11
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Saving Results------------
+drift:  6 [19316, 46537, 46610, 49928, 58376, 73142]
+average accuracy:  0.6558582281793573
+average fscore:  0.3480450156603052
+average consistency:  0.0
+total time:  1854.0257792529956
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  62 [15249, 19310, 46537, 46555, 46704, 46854, 47090, 47216, 49704, 49840, 50817, 50837, 51432, 51891, 52042, 52192, 52342, 52494, 52644, 52881, 52989, 53151, 53333, 53467, 54679, 54693, 54841, 63908, 74227, 75180, 75291, 75315, 75465, 75619, 75768, 75919, 77422, 77516, 77776, 77871, 78022, 78172, 78322, 78472, 78667, 78836, 78969, 79218, 79319, 79469, 79662, 79793, 79943, 80108, 80251, 80467, 80699, 80795, 80945, 81215, 81305, 81536]
+average accuracy:  0.6632755702030569
+average fscore:  0.36314725942433457
+average consistency:  0.0
+total time:  10312.025101489991
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  12  ->  13
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  96 [15249, 19310, 46537, 46556, 46705, 49787, 49886, 50813, 50849, 51439, 52900, 55012, 57620, 58448, 58465, 58615, 60352, 60491, 62723, 62727, 62877, 63558, 63652, 63803, 63969, 64704, 64781, 64931, 65142, 65264, 65688, 65702, 65852, 66002, 66187, 66345, 66539, 66663, 66813, 66963, 67128, 67271, 67421, 67571, 68249, 68342, 69690, 69801, 69886, 70181, 70260, 70968, 72165, 77448, 79327, 81143, 81194, 81341, 83018, 84997, 85022, 85172, 88335, 88632, 88853, 88865, 89015, 89350, 89408, 89558, 90615, 101484, 101688, 105162, 105197, 105312, 105452, 105772, 105996, 106067, 106217, 106990, 107060, 118913, 119049, 120239, 120443, 120519, 134836, 135140, 135251, 135357, 135698, 138023, 145777, 145816]
+average accuracy:  0.6729091191599677
+average fscore:  0.3506099163312003
+average consistency:  0.0
+total time:  17065.807244564
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  12  ->  13
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  46 [19316, 46537, 46569, 46716, 49775, 49876, 50842, 52934, 55962, 56672, 56737, 56752, 56886, 57214, 58571, 61191, 63611, 65730, 65828, 65875, 66026, 66243, 66951, 67167, 67255, 67371, 67618, 68315, 70158, 70206, 70224, 70374, 113888, 115430, 116071, 116858, 121192, 136714, 138540, 139751, 144776, 144789, 145929, 146117, 146156, 147483]
+average accuracy:  0.6603233535872294
+average fscore:  0.3519835733686033
+average consistency:  0.0
+total time:  7302.5842809250025
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  12  ->  13
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  25 [19316, 46537, 46582, 49865, 52487, 57330, 64783, 71093, 71402, 72531, 81175, 81234, 81360, 109916, 112317, 116794, 116999, 139282, 140204, 145329, 145451, 145479, 145688, 145809, 147430]
+average accuracy:  0.6635045509932042
+average fscore:  0.35203494790574447
+average consistency:  0.0
+total time:  4340.392523500996
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+update activity num:  10  ->  12
+------------Saving Results------------
+drift:  6 [19316, 46537, 46582, 49865, 52779, 67023]
+average accuracy:  0.6339823848349294
+average fscore:  0.3435368882906655
+average consistency:  0.0
+total time:  1615.252710782006
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  11
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  12  ->  13
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  20 [19316, 46537, 46586, 49870, 57854, 63542, 72593, 73039, 76861, 103125, 105197, 105586, 105605, 105650, 105837, 121759, 123823, 145898, 146000, 146098]
+average accuracy:  0.6682967918155723
+average fscore:  0.35345187374692527
+average consistency:  0.0
+total time:  4459.416312522997
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+update activity num:  10  ->  12
+------------Saving Results------------
+drift:  6 [19337, 46535, 46594, 49888, 52831, 67046]
+average accuracy:  0.6501991315085746
+average fscore:  0.33984894403668087
+average consistency:  0.0
+total time:  1626.7045939180098
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  62 [15249, 19310, 46537, 46555, 46704, 46854, 47090, 47216, 49704, 49840, 50817, 50837, 51432, 51891, 52042, 52192, 52342, 52494, 52644, 52881, 52989, 53151, 53333, 53467, 54679, 54693, 54841, 63908, 74227, 75180, 75291, 75315, 75465, 75619, 75768, 75919, 77422, 77516, 77776, 77871, 78022, 78172, 78322, 78472, 78667, 78836, 78969, 79218, 79319, 79469, 79662, 79793, 79943, 80108, 80251, 80467, 80699, 80795, 80945, 81215, 81305, 81536]
+average accuracy:  0.6632755702030569
+average fscore:  0.36314725942433457
+average consistency:  0.0
+total time:  10122.996153379005
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  20 [15249, 19310, 46537, 46555, 46704, 49788, 49886, 50883, 52896, 55950, 64503, 71957, 72283, 72531, 72533, 76326, 110603, 112027, 116253, 116344]
+average accuracy:  0.6627112961130511
+average fscore:  0.35338479855265875
+average consistency:  0.0
+total time:  3944.1102033339994
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  11
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  12  ->  13
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  23 [15250, 19318, 46537, 46562, 49865, 57754, 63874, 71965, 72169, 72403, 75649, 75796, 75822, 75964, 119758, 120317, 120457, 136200, 136707, 142835, 144912, 146309, 147215]
+average accuracy:  0.6492504968065358
+average fscore:  0.34703802994331
+average consistency:  0.0
+total time:  4274.421728571004
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  11
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Saving Results------------
+drift:  6 [19367, 46535, 46569, 49865, 57920, 65396]
+average accuracy:  0.6271620284426853
+average fscore:  0.3394444145920793
+average consistency:  0.0
+total time:  1658.4683928750019
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  11
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Saving Results------------
+drift:  6 [19470, 46537, 46586, 49872, 58109, 118788]
+average accuracy:  0.6186406718950613
+average fscore:  0.34654132633924356
+average consistency:  0.0
+total time:  1864.8406081290013
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  11
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Saving Results------------
+drift:  6 [19515, 46537, 46582, 49877, 57997, 118327]
+average accuracy:  0.6162772630253269
+average fscore:  0.3467172284016245
+average consistency:  0.0
+total time:  1865.5772882780002
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  11
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Saving Results------------
+drift:  6 [19631, 46535, 46589, 49886, 58235, 118748]
+average accuracy:  0.6114032433493347
+average fscore:  0.3401441725461751
+average consistency:  0.0
+total time:  1821.5812495770078
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  11
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Saving Results------------
+drift:  7 [15249, 46551, 46682, 49810, 49906, 56610, 116359]
+average accuracy:  0.6078867526435014
+average fscore:  0.32273719241672477
+average consistency:  0.0
+total time:  1928.557232458028
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  11
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Saving Results------------
+drift:  7 [15249, 46551, 46682, 49810, 49906, 56610, 116359]
+average accuracy:  0.6078867526435014
+average fscore:  0.32273719241672477
+average consistency:  0.0
+total time:  1929.0997081489768
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  11
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Saving Results------------
+drift:  7 [15249, 46551, 46682, 49810, 49906, 56613, 116359]
+average accuracy:  0.6088353873455402
+average fscore:  0.32695456810430035
+average consistency:  0.0
+total time:  1929.0297867850168
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  11
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Saving Results------------
+drift:  6 [46553, 46683, 49809, 49905, 56740, 116417]
+average accuracy:  0.6057768582200015
+average fscore:  0.31999490056789004
+average consistency:  0.0
+total time:  1918.505524592998
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  11
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Saving Results------------
+drift:  6 [46553, 46683, 49820, 49915, 57732, 117851]/home/inspur/anaconda3/envs/coap/lib/python3.12/site-packages/torch/nn/modules/transformer.py:508: UserWarning: The PyTorch API of nested tensors is in prototype stage and will change in the near future. We recommend specifying layout=torch.jagged when constructing a nested tensor, as this layout receives active development, has better operator coverage, and works with torch.compile. (Triggered internally at /pytorch/aten/src/ATen/NestedTensorImpl.cpp:178.)
+  output = torch._nested_tensor_from_mask(
+
+average accuracy:  0.6018841847874976
+average fscore:  0.3224391047092419
+average consistency:  0.0
+total time:  1829.4585498589731
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  11
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Saving Results------------
+drift:  6 [46553, 46683, 49825, 49920, 57823, 118004]
+average accuracy:  0.5926922416401567
+average fscore:  0.3166766458250558
+average consistency:  0.0
+total time:  1878.5448132049933
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  11
+------------Updating Models------------
+update activity num:  11  ->  13
+------------Saving Results------------
+drift:  5 [46553, 46683, 49835, 57782, 132938]
+average accuracy:  0.5680113836164244
+average fscore:  0.3141541208920486
+average consistency:  0.0
+total time:  1879.906626770011
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  26 [49769, 49925, 50820, 50861, 51427, 52134, 52400, 52558, 52583, 52733, 55307, 63837, 65901, 65928, 66247, 67836, 68105, 68162, 68312, 70177, 70226, 71036, 72084, 81046, 81065, 120418]
+average accuracy:  0.672164931591989
+average fscore:  0.36311302651419003
+average consistency:  0.0
+total time:  8575.685649578983
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  14 [49769, 49925, 50830, 50855, 51428, 52091, 52557, 52604, 52640, 55288, 64124, 72626, 78830, 81026]
+average accuracy:  0.6526933865441075
+average fscore:  0.360522306550929
+average consistency:  0.0
+total time:  4841.125096906995
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  15 [49769, 49925, 50893, 50894, 52567, 52613, 52649, 55399, 56817, 62594, 62832, 72089, 80633, 81129, 81450]
+average accuracy:  0.6665549022333805
+average fscore:  0.358224316947649
+average consistency:  0.0
+total time:  5116.345698942983
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Updating Models------------
+------------Saving Results------------
+drift:  8 [49769, 49925, 52490, 52879, 55501, 64285, 70853, 71419]
+average accuracy:  0.6526606750026578
+average fscore:  0.356720466924214
+average consistency:  0.0
+total time:  3332.4211985500006
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  13
+------------Saving Results------------
+drift:  7 [49769, 49925, 52716, 52829, 55500, 64126, 123039]
+average accuracy:  0.6398541065251347
+average fscore:  0.3730924282459919
+average consistency:  0.0
+total time:  3403.0251880190044
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Saving Results------------
+drift:  6 [49769, 49925, 52728, 52796, 55558, 64050]
+average accuracy:  0.615385873520825
+average fscore:  0.34495020561638956
+average consistency:  0.0
+total time:  2965.2737532210012
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Saving Results------------
+drift:  6 [49769, 49926, 52637, 56817, 63044, 121004]
+average accuracy:  0.6259844129504992
+average fscore:  0.3546835262296774
+average consistency:  0.0
+total time:  3245.400862126
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  12  ->  13
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  258 [15249, 19310, 19442, 19605, 19884, 19967, 20117, 20267, 31556, 31965, 32046, 32196, 45898, 46550, 46653, 46803, 47073, 49706, 49830, 49980, 50521, 50650, 50853, 51078, 51187, 51339, 51490, 51789, 51865, 52025, 52175, 52325, 52477, 52627, 55326, 57823, 58613, 60459, 60566, 60855, 60946, 61188, 61612, 61765, 61837, 62011, 62149, 62299, 62449, 62599, 62750, 65164, 65305, 65683, 65720, 65937, 66054, 66204, 66556, 66607, 66757, 67377, 67485, 67684, 67810, 67960, 68110, 70277, 70288, 70438, 70716, 70803, 70953, 71194, 71938, 72004, 72155, 72755, 75785, 75786, 75881, 76961, 77108, 77258, 77408, 79648, 79761, 79886, 80036, 80186, 80925, 81004, 81189, 81322, 81481, 91362, 91708, 91790, 91871, 92021, 92171, 92321, 93110, 93176, 104870, 105125, 105233, 105383, 105533, 105683, 107158, 109927, 110565, 110579, 110703, 110862, 111008, 111158, 111308, 111464, 111611, 111761, 111911, 112061, 112211, 112361, 112511, 112666, 112854, 112988, 113136, 113286, 113564, 113650, 113910, 114005, 114155, 114305, 114455, 115088, 115193, 115343, 115530, 115662, 116723, 116729, 116877, 117027, 117465, 117471, 117621, 117801, 117936, 118090, 118908, 118966, 121321, 121404, 121621, 121730, 122013, 122207, 122302, 122452, 123646, 123771, 123872, 124022, 124367, 124437, 124579, 124729, 124879, 125029, 125201, 125340, 125490, 125950, 126169, 126284, 126434, 126584, 126735, 126970, 127078, 127233, 127381, 127531, 127681, 127831, 128235, 128258, 128408, 129124, 129165, 129453, 129491, 129641, 129791, 129941, 130112, 130253, 137629, 137770, 137826, 137976, 138298, 138362, 138512, 138681, 138822, 138972, 139440, 139461, 139596, 139746, 139896, 140078, 140212, 140418, 140541, 140691, 140879, 141022, 141277, 141372, 141522, 141844, 141908, 142267, 142316, 142605, 142685, 143102, 143119, 143269, 143554, 143637, 143787, 143937, 144087, 145041, 145065, 145215, 145365, 145515, 145665, 145815, 145965, 146115, 146326, 146446, 146620, 146758, 146908, 147058, 147208, 147358]
+average accuracy:  0.6604541997530279
+average fscore:  0.3534746606743559
+average consistency:  0.0
+total time:  61180.77705882199
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  12  ->  13
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  49 [46553, 46683, 49784, 49881, 50786, 52584, 52631, 52781, 52933, 55106, 64124, 71071, 71151, 71161, 71311, 71485, 71924, 72074, 78650, 81363, 89939, 105394, 105444, 105777, 107155, 110227, 110776, 112044, 112052, 112156, 113638, 113873, 114092, 114307, 114314, 115217, 115254, 115727, 115872, 116163, 116295, 116714, 116717, 120964, 121349, 145998, 147138, 147295, 147364]
+average accuracy:  0.669081868810363
+average fscore:  0.3594526385802858
+average consistency:  0.0
+total time:  15170.786694616021
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  12  ->  13
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  31 [46553, 46683, 49784, 49881, 50815, 52661, 52773, 52890, 55209, 63918, 63931, 64065, 65127, 65176, 65311, 67691, 71852, 72014, 72642, 81421, 112943, 113707, 114508, 115101, 115741, 141135, 144796, 144934, 145697, 145713, 145748]
+average accuracy:  0.6551794636942779
+average fscore:  0.3554468434774335
+average consistency:  0.0
+total time:  8178.013676526985
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  13
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  18 [46553, 46683, 49784, 49881, 50830, 52607, 52740, 52991, 55236, 64195, 126927, 128085, 128998, 130405, 137627, 139758, 145145, 145782]
+average accuracy:  0.6334508222863732
+average fscore:  0.3674232095052231
+average consistency:  0.0
+total time:  5063.983700741985
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Saving Results------------
+drift:  8 [46553, 46683, 49788, 49885, 52482, 56851, 64431, 121897]
+average accuracy:  0.6280615958325496
+average fscore:  0.3605046180582924
+average consistency:  0.0
+total time:  3052.000008384988
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Saving Results------------
+drift:  8 [46553, 46683, 49794, 49891, 50835, 53037, 55906, 64737]
+average accuracy:  0.6285277352982066
+average fscore:  0.3473942518532026
+average consistency:  0.0
+total time:  2856.250654607953
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Saving Results------------
+drift:  7 [46553, 46683, 49809, 49905, 52653, 56985, 64914]
+average accuracy:  0.6551794636942779
+average fscore:  0.3457443558681937
+average consistency:  0.0
+total time:  3005.9333776540007
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  12  ->  13
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  258 [15249, 19310, 19442, 19605, 19884, 19967, 20117, 20267, 31556, 31965, 32046, 32196, 45898, 46550, 46653, 46803, 47073, 49706, 49830, 49980, 50521, 50650, 50853, 51078, 51187, 51339, 51490, 51789, 51865, 52025, 52175, 52325, 52477, 52627, 55326, 57823, 58613, 60459, 60566, 60855, 60946, 61188, 61612, 61765, 61837, 62011, 62149, 62299, 62449, 62599, 62750, 65164, 65305, 65683, 65720, 65937, 66054, 66204, 66556, 66607, 66757, 67377, 67485, 67684, 67810, 67960, 68110, 70277, 70288, 70438, 70716, 70803, 70953, 71194, 71938, 72004, 72155, 72755, 75785, 75786, 75881, 76961, 77108, 77258, 77408, 79648, 79761, 79886, 80036, 80186, 80925, 81004, 81189, 81322, 81481, 91362, 91708, 91790, 91871, 92021, 92171, 92321, 93110, 93176, 104870, 105125, 105233, 105383, 105533, 105683, 107158, 109927, 110565, 110579, 110703, 110862, 111008, 111158, 111308, 111464, 111611, 111761, 111911, 112061, 112211, 112361, 112511, 112666, 112854, 112988, 113136, 113286, 113564, 113650, 113910, 114005, 114155, 114305, 114455, 115088, 115193, 115343, 115530, 115662, 116723, 116729, 116877, 117027, 117465, 117471, 117621, 117801, 117936, 118090, 118908, 118966, 121321, 121404, 121621, 121730, 122013, 122207, 122302, 122452, 123646, 123771, 123872, 124022, 124367, 124437, 124579, 124729, 124879, 125029, 125201, 125340, 125490, 125950, 126169, 126284, 126434, 126584, 126735, 126970, 127078, 127233, 127381, 127531, 127681, 127831, 128235, 128258, 128408, 129124, 129165, 129453, 129491, 129641, 129791, 129941, 130112, 130253, 137629, 137770, 137826, 137976, 138298, 138362, 138512, 138681, 138822, 138972, 139440, 139461, 139596, 139746, 139896, 140078, 140212, 140418, 140541, 140691, 140879, 141022, 141277, 141372, 141522, 141844, 141908, 142267, 142316, 142605, 142685, 143102, 143119, 143269, 143554, 143637, 143787, 143937, 144087, 145041, 145065, 145215, 145365, 145515, 145665, 145815, 145965, 146115, 146326, 146446, 146620, 146758, 146908, 147058, 147208, 147358]
+average accuracy:  0.6604541997530279
+average fscore:  0.3534746606743559
+average consistency:  0.0
+total time:  59158.598581065016
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  12  ->  13
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  94 [15249, 19310, 19442, 20048, 31952, 31963, 31994, 46481, 46551, 46673, 49820, 49914, 50755, 52695, 53428, 53481, 53648, 53818, 54090, 54460, 54530, 54680, 54831, 57222, 58614, 60876, 62948, 62958, 65526, 65596, 65699, 66080, 66176, 66296, 66533, 67473, 67541, 67666, 67816, 68058, 68162, 68312, 70409, 81052, 111993, 112300, 112350, 112373, 112894, 113062, 113111, 113777, 113872, 113921, 114287, 114329, 114479, 115052, 115172, 115729, 116458, 116459, 116585, 116719, 119889, 119945, 120395, 120528, 134826, 135140, 135267, 135384, 138520, 139131, 139516, 140350, 140369, 140382, 140521, 140671, 140906, 141454, 141569, 143454, 143488, 143517, 144195, 145757, 145836, 146074, 146180, 146330, 147427, 147572]
+average accuracy:  0.6505753142352451
+average fscore:  0.34138909130748696
+average consistency:  0.0
+total time:  20445.953652744007
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  12  ->  13
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  30 [46553, 46683, 49784, 49881, 50832, 52624, 52865, 55787, 58469, 58505, 58529, 58725, 60308, 60313, 63557, 70860, 71084, 71363, 72143, 110773, 112027, 116426, 117011, 139112, 139634, 144678, 144753, 145677, 145698, 147443]
+average accuracy:  0.6665549022333805
+average fscore:  0.36542731432017445
+average consistency:  0.0
+total time:  8184.322614122997
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  12  ->  13
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  32 [46553, 46683, 49784, 49881, 52705, 52760, 53256, 55169, 55192, 55232, 55373, 63514, 71487, 71962, 72007, 72143, 81261, 112020, 112303, 112622, 112666, 113209, 115666, 115720, 116046, 116993, 117073, 137990, 138551, 144819, 145914, 147574]
+average accuracy:  0.6684194600960084
+average fscore:  0.363110821800437
+average consistency:  0.0
+total time:  8478.428049746959
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Saving Results------------
+drift:  7 [46553, 46683, 49809, 49905, 52654, 57087, 64591]
+average accuracy:  0.636165880226691
+average fscore:  0.35021142684913187
+average consistency:  0.0
+total time:  2999.591360665043
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Saving Results------------
+drift:  7 [46553, 46683, 49809, 49905, 52698, 57111, 64364]
+average accuracy:  0.6438203809259002
+average fscore:  0.3467348187038294
+average consistency:  0.0
+total time:  2773.3869793330086
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+update activity num:  10  ->  12
+------------Saving Results------------
+drift:  6 [46553, 46683, 49809, 49905, 52786, 66976]
+average accuracy:  0.6513276796885862
+average fscore:  0.3403288965459872
+average consistency:  0.0
+total time:  2509.318819181004
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  12  ->  13
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  258 [15249, 19310, 19442, 19605, 19884, 19967, 20117, 20267, 31556, 31965, 32046, 32196, 45898, 46550, 46653, 46803, 47073, 49706, 49830, 49980, 50521, 50650, 50853, 51078, 51187, 51339, 51490, 51789, 51865, 52025, 52175, 52325, 52477, 52627, 55326, 57823, 58613, 60459, 60566, 60855, 60946, 61188, 61612, 61765, 61837, 62011, 62149, 62299, 62449, 62599, 62750, 65164, 65305, 65683, 65720, 65937, 66054, 66204, 66556, 66607, 66757, 67377, 67485, 67684, 67810, 67960, 68110, 70277, 70288, 70438, 70716, 70803, 70953, 71194, 71938, 72004, 72155, 72755, 75785, 75786, 75881, 76961, 77108, 77258, 77408, 79648, 79761, 79886, 80036, 80186, 80925, 81004, 81189, 81322, 81481, 91362, 91708, 91790, 91871, 92021, 92171, 92321, 93110, 93176, 104870, 105125, 105233, 105383, 105533, 105683, 107158, 109927, 110565, 110579, 110703, 110862, 111008, 111158, 111308, 111464, 111611, 111761, 111911, 112061, 112211, 112361, 112511, 112666, 112854, 112988, 113136, 113286, 113564, 113650, 113910, 114005, 114155, 114305, 114455, 115088, 115193, 115343, 115530, 115662, 116723, 116729, 116877, 117027, 117465, 117471, 117621, 117801, 117936, 118090, 118908, 118966, 121321, 121404, 121621, 121730, 122013, 122207, 122302, 122452, 123646, 123771, 123872, 124022, 124367, 124437, 124579, 124729, 124879, 125029, 125201, 125340, 125490, 125950, 126169, 126284, 126434, 126584, 126735, 126970, 127078, 127233, 127381, 127531, 127681, 127831, 128235, 128258, 128408, 129124, 129165, 129453, 129491, 129641, 129791, 129941, 130112, 130253, 137629, 137770, 137826, 137976, 138298, 138362, 138512, 138681, 138822, 138972, 139440, 139461, 139596, 139746, 139896, 140078, 140212, 140418, 140541, 140691, 140879, 141022, 141277, 141372, 141522, 141844, 141908, 142267, 142316, 142605, 142685, 143102, 143119, 143269, 143554, 143637, 143787, 143937, 144087, 145041, 145065, 145215, 145365, 145515, 145665, 145815, 145965, 146115, 146326, 146446, 146620, 146758, 146908, 147058, 147208, 147358]
+average accuracy:  0.6604541997530279
+average fscore:  0.3534746606743559
+average consistency:  0.0
+total time:  54985.04880964197
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  10
+------------Updating Models------------
+update activity num:  10  ->  11
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  13
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  25 [15249, 19310, 19442, 32265, 46482, 46551, 46671, 49821, 49915, 50824, 52742, 55280, 64305, 129143, 130234, 130279, 130290, 130440, 137555, 137674, 137740, 145762, 145807, 147374, 147460]
+average accuracy:  0.6180109747221564
+average fscore:  0.3436264677987332
+average consistency:  0.0
+total time:  6273.849192427995
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  11
+------------Updating Models------------
+------------Saving Results------------
+drift:  10 [15250, 19318, 32462, 46481, 46553, 46675, 49818, 49913, 56602, 64520]
+average accuracy:  0.6657289358117778
+average fscore:  0.35445459669401114
+average consistency:  0.0
+total time:  3128.2094168879557
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  11
+------------Updating Models------------
+------------Saving Results------------
+drift:  6 [46553, 46683, 49809, 49905, 56784, 64159]
+average accuracy:  0.6472550927781094
+average fscore:  0.34483404131666784
+average consistency:  0.0
+total time:  2472.0418816779857
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  11
+------------Updating Models------------
+------------Saving Results------------
+drift:  6 [46553, 46683, 49809, 49905, 57805, 63877]
+average accuracy:  0.5989074345155829
+average fscore:  0.3417281008761636
+average consistency:  0.0
+total time:  2642.903700563009
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  11
+------------Updating Models------------
+------------Saving Results------------
+drift:  6 [46553, 46683, 49809, 49905, 57843, 63575]
+average accuracy:  0.6212575952110303
+average fscore:  0.3494551285193763
+average consistency:  0.0
+total time:  2724.791830232949
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  11
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  11  ->  13
+------------Updating Models------------
+------------Saving Results------------
+drift:  8 [46553, 46683, 49813, 49909, 57889, 63725, 146499, 147669]
+average accuracy:  0.5985148960181876
+average fscore:  0.35480664648086546
+average consistency:  0.0
+total time:  3485.71796670201
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  11
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Saving Results------------
+drift:  7 [15249, 46551, 46682, 49810, 49906, 56610, 116359]
+average accuracy:  0.5954727226633737
+average fscore:  0.3269676974581996
+average consistency:  0.0
+total time:  3076.811634478974
+Experiment results saved to results/result_BPIC2018_P.csv
+event_log:BPIC2018_P, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  9  ->  11
+------------Updating Models------------
+update activity num:  11  ->  12
+------------Saving Results------------
+drift:  7 [15249, 46551, 46682, 49810, 49906, 56610, 116359]
+average accuracy:  0.5954727226633737
+average fscore:  0.3269676974581996
+average consistency:  0.0

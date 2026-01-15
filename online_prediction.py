@@ -10,6 +10,7 @@ from process_model import construct_process_model, generate_executable_activitie
 from utils import CASE_ID_KEY, ACTIVITY_KEY, FINAL_ACTIVITY
 from pm4py.streaming.importer.csv.importer import apply as csv_stream_importer
 from sklearn.metrics import f1_score
+import math
 
 class OnlinePredictor:
     def __init__(
@@ -25,8 +26,8 @@ class OnlinePredictor:
         use_only_conflict_data=False,
         confidence_threshold=0.5,
         consistency_alpha=0.5,
-        adwin_min=200,
-        adwin_threshold=0.05,
+        win_min=200,
+        drift_threshold=0.05,
     ) -> None:
         self.log_name = log_name
         self.event_stream = csv_stream_importer(path.join('eventlog', 'CSV', self.log_name + '.csv'))
@@ -48,12 +49,13 @@ class OnlinePredictor:
         self.ground_truth = []
         self.prediction_accuracy = []
         self.constraint_accuracy_list = []
+        self.prediction_accuracy_list = []
         self.test_event_idxs = []  # 记录每次测试的event的id
-        self.adwin_cur = 0
-        self.adwin_min = adwin_min
-        self.adwin_max = adwin_min * 10
-        self.adwin_threshold = adwin_threshold
-        self.prediction_consistency = []
+        self.win_cur = 0
+        self.win_min = win_min
+        self.win_max = win_min * 10
+        self.drift_threshold = drift_threshold
+        self.prediction_consistency = [0]
         self.dynamic_update = dynamic_update
         self.update_strategy = update_strategy
         self.apply_constraint = apply_constraint
@@ -78,8 +80,8 @@ class OnlinePredictor:
             "use_only_conflict_data",
             "confidence_threshold",
             "consistency_alpha",
-            "adwin_min",
-            "adwin_threshold",
+            "win_min",
+            "drift_threshold",
             "drift_moments",
             "drift_count",
             "average_accuracy",
@@ -101,8 +103,8 @@ class OnlinePredictor:
             "use_only_conflict_data":self.use_only_conflict_data,
             "confidence_threshold": self.confidence_threshold,
             "consistency_alpha": self.consistency_alpha,
-            "adwin_min": self.adwin_min,
-            "adwin_threshold": self.adwin_threshold,
+            "win_min": self.win_min,
+            "drift_threshold": self.drift_threshold,
             "drift_moments": self.drift_moments,
             "drift_count": len(self.drift_moments),
             "average_accuracy": sum(self.prediction_accuracy) / len(self.prediction_accuracy),
@@ -130,19 +132,19 @@ class OnlinePredictor:
         next_activity_probabilities = self.prediction_model.predict(ongoing_trace)
         executable_activities = generate_executable_activities(self.process_model, ongoing_trace)
 
-        # 对概率排序，取top-k
+        # top-k
         k = 5
         top_k_activities = sorted(next_activity_probabilities.items(), key=lambda item: item[1], reverse=True)[:k]
 
         self.next_activity_prediction_probabilities[case_id] = top_k_activities
         self.next_executable_activities[case_id] = executable_activities
 
-        # 预测模型给出的概率最高的活动
+        # activity with max probability
         max_activity = top_k_activities[0][0]
 
-        # 筛选出可执行活动或预测概率大于阈值的条目
+        # filter out activities that are not executable or have low probability
         filtered_probabilities = {k: v for k, v in next_activity_probabilities.items() if k in executable_activities or v > self.confidence_threshold}
-        # 找到概率最高的活动
+        # activity with max probability
         max_constrainted_activity = (
             max(filtered_probabilities, key=filtered_probabilities.get) if len(filtered_probabilities) > 0 else top_k_activities[0][0]
         )
@@ -154,29 +156,51 @@ class OnlinePredictor:
 
     # TODO:计算流程模型的可执行活动集、预测模型的活动概率、真实活动之间的一致性
     def compute_prediction_consistency(self, case_id, activity):
-        prediciton_accuracy = 1 if activity == self.next_activity_prediction[case_id] else 0
+        prediction_accuracy = 1 if activity == self.next_activity_prediction_probabilities[case_id][0][0] else 0
         constraint_accuracy = 1 if activity in self.next_executable_activities[case_id] else 0
         self.constraint_accuracy_list.append(constraint_accuracy)
-        consistency = self.consistency_alpha * constraint_accuracy + (1 - self.consistency_alpha) * prediciton_accuracy
-        self.prediction_consistency.append(consistency)
+        self.prediction_accuracy_list.append(prediction_accuracy)
 
-    # TODO:约束冲突检测概念漂移
+    def z_score(self, left, right):
+        mu_l = float(np.nanmean(left))
+        mu_r = float(np.nanmean(right))
+        var_l = float(np.nanvar(left, ddof=1)) if left.size > 1 else 0.0
+        var_r = float(np.nanvar(right, ddof=1)) if right.size > 1 else 0.0
+
+        # 单侧：左减右；下降时 delta>0
+        delta = mu_l - mu_r
+        if delta <= 0.015:
+            return 0.0
+
+        se_diff = math.sqrt(var_l / max(1, left.size) + var_r / max(1, right.size)) + 1e-12
+        z = delta / se_diff
+        return z
+
     def detect_drift(self):
-        if self.use_consistency:
-            adwin = self.prediction_consistency
-        else:
-            adwin = self.prediction_accuracy  # DARWIN 只使用准确率作为漂移检测的指标
-        cur = len(adwin)
-        # if self.adwin_cur < cur - self.adwin_max: # 窗口太大会检测失效
-        #     self.adwin_cur = cur - self.adwin_max
-        old_start = self.adwin_cur
-        while (
-            cur - self.adwin_cur > self.adwin_min
-            and abs(np.mean(adwin[(cur + self.adwin_cur) // 2 : cur]) - np.mean(adwin[self.adwin_cur : (cur + self.adwin_cur) // 2]))
-            > self.adwin_threshold
-        ):
-            self.adwin_cur = (cur + self.adwin_cur) // 2
-        if self.adwin_cur == old_start:
+
+        cur = len(self.prediction_accuracy_list)
+        old_start = self.win_cur
+
+
+        while cur - self.win_cur > self.win_min:
+            mid = (cur + self.win_cur) // 2
+            if self.use_consistency:
+                z_prediction = self.z_score(np.asarray(self.prediction_accuracy_list[self.win_cur:mid], dtype=float), 
+                                            np.asarray(self.prediction_accuracy_list[mid:cur], dtype=float))
+                z_constraint = self.z_score(np.asarray(self.constraint_accuracy_list[self.win_cur:mid], dtype=float), 
+                                            np.asarray(self.constraint_accuracy_list[mid:cur], dtype=float))
+                den = math.sqrt(self.consistency_alpha**2 + (1-self.consistency_alpha)**2)
+                z = (self.consistency_alpha*z_constraint + (1-self.consistency_alpha)*z_prediction)/den
+            else:
+                z = self.z_score(np.asarray(self.prediction_accuracy_list[self.win_cur:mid], dtype=float), 
+                                            np.asarray(self.prediction_accuracy_list[mid:cur], dtype=float))
+
+            if z > self.drift_threshold:
+                self.win_cur = mid
+            else:
+                break
+
+        if self.win_cur == old_start:
             return False
         else:
             return True
@@ -201,7 +225,8 @@ class OnlinePredictor:
                 self.process_model = construct_process_model(self.discovery_algorithm, training_set)
                 training_set.extend(deepcopy([row[0] for row in list(self.ongoing_traces.values())]))
                 self.prediction_model.retrain(training_set)
-                self.completed_traces = OrderedDict()
+                if self.use_only_conflict_data:
+                    self.completed_traces = OrderedDict()
                 for case_id, (ongoing_trace, last_event) in self.ongoing_traces.items():
                     self.next_activity_prediction[case_id] = self.predict_next_activity(case_id, ongoing_trace)
                 break
@@ -232,13 +257,7 @@ class OnlinePredictor:
                 if self.dynamic_update and self.detect_drift():
                     print("------------Updating Models------------")
                     self.drift_moments.append(self.processed_events)
-
-                    if self.use_only_conflict_data:
-                        training_set = deepcopy(
-                            [row[0] for row in list(self.completed_traces.values()) if row[1] >= self.test_event_idxs[self.adwin_cur]]
-                        )  # 只使用漂移点后的数据来更新模型
-                    else:
-                        training_set = deepcopy([row[0] for row in list(self.completed_traces.values())])
+                    training_set = deepcopy([row[0] for row in list(self.completed_traces.values())])
                     if len(training_set) > 0:
                         self.process_model = construct_process_model(self.discovery_algorithm, training_set)
                     training_set.extend(deepcopy([row[0] for row in list(self.ongoing_traces.values())]))
@@ -246,7 +265,9 @@ class OnlinePredictor:
                         self.prediction_model.update(training_set)
                     else:
                         self.prediction_model.retrain(training_set)
-                    self.completed_traces = OrderedDict()
+                    if self.use_only_conflict_data:
+                        # update using conflict data only
+                        self.completed_traces = OrderedDict()
                     for case_id, (ongoing_trace, last_event) in self.ongoing_traces.items():
                         self.next_activity_prediction[case_id] = self.predict_next_activity(case_id, ongoing_trace)
     

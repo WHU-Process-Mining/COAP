@@ -1,0 +1,3115 @@
+nohup: 忽略输入
+Processing event log: BPIC2012
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  4 [27836, 29536, 32576, 43414]
+average accuracy:  0.8452564189303474
+average fscore:  0.6099770117215875
+average consistency:  0.0
+total time:  5422.555512755
+Experiment results saved to results/result_BPIC2012.csv
+New best accuracy: 0.8452564189303474
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  4 [27836, 29536, 32576, 43414]
+average accuracy:  0.8452564189303474
+average fscore:  0.6099770117215875
+average consistency:  0.0
+total time:  5279.112759210999
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  5 [27846, 29720, 32824, 43216, 74164]
+average accuracy:  0.844558709109976
+average fscore:  0.6132062513269266
+average consistency:  0.0
+total time:  6348.2730385290015
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  4 [27877, 29825, 33871, 77806]
+average accuracy:  0.8441696830283143
+average fscore:  0.618687067110263
+average consistency:  0.0
+total time:  6708.555924292003
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [45501, 47642, 68192]
+average accuracy:  0.8442035113832415
+average fscore:  0.6131341115689483
+average consistency:  0.0
+total time:  6276.286503482999
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  2 [45501, 47734]
+average accuracy:  0.8434508304861135
+average fscore:  0.6049437836216712
+average consistency:  0.0
+total time:  5699.381828905996
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  2 [45798, 74152]
+average accuracy:  0.8462966408443557
+average fscore:  0.6185449871780268
+average consistency:  0.0
+total time:  6115.954410993996
+Experiment results saved to results/result_BPIC2012.csv
+New best accuracy: 0.8462966408443557
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  63 [27836, 29142, 29284, 29440, 32808, 33710, 35748, 35889, 35946, 36099, 36827, 37502, 37556, 37747, 37880, 38034, 38185, 38367, 38932, 39064, 39219, 39373, 40772, 40892, 41044, 41904, 41926, 41973, 42128, 42362, 42488, 68181, 72569, 73584, 74366, 74461, 74864, 74894, 75051, 75205, 75433, 75556, 75717, 75874, 76667, 76757, 77989, 78234, 78353, 78500, 78659, 79098, 79116, 79273, 79464, 81024, 86179, 87771, 87861, 88020, 89115, 89118, 90306]
+average accuracy:  0.8242236392544231
+average fscore:  0.5451101495136679
+average consistency:  0.0
+total time:  11121.774808038994
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  10 [27836, 29257, 29379, 29532, 32292, 78032, 83274, 83276, 83923, 84266]
+average accuracy:  0.8209845742701533
+average fscore:  0.5559063900966928
+average consistency:  0.0
+total time:  5340.886018053003
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  5 [27847, 29606, 32867, 43460, 74544]
+average accuracy:  0.8463304691992828
+average fscore:  0.6176082103781023
+average consistency:  0.0
+total time:  6281.197595673002
+Experiment results saved to results/result_BPIC2012.csv
+New best accuracy: 0.8463304691992828
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  5 [30620, 32829, 38412, 39066, 47462]
+average accuracy:  0.8405289063292852
+average fscore:  0.6104793875728755
+average consistency:  0.0
+total time:  5228.745955516002
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  2 [33462, 75065]
+average accuracy:  0.8456919590000338
+average fscore:  0.6189215594492405
+average consistency:  0.0
+total time:  6112.8379649510025
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  2 [33462, 75065]
+average accuracy:  0.8456919590000338
+average fscore:  0.6189215594492405
+average consistency:  0.0
+total time:  6146.90440400099
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  2 [34169, 74924]
+average accuracy:  0.8452944758296405
+average fscore:  0.61703423285358
+average consistency:  0.0
+total time:  6135.829980010996
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  63 [27836, 29142, 29284, 29440, 32808, 33710, 35748, 35889, 35946, 36099, 36827, 37502, 37556, 37747, 37880, 38034, 38185, 38367, 38932, 39064, 39219, 39373, 40772, 40892, 41044, 41904, 41926, 41973, 42128, 42362, 42488, 68181, 72569, 73584, 74366, 74461, 74864, 74894, 75051, 75205, 75433, 75556, 75717, 75874, 76667, 76757, 77989, 78234, 78353, 78500, 78659, 79098, 79116, 79273, 79464, 81024, 86179, 87771, 87861, 88020, 89115, 89118, 90306]
+average accuracy:  0.8242236392544231
+average fscore:  0.5451101495136679
+average consistency:  0.0
+total time:  10807.643058192
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  19 [27836, 29142, 29284, 29440, 32808, 33710, 35748, 38508, 38871, 38891, 39048, 39366, 40986, 40998, 41075, 41895, 42391, 42521, 61096]
+average accuracy:  0.837606982172457
+average fscore:  0.6071255709204194
+average consistency:  0.0
+total time:  7339.484816933997
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  12 [30042, 32424, 33366, 33579, 35784, 35817, 35868, 35871, 35999, 37473, 37655, 61903]
+average accuracy:  0.8437510571360914
+average fscore:  0.6120562293726096
+average consistency:  0.0
+total time:  6593.236628264
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  11 [30332, 33109, 62011, 63851, 64460, 74902, 75719, 76061, 79090, 79347, 81821]
+average accuracy:  0.8401483373363553
+average fscore:  0.5968395872873767
+average consistency:  0.0
+total time:  5619.237202842007
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  2 [30620, 75109]
+average accuracy:  0.8467956090795304
+average fscore:  0.6197187338878891
+average consistency:  0.0
+total time:  6037.893031676998
+Experiment results saved to results/result_BPIC2012.csv
+New best accuracy: 0.8467956090795304
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  2 [30620, 75109]
+average accuracy:  0.8467956090795304
+average fscore:  0.6197187338878891
+average consistency:  0.0
+total time:  5940.066427997008
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  2 [33462, 75314]
+average accuracy:  0.8459033862183282
+average fscore:  0.618428547554001
+average consistency:  0.0
+total time:  5708.193266163988
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  63 [27836, 29142, 29284, 29440, 32808, 33710, 35748, 35889, 35946, 36099, 36827, 37502, 37556, 37747, 37880, 38034, 38185, 38367, 38932, 39064, 39219, 39373, 40772, 40892, 41044, 41904, 41926, 41973, 42128, 42362, 42488, 68181, 72569, 73584, 74366, 74461, 74864, 74894, 75051, 75205, 75433, 75556, 75717, 75874, 76667, 76757, 77989, 78234, 78353, 78500, 78659, 79098, 79116, 79273, 79464, 81024, 86179, 87771, 87861, 88020, 89115, 89118, 90306]
+average accuracy:  0.8242236392544231
+average fscore:  0.5451101495136679
+average consistency:  0.0
+total time:  10987.432283640985
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  4 [30042, 32145, 33511, 67891]
+average accuracy:  0.8453029329183722
+average fscore:  0.6130675851650506
+average consistency:  0.0
+total time:  6253.114891206991
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  12 [30042, 30049, 30118, 30236, 33390, 76596, 81946, 81949, 81991, 82029, 82103, 83357]
+average accuracy:  0.8283126416562363
+average fscore:  0.5666394039958419
+average consistency:  0.0
+total time:  5689.180057001999
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [30042, 76123, 83609]
+average accuracy:  0.8446094516423667
+average fscore:  0.6113975581922048
+average consistency:  0.0
+total time:  5057.655350702989
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  2 [30620, 75109]
+average accuracy:  0.8467956090795304
+average fscore:  0.6197187338878891
+average consistency:  0.0
+total time:  6017.312869457004
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  2 [30620, 75109]
+average accuracy:  0.8467956090795304
+average fscore:  0.6197187338878891
+average consistency:  0.0
+total time:  6027.308164523012
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  2 [31869, 32076]
+average accuracy:  0.8353447109367071
+average fscore:  0.5970599687439758
+average consistency:  0.0
+total time:  4627.319924856012
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------/home/inspur/anaconda3/envs/coap/lib/python3.12/site-packages/torch/nn/modules/transformer.py:508: UserWarning: The PyTorch API of nested tensors is in prototype stage and will change in the near future. We recommend specifying layout=torch.jagged when constructing a nested tensor, as this layout receives active development, has better operator coverage, and works with torch.compile. (Triggered internally at /pytorch/aten/src/ATen/NestedTensorImpl.cpp:178.)
+  output = torch._nested_tensor_from_mask(
+
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [30042, 75827, 83558]
+average accuracy:  0.8440512837860695
+average fscore:  0.6128445504292399
+average consistency:  0.0
+total time:  5031.824268497992
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [30042, 75827, 83558]
+average accuracy:  0.8440512837860695
+average fscore:  0.6128445504292399
+average consistency:  0.0
+total time:  5047.790824707976
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  5 [30042, 30049, 30118, 30236, 33395]
+average accuracy:  0.8352855113155847
+average fscore:  0.5972940089021566
+average consistency:  0.0
+total time:  5190.511840951018
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [30042, 76123, 83609]
+average accuracy:  0.8446094516423667
+average fscore:  0.6113975581922048
+average consistency:  0.0
+total time:  5048.916975125001
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [30332, 76153, 83574]
+average accuracy:  0.8437130002367985
+average fscore:  0.6089723269362951
+average consistency:  0.0
+total time:  5024.476406141999
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  2 [31459, 74730]
+average accuracy:  0.8458145867866446
+average fscore:  0.6186944253986699
+average consistency:  0.0
+total time:  6109.989302956004
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [31527, 76123, 83610]
+average accuracy:  0.8417847840059538
+average fscore:  0.6109523280734752
+average consistency:  0.0
+total time:  5013.758378292987
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  21 [27836, 29566, 29642, 29857, 32030, 32049, 33280, 35836, 35837, 37803, 37809, 37855, 38009, 43413, 43426, 43566, 45124, 45225, 48115, 52827, 60406]
+average accuracy:  0.8225449071411657
+average fscore:  0.6123552677620778
+average consistency:  0.0
+total time:  8269.953530787025
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  7 [27836, 29566, 32351, 32392, 33198, 41222, 62851]
+average accuracy:  0.830574912891986
+average fscore:  0.6003778909555569
+average consistency:  0.0
+total time:  7209.4354282369895
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  5 [27836, 29624, 32875, 43549, 47349]
+average accuracy:  0.8246211224248164
+average fscore:  0.5957584121680518
+average consistency:  0.0
+total time:  5908.285975965991
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  4 [27850, 29854, 34093, 48180]
+average accuracy:  0.8290484083759007
+average fscore:  0.6037232880878685
+average consistency:  0.0
+total time:  6807.371299246006
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [33531, 43856, 75127]
+average accuracy:  0.831479821386286
+average fscore:  0.601036569054214
+average consistency:  0.0
+total time:  6904.9728547630075
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  2 [34097, 53668]
+average accuracy:  0.8308243970095734
+average fscore:  0.605139841596297
+average consistency:  0.0
+total time:  6471.917381117004
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  2 [35933, 68406]
+average accuracy:  0.8337167213558405
+average fscore:  0.6107662684882085
+average consistency:  0.0
+total time:  6635.476577907015
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  95 [27836, 29142, 29284, 29440, 33036, 33097, 33161, 33318, 35836, 35837, 37754, 37849, 37984, 38135, 38408, 39004, 39114, 39269, 39427, 40439, 40462, 40760, 40844, 41046, 43077, 43295, 43367, 43524, 43679, 43838, 44078, 44607, 44756, 44908, 45071, 45226, 45696, 47403, 52945, 59875, 60339, 65345, 65414, 65561, 65738, 65879, 66031, 66634, 66754, 66908, 67084, 71549, 72872, 73982, 74033, 74167, 75431, 76128, 76644, 76786, 77921, 78227, 78682, 78835, 79039, 79174, 79384, 81096, 86136, 86283, 86438, 86591, 86788, 87225, 87230, 87389, 87598, 87723, 87910, 88053, 88289, 88423, 88574, 88727, 88883, 89090, 89230, 90409, 90563, 90712, 94079, 94082, 96157, 97042, 97044]
+average accuracy:  0.8133351375122628
+average fscore:  0.5828726547400862
+average consistency:  0.0
+total time:  16775.65683450998
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  15 [27836, 29257, 29284, 29395, 32923, 33229, 33235, 33448, 35556, 35784, 35929, 36041, 37442, 37582, 46944]
+average accuracy:  0.8230396468319746
+average fscore:  0.598118838264823
+average consistency:  0.0
+total time:  6960.675250520988
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  20 [27842, 29694, 33035, 33985, 36034, 38346, 38407, 38454, 38533, 38822, 39294, 39300, 39437, 40527, 40911, 43231, 43584, 45653, 53826, 60163]
+average accuracy:  0.8201219512195121
+average fscore:  0.6033612895088571
+average consistency:  0.0
+total time:  8193.623198961024
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  6 [27851, 29601, 35834, 51779, 74047, 81671]
+average accuracy:  0.8329302121037854
+average fscore:  0.6079969112239579
+average consistency:  0.0
+total time:  5701.400378969964
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  5 [30620, 35934, 47706, 73982, 86256]
+average accuracy:  0.8331543249551774
+average fscore:  0.6089015486094742
+average consistency:  0.0
+total time:  6183.051405542006
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [30620, 36016, 51579]
+average accuracy:  0.830012516491323
+average fscore:  0.606930140464952
+average consistency:  0.0
+total time:  6749.350675330032
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  2 [33509, 53734]
+average accuracy:  0.829259835594195
+average fscore:  0.6021565029762792
+average consistency:  0.0
+total time:  6155.797685201978
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  56 [27836, 29142, 29284, 29440, 33036, 33097, 33161, 33318, 35836, 35837, 37754, 37849, 37984, 38135, 38408, 39004, 39114, 39269, 39427, 40440, 40463, 40764, 40847, 41284, 41302, 41458, 41613, 41768, 42426, 42538, 42819, 42913, 43143, 43265, 43477, 43609, 45050, 45163, 45658, 45981, 46050, 46206, 46750, 46890, 47052, 52844, 60289, 66723, 74707, 75101, 75151, 75155, 75261, 75454, 79923, 82887]
+average accuracy:  0.8169124860458036
+average fscore:  0.5926665107263491
+average consistency:  0.0
+total time:  12021.691126791004
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  109 [27836, 29142, 29284, 29440, 33036, 33120, 33209, 33354, 35674, 35679, 37893, 38369, 39124, 41173, 41283, 41423, 41580, 41835, 42415, 42534, 42896, 42950, 43105, 43264, 43549, 43642, 45013, 45139, 45202, 45419, 45577, 45787, 45908, 46064, 46985, 47029, 47184, 51872, 54161, 54471, 54529, 54557, 54714, 54865, 55291, 55318, 55714, 55749, 56015, 56137, 56723, 58129, 58587, 59577, 60523, 65081, 65419, 68090, 68147, 68159, 68162, 68272, 69603, 72778, 72834, 72889, 72971, 73136, 73329, 73477, 73643, 74076, 74121, 74281, 75125, 75193, 82140, 83047, 83086, 83242, 83551, 83630, 83788, 84055, 84375, 84424, 84627, 84769, 84969, 85107, 85259, 85632, 86371, 86452, 86595, 87277, 87378, 87530, 87943, 87970, 88224, 89122, 89163, 89319, 90247, 90302, 95223, 97225, 98224]
+average accuracy:  0.8164219748993606
+average fscore:  0.5831186593691553
+average consistency:  0.0
+total time:  18732.97017744498
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  9 [27872, 29415, 33097, 33301, 33538, 34448, 35246, 39146, 47419]
+average accuracy:  0.8216357701024999
+average fscore:  0.5917752760153564
+average consistency:  0.0
+total time:  6217.39413263899
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  5 [30042, 35770, 51913, 74262, 81689]
+average accuracy:  0.8299913737694936
+average fscore:  0.6088749198458401
+average consistency:  0.0
+total time:  5872.965393961
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  5 [30042, 36043, 51641, 74081, 81642]
+average accuracy:  0.8288538953350698
+average fscore:  0.6036868908643335
+average consistency:  0.0
+total time:  5915.495521789009
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  7 [30042, 30061, 30145, 30148, 30277, 32299, 61941]
+average accuracy:  0.8309512533405501
+average fscore:  0.6052814635603069
+average consistency:  0.0
+total time:  6964.758759967983
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  2 [30620, 75109]
+average accuracy:  0.8338816345861101
+average fscore:  0.6089403137562762
+average consistency:  0.0
+total time:  6347.316291446972
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  95 [27836, 29142, 29284, 29440, 33036, 33097, 33161, 33318, 35836, 35837, 37754, 37849, 37984, 38135, 38408, 39004, 39114, 39269, 39427, 40439, 40462, 40760, 40844, 41046, 43077, 43295, 43367, 43524, 43679, 43838, 44078, 44607, 44756, 44908, 45071, 45226, 45696, 47403, 52945, 59875, 60339, 65345, 65414, 65561, 65738, 65879, 66031, 66634, 66754, 66908, 67084, 71549, 72872, 73982, 74033, 74167, 75431, 76128, 76644, 76786, 77921, 78227, 78682, 78835, 79039, 79174, 79384, 81096, 86136, 86283, 86438, 86591, 86788, 87225, 87230, 87389, 87598, 87723, 87910, 88053, 88289, 88423, 88574, 88727, 88883, 89090, 89230, 90409, 90563, 90712, 94079, 94082, 96157, 97042, 97044]
+average accuracy:  0.8133351375122628
+average fscore:  0.5828726547400862
+average consistency:  0.0
+total time:  16767.43760858703
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  35 [30042, 32007, 33511, 35821, 38112, 38348, 38910, 38937, 45327, 45446, 45574, 45590, 45746, 45901, 47330, 52815, 59053, 59146, 59299, 60894, 66053, 66170, 66260, 66326, 66480, 67376, 67380, 67431, 68433, 69786, 70022, 70038, 70078, 70233, 71874]
+average accuracy:  0.8110094381110247
+average fscore:  0.5819991205071706
+average consistency:  0.0
+total time:  9134.08635770902
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  6 [30042, 30049, 30118, 30236, 33390, 274529]
+average accuracy:  0.8091065931463753
+average fscore:  0.589058318766567
+average consistency:  0.0
+total time:  7728.487632806995
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [30042, 76123, 83609]
+average accuracy:  0.82847332634214
+average fscore:  0.5998790070858433
+average consistency:  0.0
+total time:  5666.869315606018
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [30042, 76123, 83609]
+average accuracy:  0.82847332634214
+average fscore:  0.5998790070858433
+average consistency:  0.0
+total time:  5451.272142093978
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [30047, 76123, 83609]
+average accuracy:  0.8296700043976861
+average fscore:  0.603892263123198
+average consistency:  0.0
+total time:  5533.0254241239745
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [31869, 32036, 79625]
+average accuracy:  0.8321606170291939
+average fscore:  0.6066632953075821
+average consistency:  0.0
+total time:  6553.493548722996
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [30042, 75827, 83558]
+average accuracy:  0.8305875985250837
+average fscore:  0.6035459184202593
+average consistency:  0.0
+total time:  5417.324465991987
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [30042, 75827, 83558]
+average accuracy:  0.8305875985250837
+average fscore:  0.6035459184202593
+average consistency:  0.0
+total time:  5062.132761010027
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  5 [30042, 30049, 30118, 30236, 33395]
+average accuracy:  0.8072502621697507
+average fscore:  0.5871518364409098
+average consistency:  0.0
+total time:  5628.5826117959805
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [30042, 76123, 83609]
+average accuracy:  0.82847332634214
+average fscore:  0.5998790070858433
+average consistency:  0.0
+total time:  5693.932853954029
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [30332, 76153, 83574]
+average accuracy:  0.825280775345895
+average fscore:  0.5970674932870906
+average consistency:  0.0
+total time:  5605.141010119987
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  2 [31459, 74730]
+average accuracy:  0.8292513785054633
+average fscore:  0.6060768707602443
+average consistency:  0.0
+total time:  6678.233269501012
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [31527, 76123, 83610]
+average accuracy:  0.8294289773688306
+average fscore:  0.6014149413928326
+average consistency:  0.0
+total time:  5612.306511266972
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  4 [27836, 29536, 32576, 43414]
+average accuracy:  0.8451803051317615
+average fscore:  0.6094948852054473
+average consistency:  0.0
+total time:  4421.43824410002
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  4 [27836, 29536, 32576, 43414]
+average accuracy:  0.8451803051317615
+average fscore:  0.6094948852054473
+average consistency:  0.0
+total time:  4418.596454110986
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  5 [27846, 29720, 32824, 43216, 74164]
+average accuracy:  0.8444403098677311
+average fscore:  0.6127189574821006
+average consistency:  0.0
+total time:  4284.147942205018
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  4 [27877, 29825, 33871, 77806]
+average accuracy:  0.8441104834071919
+average fscore:  0.6184785515256377
+average consistency:  0.0
+total time:  4399.518752155011
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [45501, 47642, 68192]
+average accuracy:  0.8442331111938026
+average fscore:  0.613204703284103
+average consistency:  0.0
+total time:  4139.3979736550245
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  2 [45501, 47734]
+average accuracy:  0.8434846588410405
+average fscore:  0.6051333873660014
+average consistency:  0.0
+total time:  4215.4552270299755
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  2 [45798, 74152]
+average accuracy:  0.8462712695781605
+average fscore:  0.6185426864783411
+average consistency:  0.0
+total time:  4169.740939829964
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  12 [27836, 28298, 28455, 28610, 28763, 28916, 29072, 29231, 29400, 29552, 32352, 52137]
+average accuracy:  0.8434635161192111
+average fscore:  0.600897948822288
+average consistency:  0.0
+total time:  4990.147702802031
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  6 [27836, 28367, 29458, 32488, 43272, 74544]
+average accuracy:  0.8440935692297283
+average fscore:  0.6167737152935286
+average consistency:  0.0
+total time:  4542.069397618005
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  5 [27847, 28550, 29591, 33091, 43286]
+average accuracy:  0.8430829471262813
+average fscore:  0.6072120816966747
+average consistency:  0.0
+total time:  4500.512033245061
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  6 [33365, 62823, 63786, 64129, 75411, 86018]
+average accuracy:  0.8280293291837217
+average fscore:  0.6005497997602355
+average consistency:  0.0
+total time:  4147.975102960947
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [45501, 47713, 68086]
+average accuracy:  0.8453156185514699
+average fscore:  0.6201295224666961
+average consistency:  0.0
+total time:  4140.64058939903
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  2 [45501, 47840]
+average accuracy:  0.8457300158993268
+average fscore:  0.6038917248787096
+average consistency:  0.0
+total time:  4178.61104060302
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  2 [45888, 74424]
+average accuracy:  0.8445502520212442
+average fscore:  0.6157414740694148
+average consistency:  0.0
+total time:  4059.685951853986
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  12 [27836, 28298, 28455, 28610, 28763, 28916, 29072, 29231, 29400, 29552, 32352, 52137]
+average accuracy:  0.8434635161192111
+average fscore:  0.600897948822288
+average consistency:  0.0
+total time:  4992.0149154699175
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  5 [27836, 28298, 29418, 34854, 78374]
+average accuracy:  0.8445756232874395
+average fscore:  0.612470994971449
+average consistency:  0.0
+total time:  4515.869087005965
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  2 [33393, 69733]
+average accuracy:  0.8458019011535469
+average fscore:  0.6205723331770017
+average consistency:  0.0
+total time:  4251.664096722961
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [45501, 47642, 68192]
+average accuracy:  0.8442331111938026
+average fscore:  0.613204703284103
+average consistency:  0.0
+total time:  4271.0129179320065
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  2 [46020, 75242]
+average accuracy:  0.8462712695781605
+average fscore:  0.6210538762742782
+average consistency:  0.0
+total time:  4218.002169986954
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [46983]
+average accuracy:  0.8471423497175332
+average fscore:  0.6126795891208107
+average consistency:  0.0
+total time:  4192.837391822017
+Experiment results saved to results/result_BPIC2012.csv
+New best accuracy: 0.8471423497175332
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [61611]
+average accuracy:  0.8457046446331314
+average fscore:  0.6215946043898968
+average consistency:  0.0
+total time:  4061.1087497100234
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  12 [27836, 28298, 28455, 28610, 28763, 28916, 29072, 29231, 29400, 29552, 32352, 52137]
+average accuracy:  0.8434635161192111
+average fscore:  0.600897948822288
+average consistency:  0.0
+total time:  5105.112627057941
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [45501, 47552, 68161]
+average accuracy:  0.8454509319711783
+average fscore:  0.6092799434770625
+average consistency:  0.0
+total time:  4272.715617901995
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [61373]
+average accuracy:  0.8451084198775414
+average fscore:  0.6231092301291373
+average consistency:  0.0
+total time:  4203.121729745995
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [72647]
+average accuracy:  0.8458188153310104
+average fscore:  0.6239973339832101
+average consistency:  0.0
+total time:  3987.366834858083
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.8382497209160719
+average fscore:  0.6221836099926146
+average consistency:  0.0
+total time:  4188.336870493949
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.8382497209160719
+average fscore:  0.6221836099926146
+average consistency:  0.0
+total time:  4182.3918114700355
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.8382497209160719
+average fscore:  0.6221836099926146
+average consistency:  0.0
+total time:  3975.8412506500026
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.8382497209160719
+average fscore:  0.6221836099926146
+average consistency:  0.0
+total time:  4184.2283324649325
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.8382497209160719
+average fscore:  0.6221836099926146
+average consistency:  0.0
+total time:  4184.2328076279955
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.8382497209160719
+average fscore:  0.6221836099926146
+average consistency:  0.0
+total time:  4184.981314831995
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.8382497209160719
+average fscore:  0.6221836099926146
+average consistency:  0.0
+total time:  4184.149649044033
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.8382497209160719
+average fscore:  0.6221836099926146
+average consistency:  0.0
+total time:  4186.972014043946
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.8382497209160719
+average fscore:  0.6221836099926146
+average consistency:  0.0
+total time:  4182.066052678041
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.8382497209160719
+average fscore:  0.6221836099926146
+average consistency:  0.0
+total time:  4174.588164123008
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  21 [27836, 29566, 29642, 29857, 32030, 32049, 33280, 35836, 35837, 37803, 37809, 37855, 38009, 43413, 43426, 43566, 45124, 45225, 48115, 52827, 60406]
+average accuracy:  0.8225575927742634
+average fscore:  0.6123685391016463
+average consistency:  0.0
+total time:  6838.56162400404
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  7 [27836, 29566, 32351, 32392, 33198, 41222, 62851]
+average accuracy:  0.8306679408680356
+average fscore:  0.6011303512594313
+average consistency:  0.0
+total time:  5480.309547643992
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  5 [27836, 29624, 32875, 43549, 47349]
+average accuracy:  0.8245957511586212
+average fscore:  0.5956408312647679
+average consistency:  0.0
+total time:  5336.968958170968
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  4 [27850, 29854, 34093, 48180]
+average accuracy:  0.8290610940089983
+average fscore:  0.6037007121098167
+average consistency:  0.0
+total time:  5174.8872422809945
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [33531, 43856, 75127]
+average accuracy:  0.8315263353743108
+average fscore:  0.6013849986749197
+average consistency:  0.0
+total time:  5155.595375507954
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  2 [34097, 53668]
+average accuracy:  0.8308455397314028
+average fscore:  0.6051050265120679
+average consistency:  0.0
+total time:  5090.653169778059
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  2 [35933, 68406]
+average accuracy:  0.8337886066100606
+average fscore:  0.61129921590481
+average consistency:  0.0
+total time:  5121.698442778084
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  127 [27836, 28298, 28455, 28610, 28763, 28939, 29084, 29247, 29413, 32792, 33575, 35663, 35712, 35845, 36065, 37458, 37592, 37746, 37897, 38050, 38201, 38535, 38820, 38874, 39026, 39204, 39348, 40788, 40903, 41055, 41242, 41386, 41542, 42182, 42376, 42401, 42555, 42738, 42881, 43210, 43283, 43441, 43599, 45089, 45127, 45218, 45371, 45532, 45799, 46995, 47133, 47360, 47553, 47670, 48927, 49064, 49218, 49371, 50068, 50197, 50370, 50525, 51565, 51578, 51732, 51887, 53276, 53641, 53669, 53828, 53992, 54150, 55726, 55833, 55985, 56157, 56308, 56466, 56655, 56793, 56950, 57105, 57515, 57554, 57713, 57985, 58741, 58828, 58990, 59149, 59316, 59485, 59649, 60228, 60364, 66446, 73561, 73599, 73600, 73628, 73667, 73828, 74017, 74184, 75000, 75071, 75225, 75411, 75555, 75715, 76434, 76500, 76562, 76743, 78492, 78604, 78747, 78901, 79212, 79355, 79480, 79697, 79829, 79979, 80386, 80838, 80968]
+average accuracy:  0.8087091099759819
+average fscore:  0.566220904537826
+average consistency:  0.0
+total time:  19092.65424255689
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  30 [27836, 28367, 28572, 28697, 28848, 29039, 29180, 29350, 29517, 32424, 33574, 35724, 35793, 35906, 36058, 37461, 37597, 37962, 39598, 41554, 43156, 43161, 43270, 43388, 43545, 45163, 47958, 53276, 60286, 60287]
+average accuracy:  0.8076096884408511
+average fscore:  0.5857034056818349
+average consistency:  0.0
+total time:  7901.861206884962
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  8 [27842, 29625, 33013, 43049, 43413, 43746, 43990, 45055]
+average accuracy:  0.8053685599269308
+average fscore:  0.5467916254078983
+average consistency:  0.0
+total time:  5555.486924053985
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  10 [27851, 29592, 35492, 36025, 37229, 37334, 37339, 37536, 37692, 47089]
+average accuracy:  0.8225026216975069
+average fscore:  0.5912551558488025
+average consistency:  0.0
+total time:  5522.2761182000395
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  2 [33543, 53952]
+average accuracy:  0.8310611954940631
+average fscore:  0.6064473143336795
+average consistency:  0.0
+total time:  5099.451598325046
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  2 [34188, 53628]
+average accuracy:  0.8318011907580934
+average fscore:  0.603516928285003
+average consistency:  0.0
+total time:  5108.583572445088
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  2 [35997, 52662]
+average accuracy:  0.8316616487940192
+average fscore:  0.6054417046110628
+average consistency:  0.0
+total time:  4869.124114289996
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  127 [27836, 28298, 28455, 28610, 28763, 28939, 29084, 29247, 29413, 32792, 33575, 35663, 35712, 35845, 36065, 37458, 37592, 37746, 37897, 38050, 38201, 38535, 38820, 38874, 39026, 39204, 39348, 40788, 40903, 41055, 41242, 41386, 41542, 42182, 42376, 42401, 42555, 42738, 42881, 43210, 43283, 43441, 43599, 45089, 45127, 45218, 45371, 45532, 45799, 46995, 47133, 47360, 47553, 47670, 48927, 49064, 49218, 49371, 50068, 50197, 50370, 50525, 51565, 51578, 51732, 51887, 53276, 53641, 53669, 53828, 53992, 54150, 55726, 55833, 55985, 56157, 56308, 56466, 56655, 56793, 56950, 57105, 57515, 57554, 57713, 57985, 58741, 58828, 58990, 59149, 59316, 59485, 59649, 60228, 60364, 66446, 73561, 73599, 73600, 73628, 73667, 73828, 74017, 74184, 75000, 75071, 75225, 75411, 75555, 75715, 76434, 76500, 76562, 76743, 78492, 78604, 78747, 78901, 79212, 79355, 79480, 79697, 79829, 79979, 80386, 80838, 80968]
+average accuracy:  0.8087091099759819
+average fscore:  0.566220904537826
+average consistency:  0.0
+total time:  19600.69706072309
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  70 [27836, 28298, 29398, 29399, 29551, 32164, 33489, 35810, 38837, 47374, 47376, 48114, 51887, 51981, 52019, 52149, 52845, 52946, 53626, 56641, 58529, 58626, 58628, 58776, 59373, 60623, 65047, 65428, 65553, 65708, 65863, 66014, 66623, 67159, 67470, 67511, 67669, 67830, 68526, 69703, 70021, 70152, 70680, 71317, 71435, 71589, 71747, 71913, 72065, 73029, 74847, 75133, 75144, 75274, 75434, 76529, 76533, 76713, 76867, 77021, 77173, 77330, 77773, 77795, 77997, 78157, 78772, 79387, 79497, 81001]
+average accuracy:  0.8133605087784581
+average fscore:  0.5840837392038503
+average consistency:  0.0
+total time:  13128.961895500077
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  16 [27872, 28171, 28243, 28399, 29449, 29461, 29648, 30752, 31804, 32250, 32269, 32290, 32450, 32923, 32926, 47679]
+average accuracy:  0.8253611176888468
+average fscore:  0.5980776092034344
+average consistency:  0.0
+total time:  6558.029250556021
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [33531, 43856, 75127]
+average accuracy:  0.8315263353743108
+average fscore:  0.6013849986749197
+average consistency:  0.0
+total time:  4939.789481463027
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  2 [36001, 68218]
+average accuracy:  0.8310696525827949
+average fscore:  0.602766358332236
+average consistency:  0.0
+total time:  5054.007095359033
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [46972]
+average accuracy:  0.8278390446872569
+average fscore:  0.6013478532314873
+average consistency:  0.0
+total time:  5009.797082600999
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [61312]
+average accuracy:  0.832080274686242
+average fscore:  0.6109285487644969
+average consistency:  0.0
+total time:  5032.944220609032
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  127 [27836, 28298, 28455, 28610, 28763, 28939, 29084, 29247, 29413, 32792, 33575, 35663, 35712, 35845, 36065, 37458, 37592, 37746, 37897, 38050, 38201, 38535, 38820, 38874, 39026, 39204, 39348, 40788, 40903, 41055, 41242, 41386, 41542, 42182, 42376, 42401, 42555, 42738, 42881, 43210, 43283, 43441, 43599, 45089, 45127, 45218, 45371, 45532, 45799, 46995, 47133, 47360, 47553, 47670, 48927, 49064, 49218, 49371, 50068, 50197, 50370, 50525, 51565, 51578, 51732, 51887, 53276, 53641, 53669, 53828, 53992, 54150, 55726, 55833, 55985, 56157, 56308, 56466, 56655, 56793, 56950, 57105, 57515, 57554, 57713, 57985, 58741, 58828, 58990, 59149, 59316, 59485, 59649, 60228, 60364, 66446, 73561, 73599, 73600, 73628, 73667, 73828, 74017, 74184, 75000, 75071, 75225, 75411, 75555, 75715, 76434, 76500, 76562, 76743, 78492, 78604, 78747, 78901, 79212, 79355, 79480, 79697, 79829, 79979, 80386, 80838, 80968]
+average accuracy:  0.8087091099759819
+average fscore:  0.566220904537826
+average consistency:  0.0
+total time:  19855.815710642026
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  2 [30640, 45121]
+average accuracy:  0.8233018165826596
+average fscore:  0.5961987893217807
+average consistency:  0.0
+total time:  5132.339605874964
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [56874]
+average accuracy:  0.8287058962822638
+average fscore:  0.6159622322157862
+average consistency:  0.0
+total time:  4912.014081430971
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [72232]
+average accuracy:  0.8343256317445282
+average fscore:  0.615036160406126
+average consistency:  0.0
+total time:  4766.494743536925
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.808514596935151
+average fscore:  0.6041797894866608
+average consistency:  0.0
+total time:  4665.0023959740065
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.808514596935151
+average fscore:  0.6041797894866608
+average consistency:  0.0
+total time:  4870.826918983948
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.808514596935151
+average fscore:  0.6041797894866608
+average consistency:  0.0
+total time:  4981.015443534008
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.808514596935151
+average fscore:  0.6041797894866608
+average consistency:  0.0
+total time:  4693.626140105072
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.808514596935151
+average fscore:  0.6041797894866608
+average consistency:  0.0
+total time:  4941.498264395981
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.808514596935151
+average fscore:  0.6041797894866608
+average consistency:  0.0
+total time:  4966.039252775023
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.808514596935151
+average fscore:  0.6041797894866608
+average consistency:  0.0
+total time:  4972.47969170101
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.808514596935151
+average fscore:  0.6041797894866608
+average consistency:  0.0
+total time:  4642.787822378916
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.808514596935151
+average fscore:  0.6041797894866608
+average consistency:  0.0
+total time:  4927.683564774925
+Experiment results saved to results/result_BPIC2012.csv
+event_log:BPIC2012, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:1
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.808514596935151
+average fscore:  0.6041797894866608
+average consistency:  0.0
+total time:  5085.865415783948
+Experiment results saved to results/result_BPIC2012.csv

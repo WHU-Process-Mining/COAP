@@ -1,0 +1,3579 @@
+nohup: 忽略输入
+Processing event log: BPIC2020_InternationalDeclarations
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  36
+------------Saving Results------------
+drift:  9 [8646, 8648, 8799, 10653, 10731, 12365, 13846, 13989, 26265]
+average accuracy:  0.8106916505924497
+average fscore:  0.43902626518340815
+average consistency:  0.0
+total time:  789.9272109770001
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+New best accuracy: 0.8106916505924497
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  31
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  31  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Updating Models------------
+------------Saving Results------------
+drift:  9 [8648, 8715, 8828, 13822, 13834, 14024, 14229, 28195, 29754]
+average accuracy:  0.8004653868528214
+average fscore:  0.4396612531888954
+average consistency:  0.0
+total time:  923.2936230629999
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  31
+------------Updating Models------------
+update activity num:  31  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  36
+------------Updating Models------------
+------------Saving Results------------
+drift:  8 [8760, 8954, 10903, 13844, 13870, 13954, 28100, 29820]
+average accuracy:  0.7869630446097793
+average fscore:  0.44067998218176235
+average consistency:  0.0
+total time:  880.8134212199998
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  31
+------------Updating Models------------
+update activity num:  31  ->  32
+------------Saving Results------------
+drift:  3 [8785, 13842, 14020]
+average accuracy:  0.7098680383331802
+average fscore:  0.34167698671883756
+average consistency:  0.0
+total time:  592.2737279379999
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  30
+------------Updating Models------------
+update activity num:  30  ->  31
+------------Updating Models------------
+update activity num:  31  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Saving Results------------
+drift:  5 [8943, 13817, 13844, 14123, 28135]
+average accuracy:  0.8157129297939438
+average fscore:  0.4357605802485243
+average consistency:  0.0
+total time:  735.5546938399998
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+New best accuracy: 0.8157129297939438
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  31
+------------Updating Models------------
+update activity num:  31  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Saving Results------------
+drift:  5 [8948, 13842, 13851, 14152, 28667]
+average accuracy:  0.8113805456048498
+average fscore:  0.45052384126818457
+average consistency:  0.0
+total time:  757.7916824220001
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Saving Results------------
+drift:  1 [13917]
+average accuracy:  0.6421726217813294
+average fscore:  0.29817463152674
+average consistency:  0.0
+total time:  669.5985479950004
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  31
+------------Updating Models------------
+update activity num:  31  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  39 [8646, 8799, 8960, 9119, 9522, 9568, 10044, 10517, 10531, 10646, 10813, 12050, 12203, 12365, 12571, 12722, 12910, 13070, 13603, 13837, 14026, 14230, 14938, 26761, 28026, 28444, 28459, 28679, 28829, 28985, 29233, 29335, 29506, 29647, 29928, 30026, 30211, 30366, 30527]
+average accuracy:  0.8363797801659472
+average fscore:  0.4527651578366724
+average consistency:  0.0
+total time:  1326.3752761660007
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+New best accuracy: 0.8363797801659472
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  28
+------------Updating Models------------
+update activity num:  28  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Saving Results------------
+drift:  24 [8648, 8800, 8961, 9120, 9542, 9595, 9744, 9950, 10193, 10335, 10479, 10636, 10881, 12076, 12231, 12393, 12763, 12869, 13015, 13762, 13905, 14102, 14296, 28027]
+average accuracy:  0.8261994427604789
+average fscore:  0.4363716567063727
+average consistency:  0.0
+total time:  915.3761341929994
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  29
+------------Updating Models------------
+update activity num:  29  ->  32
+------------Updating Models------------
+update activity num:  32  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  22 [8671, 8708, 8831, 8992, 10619, 10621, 12375, 12758, 12840, 12913, 13079, 13788, 13941, 28249, 28369, 28443, 28985, 29520, 30293, 30304, 30381, 30541]
+average accuracy:  0.8015982364287683
+average fscore:  0.4422931440953618
+average consistency:  0.0
+total time:  1092.483641892999
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  31
+------------Updating Models------------
+update activity num:  31  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  21 [8746, 8949, 9118, 10704, 13831, 13858, 13945, 14324, 14717, 28107, 28418, 28862, 28981, 29072, 29518, 29521, 29966, 29971, 30316, 30396, 30636]
+average accuracy:  0.8487186552769358
+average fscore:  0.4681545302394366
+average consistency:  0.0
+total time:  1118.9615839870003
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+New best accuracy: 0.8487186552769358
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  7 [8789, 13863, 14043, 14244, 28036, 29245, 30678]
+average accuracy:  0.8168457793698907
+average fscore:  0.44318393487365715
+average consistency:  0.0
+total time:  979.0484392449998
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [8794, 13863, 14043]
+average accuracy:  0.6847310247696029
+average fscore:  0.3532304484684305
+average consistency:  0.0
+total time:  638.0350765709991
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  29
+------------Updating Models------------
+update activity num:  29  ->  32
+------------Updating Models------------
+------------Saving Results------------
+drift:  4 [8944, 13794, 13859, 14042]
+average accuracy:  0.6523835767429044
+average fscore:  0.3362557916208524
+average consistency:  0.0
+total time:  636.1904836880003
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  31
+------------Updating Models------------
+update activity num:  31  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  39 [8646, 8799, 8960, 9119, 9522, 9568, 10044, 10517, 10531, 10646, 10813, 12050, 12203, 12365, 12571, 12722, 12910, 13070, 13603, 13837, 14026, 14230, 14938, 26761, 28026, 28444, 28459, 28679, 28829, 28985, 29233, 29335, 29506, 29647, 29928, 30026, 30211, 30366, 30527]
+average accuracy:  0.8363797801659472
+average fscore:  0.4527651578366724
+average consistency:  0.0
+total time:  1289.0874082610007
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  28
+------------Updating Models------------
+update activity num:  28  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  36 [8653, 8803, 8964, 9124, 9564, 9592, 9749, 9952, 10148, 10284, 10445, 10602, 12335, 13021, 13069, 13223, 13775, 13974, 14172, 14987, 28048, 28328, 28427, 28974, 29116, 29572, 29926, 29978, 30154, 30314, 30476, 30652, 30808, 30995, 31201, 31328]
+average accuracy:  0.8407274731330945
+average fscore:  0.45725129426141514
+average consistency:  0.0
+total time:  1251.2905688150004
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  29
+------------Updating Models------------
+update activity num:  29  ->  32
+------------Saving Results------------
+drift:  17 [8671, 8827, 8983, 9143, 9587, 9610, 9768, 9976, 10194, 10352, 10532, 12393, 13025, 13038, 13114, 13788, 13945]
+average accuracy:  0.6201739077186859
+average fscore:  0.3127977523428983
+average consistency:  0.0
+total time:  805.1183702990002
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  31
+------------Updating Models------------
+update activity num:  31  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Saving Results------------
+drift:  5 [8711, 13844, 14032, 14235, 28225]
+average accuracy:  0.8097425063531429
+average fscore:  0.4395953546626552
+average consistency:  0.0
+total time:  717.4870172329993
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Saving Results------------
+drift:  5 [8761, 13861, 14039, 14241, 28100]
+average accuracy:  0.7926272924895135
+average fscore:  0.42655086339229314
+average consistency:  0.0
+total time:  732.1563828129983
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  7 [8776, 13863, 14042, 14242, 28121, 29886, 30837]
+average accuracy:  0.8115642509414899
+average fscore:  0.4334902827278047
+average consistency:  0.0
+total time:  720.1582191599991
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Saving Results------------
+drift:  5 [8812, 13865, 14045, 14245, 29043]
+average accuracy:  0.814671932886317
+average fscore:  0.43139627419101206
+average consistency:  0.0
+total time:  785.4854788830016
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  31
+------------Updating Models------------
+update activity num:  31  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  39 [8646, 8799, 8960, 9119, 9522, 9568, 10044, 10517, 10531, 10646, 10813, 12050, 12203, 12365, 12571, 12722, 12910, 13070, 13603, 13837, 14026, 14230, 14938, 26761, 28026, 28444, 28459, 28679, 28829, 28985, 29233, 29335, 29506, 29647, 29928, 30026, 30211, 30366, 30527]
+average accuracy:  0.8363797801659472
+average fscore:  0.4527651578366724
+average consistency:  0.0
+total time:  1285.0066781130008
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  31
+------------Updating Models------------
+update activity num:  31  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  14 [8671, 13839, 14024, 14229, 14941, 28117, 28327, 28464, 28988, 29905, 29986, 30160, 30321, 30482]
+average accuracy:  0.8405284590184011
+average fscore:  0.4550643665400035
+average consistency:  0.0
+total time:  828.2215416459985
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  14 [8671, 13851, 14038, 14240, 14937, 28214, 28328, 28413, 29688, 29837, 29982, 30266, 30376, 30536]
+average accuracy:  0.843207495177735
+average fscore:  0.4577014291332637
+average consistency:  0.0
+total time:  865.677914513999
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Saving Results------------
+drift:  5 [8736, 13847, 14036, 14238, 28056]
+average accuracy:  0.8192645663023177
+average fscore:  0.43671835577731866
+average consistency:  0.0
+total time:  756.4437131919985
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Saving Results------------
+drift:  5 [8776, 13863, 14042, 14242, 29372]
+average accuracy:  0.7908820917914332
+average fscore:  0.4365756044470233
+average consistency:  0.0
+total time:  807.8739172220012
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Saving Results------------
+drift:  5 [8794, 13863, 14043, 14243, 30877]
+average accuracy:  0.8092373166773829
+average fscore:  0.4368223882568205
+average consistency:  0.0
+total time:  723.2987414630006
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Saving Results------------
+drift:  6 [8917, 9730, 13956, 13984, 14182, 29870]
+average accuracy:  0.8145188451057837
+average fscore:  0.44740597083419864
+average consistency:  0.0
+total time:  712.5121869689974
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Saving Results------------
+drift:  5 [8671, 13851, 14038, 14240, 14925]
+average accuracy:  0.804323198922262
+average fscore:  0.39764941836704576
+average consistency:  0.0
+total time:  574.9639821599994
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Saving Results------------
+drift:  5 [8671, 13851, 14038, 14240, 14929]
+average accuracy:  0.7994243899451946
+average fscore:  0.392404148317744
+average consistency:  0.0
+total time:  582.372640247002
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.282/home/inspur/anaconda3/envs/coap/lib/python3.12/site-packages/torch/nn/modules/transformer.py:508: UserWarning: The PyTorch API of nested tensors is in prototype stage and will change in the near future. We recommend specifying layout=torch.jagged when constructing a nested tensor, as this layout receives active development, has better operator coverage, and works with torch.compile. (Triggered internally at /pytorch/aten/src/ATen/NestedTensorImpl.cpp:178.)
+  output = torch._nested_tensor_from_mask(
+
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Saving Results------------
+drift:  5 [8705, 13855, 14042, 14242, 14936]
+average accuracy:  0.7731086004715103
+average fscore:  0.3861524521867688
+average consistency:  0.0
+total time:  578.8503394129984
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Saving Results------------
+drift:  4 [8746, 13851, 14039, 14241]
+average accuracy:  0.675300817488748
+average fscore:  0.3408595583459085
+average consistency:  0.0
+total time:  575.5576424719984
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Saving Results------------
+drift:  4 [8813, 13867, 14078, 14261]
+average accuracy:  0.6330945163957012
+average fscore:  0.3274036004913244
+average consistency:  0.0
+total time:  587.6707029209974
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Saving Results------------
+drift:  5 [8917, 9603, 13956, 13980, 14177]
+average accuracy:  0.6405498913076758
+average fscore:  0.32835875925017033
+average consistency:  0.0
+total time:  577.8727323950006
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Saving Results------------
+drift:  2 [10605, 14053]
+average accuracy:  0.6656715960931998
+average fscore:  0.315402519923727
+average consistency:  0.0
+total time:  628.7662003309997
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  36
+------------Saving Results------------
+drift:  12 [8621, 8779, 9181, 9954, 10719, 10902, 12060, 12216, 12380, 13889, 14042, 30873]
+average accuracy:  0.8235050978230918
+average fscore:  0.44367847365298485
+average consistency:  0.0
+total time:  1163.1923038880013
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Saving Results------------
+drift:  7 [8621, 8623, 8780, 12102, 14010, 14273, 28192]
+average accuracy:  0.8539083310370166
+average fscore:  0.45547794917902146
+average consistency:  0.0
+total time:  1130.3650006220014
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+New best accuracy: 0.8539083310370166
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  30
+------------Updating Models------------
+update activity num:  30  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Saving Results------------
+drift:  8 [8641, 8796, 10820, 13816, 13886, 14005, 14204, 28155]
+average accuracy:  0.847723584703469
+average fscore:  0.44878780003084784
+average consistency:  0.0
+total time:  1110.316664463
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Saving Results------------
+drift:  6 [8659, 8749, 8847, 13856, 13865, 14125]
+average accuracy:  0.7011726523988855
+average fscore:  0.3531513261166126
+average consistency:  0.0
+total time:  954.4578808289989
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Saving Results------------
+drift:  4 [8748, 8937, 13868, 13871]
+average accuracy:  0.6863537552432565
+average fscore:  0.3431059491832143
+average consistency:  0.0
+total time:  958.0414542400031
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Saving Results------------
+drift:  3 [8769, 13915, 14103]
+average accuracy:  0.7066225773858731
+average fscore:  0.35167967491585983
+average consistency:  0.0
+total time:  918.5682513510037
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Saving Results------------
+drift:  1 [13936]
+average accuracy:  0.6534398824285845
+average fscore:  0.33079723082978674
+average consistency:  0.0
+total time:  988.1314366829974
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  33  ->  34
+------------Updating Models------------
+update activity num:  34  ->  35
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  35  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  72 [8621, 8779, 8945, 9102, 9595, 9596, 10044, 10602, 10604, 10706, 12179, 12303, 12471, 12640, 12830, 12988, 13204, 13338, 13492, 13698, 13903, 14100, 14294, 14648, 14762, 14943, 15137, 15719, 18070, 18391, 23241, 24618, 24691, 25155, 25176, 25496, 25582, 25744, 25899, 26173, 26297, 27919, 28019, 28390, 28460, 28679, 28829, 28985, 29136, 29596, 29926, 29989, 30165, 30326, 30487, 30657, 30817, 30983, 31146, 31303, 31482, 31647, 31812, 32140, 32215, 32376, 32688, 32771, 32928, 33091, 33261, 33415]
+average accuracy:  0.8615474112856312
+average fscore:  0.48471142066128964
+average consistency:  0.0
+total time:  3586.2104749790014
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+New best accuracy: 0.8615474112856312
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  36
+------------Saving Results------------
+drift:  21 [8623, 8780, 8946, 9104, 9564, 9594, 9745, 10004, 10135, 10290, 10628, 10699, 10857, 11019, 11248, 11944, 11948, 12046, 13847, 13955, 33667]
+average accuracy:  0.8158660175744772
+average fscore:  0.4405836911168821
+average consistency:  0.0
+total time:  1419.3446931409999
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Saving Results------------
+drift:  14 [8642, 8796, 8958, 9116, 9577, 9607, 9759, 10331, 10471, 12485, 13863, 13971, 14235, 28082]
+average accuracy:  0.8611034567220844
+average fscore:  0.46909119706922514
+average consistency:  0.0
+total time:  1251.389500942998
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Saving Results------------
+drift:  5 [8661, 13884, 14069, 14268, 28050]
+average accuracy:  0.8544135207127767
+average fscore:  0.4448725961246844
+average consistency:  0.0
+total time:  1118.6160231169997
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Saving Results------------
+drift:  5 [8713, 13858, 14045, 14245, 28099]
+average accuracy:  0.8260922813141055
+average fscore:  0.43412161634013335
+average consistency:  0.0
+total time:  1078.6485898149986
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Saving Results------------
+drift:  3 [8722, 13863, 14084]
+average accuracy:  0.6819295183858425
+average fscore:  0.34659507183750204
+average consistency:  0.0
+total time:  937.2101845409998
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Saving Results------------
+drift:  4 [8769, 13888, 14069, 28317]
+average accuracy:  0.8340222283457335
+average fscore:  0.441167649746369
+average consistency:  0.0
+total time:  1115.2850114769972
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  33  ->  34
+------------Updating Models------------
+update activity num:  34  ->  35
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  35  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  72 [8621, 8779, 8945, 9102, 9595, 9596, 10044, 10602, 10604, 10706, 12179, 12303, 12471, 12640, 12830, 12988, 13204, 13338, 13492, 13698, 13903, 14100, 14294, 14648, 14762, 14943, 15137, 15719, 18070, 18391, 23241, 24618, 24691, 25155, 25176, 25496, 25582, 25744, 25899, 26173, 26297, 27919, 28019, 28390, 28460, 28679, 28829, 28985, 29136, 29596, 29926, 29989, 30165, 30326, 30487, 30657, 30817, 30983, 31146, 31303, 31482, 31647, 31812, 32140, 32215, 32376, 32688, 32771, 32928, 33091, 33261, 33415]
+average accuracy:  0.8615474112856312
+average fscore:  0.48471142066128964
+average consistency:  0.0
+total time:  3568.655979054005
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  28
+------------Updating Models------------
+update activity num:  28  ->  32
+------------Updating Models------------
+update activity num:  32  ->  36
+------------Saving Results------------
+drift:  14 [8628, 8782, 8948, 9106, 9592, 9596, 10145, 10796, 12188, 12189, 12308, 13777, 13945, 45223]
+average accuracy:  0.7899482563301797
+average fscore:  0.42158941633512803
+average consistency:  0.0
+total time:  1381.7983555589963
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Saving Results------------
+drift:  5 [8662, 13847, 14035, 14237, 28159]
+average accuracy:  0.824928814182052
+average fscore:  0.4395909546015491
+average consistency:  0.0
+total time:  1098.5219632340013
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Saving Results------------
+drift:  5 [8671, 13851, 14038, 14240, 28088]
+average accuracy:  0.8298429319371727
+average fscore:  0.4417510859948748
+average consistency:  0.0
+total time:  1105.6420126049998
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Saving Results------------
+drift:  5 [8713, 13857, 14044, 14244, 28241]
+average accuracy:  0.8236734943816785
+average fscore:  0.4377554684503125
+average consistency:  0.0
+total time:  1105.245712813994
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Saving Results------------
+drift:  5 [8736, 13863, 14071, 14259, 28174]
+average accuracy:  0.827531306451119
+average fscore:  0.43611489028829903
+average consistency:  0.0
+total time:  1076.3309776769966
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Saving Results------------
+drift:  5 [8760, 13888, 14069, 14268, 28228]
+average accuracy:  0.852561158568323
+average fscore:  0.4393951047478681
+average consistency:  0.0
+total time:  1112.8690238900017
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  33  ->  34
+------------Updating Models------------
+update activity num:  34  ->  35
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  35  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  72 [8621, 8779, 8945, 9102, 9595, 9596, 10044, 10602, 10604, 10706, 12179, 12303, 12471, 12640, 12830, 12988, 13204, 13338, 13492, 13698, 13903, 14100, 14294, 14648, 14762, 14943, 15137, 15719, 18070, 18391, 23241, 24618, 24691, 25155, 25176, 25496, 25582, 25744, 25899, 26173, 26297, 27919, 28019, 28390, 28460, 28679, 28829, 28985, 29136, 29596, 29926, 29989, 30165, 30326, 30487, 30657, 30817, 30983, 31146, 31303, 31482, 31647, 31812, 32140, 32215, 32376, 32688, 32771, 32928, 33091, 33261, 33415]
+average accuracy:  0.8615474112856312
+average fscore:  0.48471142066128964
+average consistency:  0.0
+total time:  3380.5694861209995
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  17 [8671, 13851, 14038, 14240, 14929, 28048, 28328, 28427, 28989, 29230, 29568, 29599, 29926, 29992, 30168, 30330, 30490]
+average accuracy:  0.8536174642540032
+average fscore:  0.4576473712916001
+average consistency:  0.0
+total time:  1573.774023400998
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  15 [8671, 13851, 14038, 14240, 14937, 28227, 28328, 28419, 29060, 29935, 29958, 29985, 30252, 30372, 31207]
+average accuracy:  0.8587918312360308
+average fscore:  0.46791109785888624
+average consistency:  0.0
+total time:  1433.6003303300022
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Saving Results------------
+drift:  5 [8703, 13855, 14042, 14242, 28212]
+average accuracy:  0.8339303756774135
+average fscore:  0.43210762963755667
+average consistency:  0.0
+total time:  1085.047215556995
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Saving Results------------
+drift:  4 [8746, 13851, 14039, 14241]
+average accuracy:  0.6594256146474389
+average fscore:  0.32950146329343283
+average consistency:  0.0
+total time:  888.1412939000002
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Saving Results------------
+drift:  4 [8760, 13861, 14039, 14241]
+average accuracy:  0.6818989008297358
+average fscore:  0.32698176382179966
+average consistency:  0.0
+total time:  829.3233344539985
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Saving Results------------
+drift:  4 [8817, 13880, 14090, 14274]
+average accuracy:  0.7608003429166283
+average fscore:  0.37672371237938407
+average consistency:  0.0
+total time:  872.6854251199984
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Saving Results------------
+drift:  5 [8671, 13851, 14038, 14240, 14925]
+average accuracy:  0.8285110682465325
+average fscore:  0.42786593370835674
+average consistency:  0.0
+total time:  901.0461248909996
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Saving Results------------
+drift:  5 [8671, 13851, 14038, 14240, 14929]
+average accuracy:  0.8161875019135972
+average fscore:  0.4202165761727791
+average consistency:  0.0
+total time:  901.0966913750017
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Saving Results------------
+drift:  5 [8705, 13855, 14042, 14242, 14936]
+average accuracy:  0.825250298521172
+average fscore:  0.424836754304824
+average consistency:  0.0
+total time:  825.5739500569907
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Saving Results------------
+drift:  4 [8746, 13851, 14039, 14241]
+average accuracy:  0.6594256146474389
+average fscore:  0.32950146329343283
+average consistency:  0.0
+total time:  805.8558356940048
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Saving Results------------
+drift:  4 [8813, 13867, 14078, 14261]
+average accuracy:  0.6925691191329109
+average fscore:  0.33973986573744236
+average consistency:  0.0
+total time:  736.887583394011
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Saving Results------------
+drift:  5 [8917, 9603, 13956, 13980, 14177]
+average accuracy:  0.6885276017268301
+average fscore:  0.33668998628798474
+average consistency:  0.0
+total time:  880.2106126470026
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Saving Results------------
+drift:  2 [10605, 14053]
+average accuracy:  0.6632528091607728
+average fscore:  0.31937602705309925
+average consistency:  0.0
+total time:  930.7206874179974
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  36
+------------Saving Results------------
+drift:  9 [8646, 8648, 8799, 10653, 10731, 12365, 13846, 13989, 26265]
+average accuracy:  0.8105691803680231
+average fscore:  0.4390837854603846
+average consistency:  0.0
+total time:  664.001288325002
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  31
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  31  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Updating Models------------
+------------Saving Results------------
+drift:  9 [8648, 8715, 8828, 13822, 13834, 14024, 14229, 28195, 29754]
+average accuracy:  0.8005113131869814
+average fscore:  0.4400214020969862
+average consistency:  0.0
+total time:  688.3430352720025
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  31
+------------Updating Models------------
+update activity num:  31  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  36
+------------Updating Models------------
+------------Saving Results------------
+drift:  8 [8760, 8954, 10903, 13844, 13870, 13954, 28100, 29820]
+average accuracy:  0.7871161323903126
+average fscore:  0.44118139352852637
+average consistency:  0.0
+total time:  687.6703867229953
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  31
+------------Updating Models------------
+update activity num:  31  ->  32
+------------Saving Results------------
+drift:  3 [8785, 13842, 14020]
+average accuracy:  0.7098986558892869
+average fscore:  0.3415720697305172
+average consistency:  0.0
+total time:  568.8371216910018
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  30
+------------Updating Models------------
+update activity num:  30  ->  31
+------------Updating Models------------
+update activity num:  31  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Saving Results------------
+drift:  5 [8943, 13817, 13844, 14123, 28135]
+average accuracy:  0.8156057683475705
+average fscore:  0.4349654455893459
+average consistency:  0.0
+total time:  615.5068002199987
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  31
+------------Updating Models------------
+update activity num:  31  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Saving Results------------
+drift:  5 [8948, 13842, 13851, 14152, 28667]
+average accuracy:  0.8117785738342366
+average fscore:  0.45093603425514067
+average consistency:  0.0
+total time:  617.3222960830026
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Saving Results------------
+drift:  1 [13917]
+average accuracy:  0.6384678974924222
+average fscore:  0.2997894885290883
+average consistency:  0.0
+total time:  575.3401063019992
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  29
+------------Updating Models------------
+update activity num:  29  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  28 [8201, 8373, 8537, 8713, 8932, 9065, 10571, 10599, 10704, 12199, 12368, 12504, 13804, 13990, 14188, 14932, 28046, 28218, 28380, 28804, 28852, 29007, 29502, 29642, 30206, 30346, 30503, 33539]
+average accuracy:  0.8531428921343498
+average fscore:  0.4636762996002268
+average consistency:  0.0
+total time:  1047.0033339739894
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  29
+------------Updating Models------------
+update activity num:  29  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  33  ->  34
+------------Updating Models------------
+update activity num:  34  ->  35
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  35  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  36 [8648, 8721, 8830, 8991, 9151, 9522, 9592, 9746, 9910, 10069, 10235, 10507, 10609, 10767, 12093, 13792, 13917, 14295, 14543, 14806, 14920, 15104, 15738, 18083, 18374, 23242, 27941, 28032, 29588, 29689, 30021, 30099, 30308, 30449, 32557, 34519]
+average accuracy:  0.8494534766234959
+average fscore:  0.46346426859725776
+average consistency:  0.0
+total time:  1069.4478193940013
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  29
+------------Updating Models------------
+update activity num:  29  ->  30
+------------Updating Models------------
+update activity num:  30  ->  32
+------------Updating Models------------
+update activity num:  32  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  10 [8761, 8956, 9087, 10604, 13786, 13813, 13904, 29180, 29645, 30111]
+average accuracy:  0.7930712470530602
+average fscore:  0.4356416962816763
+average consistency:  0.0
+total time:  698.1186278039968
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  31
+------------Updating Models------------
+update activity num:  31  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  11 [8789, 13839, 14018, 14223, 28061, 29811, 29952, 30089, 30279, 30431, 33540]
+average accuracy:  0.8168304705918373
+average fscore:  0.43232208472222683
+average consistency:  0.0
+total time:  765.3247287019913
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  30
+------------Updating Models------------
+update activity num:  30  ->  32
+------------Saving Results------------
+drift:  3 [8947, 13816, 14009]
+average accuracy:  0.6452037598358898
+average fscore:  0.3262331808257503
+average consistency:  0.0
+total time:  561.0133400350023
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  30
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  30  ->  31
+------------Updating Models------------
+update activity num:  31  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Saving Results------------
+drift:  7 [8950, 13816, 13817, 13820, 14011, 14211, 28251]
+average accuracy:  0.8138146413153302
+average fscore:  0.4407718145263757
+average consistency:  0.0
+total time:  622.8627337579965
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  27  ->  31
+------------Updating Models------------
+update activity num:  31  ->  32
+------------Updating Models------------
+update activity num:  32  ->  36
+------------Saving Results------------
+drift:  3 [13834, 13998, 29138]
+average accuracy:  0.8191267872998377
+average fscore:  0.4255406098554443
+average consistency:  0.0
+total time:  605.1272067719983
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  29
+------------Updating Models------------
+update activity num:  29  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  28 [8201, 8373, 8537, 8713, 8932, 9065, 10571, 10599, 10704, 12199, 12368, 12504, 13804, 13990, 14188, 14932, 28046, 28218, 28380, 28804, 28852, 29007, 29502, 29642, 30206, 30346, 30503, 33539]
+average accuracy:  0.8531428921343498
+average fscore:  0.4636762996002268
+average consistency:  0.0
+total time:  1056.1383533240005
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  31
+------------Updating Models------------
+update activity num:  31  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  32 [8201, 8386, 8545, 8718, 10796, 12271, 12695, 12791, 13086, 13318, 13397, 13604, 13820, 14014, 14217, 14954, 28082, 28218, 28401, 28962, 29019, 29190, 29310, 29470, 29616, 29941, 30012, 30189, 30350, 30507, 32681, 34501]
+average accuracy:  0.8495147117357092
+average fscore:  0.4614130158517732
+average consistency:  0.0
+total time:  1144.3851659300126
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  31
+------------Updating Models------------
+update activity num:  31  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  11 [8790, 13834, 14016, 14221, 28151, 29740, 29969, 30065, 30234, 30398, 30558]
+average accuracy:  0.7948623740853005
+average fscore:  0.42842298261514933
+average consistency:  0.0
+total time:  753.0153758270026
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  30
+------------Updating Models------------
+update activity num:  30  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Updating Models------------
+------------Saving Results------------
+drift:  6 [8943, 13816, 14009, 14209, 28140, 29749]
+average accuracy:  0.8060224732861823
+average fscore:  0.44370988678638074
+average consistency:  0.0
+total time:  645.3697833519982
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  27  ->  30
+------------Updating Models------------
+update activity num:  30  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  9 [13812, 13986, 14184, 28137, 29768, 30126, 30275, 30381, 30544]
+average accuracy:  0.826888337772879
+average fscore:  0.4227546569004654
+average consistency:  0.0
+total time:  712.6544229080027
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  27  ->  30
+------------Updating Models------------
+update activity num:  30  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  7 [13812, 13986, 14184, 28157, 29775, 30274, 30655]
+average accuracy:  0.8285416858026392
+average fscore:  0.431398238466447
+average consistency:  0.0
+total time:  672.0619736609951
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  27  ->  30
+------------Updating Models------------
+update activity num:  30  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Saving Results------------
+drift:  4 [13812, 13986, 14184, 28205]
+average accuracy:  0.8314656624108264
+average fscore:  0.4346270624594435
+average consistency:  0.0
+total time:  598.8920118310052
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  29
+------------Updating Models------------
+update activity num:  29  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  28 [8201, 8373, 8537, 8713, 8932, 9065, 10571, 10599, 10704, 12199, 12368, 12504, 13804, 13990, 14188, 14932, 28046, 28218, 28380, 28804, 28852, 29007, 29502, 29642, 30206, 30346, 30503, 33539]
+average accuracy:  0.8531428921343498
+average fscore:  0.4636762996002268
+average consistency:  0.0
+total time:  1046.988441442998
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  29
+------------Updating Models------------
+update activity num:  29  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  24 [8201, 8543, 8619, 10591, 12989, 13786, 13877, 14066, 14264, 14902, 28052, 28218, 28383, 28974, 29918, 30095, 30165, 30326, 30487, 30657, 30817, 30987, 31147, 31304]
+average accuracy:  0.8473102476960289
+average fscore:  0.4675231620058763
+average consistency:  0.0
+total time:  1006.6675563620083
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  13 [8201, 8611, 10702, 13876, 13944, 29337, 29513, 29619, 29928, 30009, 30192, 30350, 30507]
+average accuracy:  0.7991335231621812
+average fscore:  0.41988013143563263
+average consistency:  0.0
+total time:  801.5104127569939
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  9 [8201, 8611, 10702, 13886, 13955, 29343, 29589, 29646, 30148]
+average accuracy:  0.7488594960350264
+average fscore:  0.41754582985793487
+average consistency:  0.0
+total time:  702.7441344430117
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  27  ->  30
+------------Updating Models------------
+update activity num:  30  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Saving Results------------
+drift:  4 [13812, 13986, 14184, 29883]
+average accuracy:  0.8318636906402131
+average fscore:  0.4350046463988656
+average consistency:  0.0
+total time:  622.5698377270019
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  27  ->  30
+------------Updating Models------------
+update activity num:  30  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Saving Results------------
+drift:  4 [13812, 13986, 14184, 30308]
+average accuracy:  0.822923364257065
+average fscore:  0.43412347653128036
+average consistency:  0.0
+total time:  636.024996912005
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  27  ->  30
+------------Updating Models------------
+update activity num:  30  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Saving Results------------
+drift:  4 [13812, 13986, 14184, 37134]
+average accuracy:  0.810477327699703
+average fscore:  0.42252182660798193
+average consistency:  0.0
+total time:  643.919567814999
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  33  ->  34
+------------Saving Results------------
+drift:  11 [8201, 8611, 10702, 13886, 13955, 14291, 14432, 14867, 14927, 15110, 15557]
+average accuracy:  0.7940969351826337
+average fscore:  0.39891882117518473
+average consistency:  0.0
+total time:  576.9592713579914
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  33  ->  34
+------------Saving Results------------
+drift:  11 [8201, 8611, 10702, 13886, 13955, 14331, 14513, 14925, 14981, 15166, 15541]
+average accuracy:  0.8153149015645571
+average fscore:  0.4089202438309849
+average consistency:  0.0
+total time:  627.0962585700036
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  29
+------------Updating Models------------
+update activity num:  29  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Saving Results------------
+drift:  6 [8201, 8612, 13798, 13990, 14188, 14976]
+average accuracy:  0.8030525703438351
+average fscore:  0.40850263193401454
+average consistency:  0.0
+total time:  584.7466595050064
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  29
+------------Updating Models------------
+update activity num:  29  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Saving Results------------
+drift:  6 [8201, 8619, 13801, 13992, 14191, 14981]
+average accuracy:  0.8157894736842105
+average fscore:  0.41632032254908297
+average consistency:  0.0
+total time:  590.6415479440038
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  27  ->  30
+------------Updating Models------------
+update activity num:  30  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Saving Results------------
+drift:  3 [13812, 13986, 14184]
+average accuracy:  0.6690854535990938
+average fscore:  0.33007414192904694
+average consistency:  0.0
+total time:  555.2105351200007
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  27  ->  30
+------------Updating Models------------
+update activity num:  30  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Saving Results------------
+drift:  3 [13812, 13986, 14184]
+average accuracy:  0.6690854535990938
+average fscore:  0.33007414192904694
+average consistency:  0.0
+total time:  560.2720471740031
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  27  ->  30
+------------Updating Models------------
+update activity num:  30  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Saving Results------------
+drift:  3 [13812, 13986, 14184]
+average accuracy:  0.6690854535990938
+average fscore:  0.33007414192904694
+average consistency:  0.0
+total time:  561.2391512890026
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  36
+------------Saving Results------------
+drift:  12 [8621, 8779, 9181, 9954, 10719, 10902, 12060, 12216, 12380, 13889, 14042, 30873]
+average accuracy:  0.8233826275986651
+average fscore:  0.4432053712077536
+average consistency:  0.0
+total time:  1112.2295362620061
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Saving Results------------
+drift:  7 [8621, 8623, 8780, 12102, 14010, 14273, 28192]
+average accuracy:  0.8543522856005633
+average fscore:  0.45560436893141604
+average consistency:  0.0
+total time:  831.0353796019917
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  30
+------------Updating Models------------
+update activity num:  30  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Saving Results------------
+drift:  8 [8641, 8796, 10820, 13816, 13886, 14005, 14204, 28155]
+average accuracy:  0.8475551881448823
+average fscore:  0.4488177676870205
+average consistency:  0.0
+total time:  939.2585922959988
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Saving Results------------
+drift:  6 [8659, 8749, 8847, 13856, 13865, 14125]
+average accuracy:  0.7011726523988855
+average fscore:  0.3531499867928902
+average consistency:  0.0
+total time:  913.2009117859998
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Saving Results------------
+drift:  4 [8748, 8937, 13868, 13871]
+average accuracy:  0.6844707755426962
+average fscore:  0.33921765670074244
+average consistency:  0.0
+total time:  923.2690579249902
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Saving Results------------
+drift:  3 [8769, 13915, 14103]
+average accuracy:  0.7066378861639264
+average fscore:  0.3516440048876926
+average consistency:  0.0
+total time:  865.6522203299974
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Saving Results------------
+drift:  1 [13936]
+average accuracy:  0.6656869048712531
+average fscore:  0.3295587291616784
+average consistency:  0.0
+total time:  866.568264112997
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  29
+------------Updating Models------------
+update activity num:  29  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  37 [8201, 8378, 8539, 8715, 8931, 9065, 9834, 10832, 12034, 12188, 12350, 13808, 13971, 14169, 14374, 28116, 28226, 28423, 28766, 28852, 29007, 29506, 29645, 30215, 30353, 30515, 30716, 30861, 31025, 31192, 31344, 32575, 32576, 33136, 33365, 33479, 34608]
+average accuracy:  0.8547962401641102
+average fscore:  0.4643171973972992
+average consistency:  0.0
+total time:  2083.9035051819956
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  31
+------------Updating Models------------
+update activity num:  31  ->  32
+------------Updating Models------------
+update activity num:  32  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  40 [8623, 8780, 8946, 9104, 9564, 9594, 9745, 10004, 10116, 10281, 10442, 10614, 12200, 13843, 13963, 28520, 29637, 29704, 29918, 30049, 30245, 30398, 30558, 30725, 30886, 31212, 31289, 31751, 31771, 31940, 32100, 32259, 32423, 32652, 32775, 32949, 33104, 33272, 33427, 56975]
+average accuracy:  0.8313278834083463
+average fscore:  0.4495580823495763
+average consistency:  0.0
+total time:  2402.415035412996
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Saving Results------------
+drift:  14 [8642, 8796, 8958, 9116, 9577, 9607, 9759, 10331, 10381, 10571, 10691, 12335, 13857, 13960]
+average accuracy:  0.6785309696580019
+average fscore:  0.34011943979953124
+average consistency:  0.0
+total time:  1064.7422222599998
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Updating Models------------
+------------Saving Results------------
+drift:  8 [8661, 8760, 10975, 13858, 13986, 14211, 28065, 29251]
+average accuracy:  0.8158200912403172
+average fscore:  0.447020871088277
+average consistency:  0.0
+total time:  1000.343445453007
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  31
+------------Updating Models------------
+update activity num:  31  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Saving Results------------
+drift:  6 [8760, 8934, 9150, 13837, 13864, 14434]
+average accuracy:  0.7981690701448211
+average fscore:  0.3989206860798182
+average consistency:  0.0
+total time:  926.5907712219923
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Saving Results------------
+drift:  4 [8771, 13884, 14070, 29171]
+average accuracy:  0.8270873518875723
+average fscore:  0.44286430479452576
+average consistency:  0.0
+total time:  968.6666617099982
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Saving Results------------
+drift:  4 [13847, 14012, 14215, 29049]
+average accuracy:  0.8180551728361042
+average fscore:  0.4348883251489907
+average consistency:  0.0
+total time:  958.3565348210104
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  29
+------------Updating Models------------
+update activity num:  29  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  37 [8201, 8378, 8539, 8715, 8931, 9065, 9834, 10832, 12034, 12188, 12350, 13808, 13971, 14169, 14374, 28116, 28226, 28423, 28766, 28852, 29007, 29506, 29645, 30215, 30353, 30515, 30716, 30861, 31025, 31192, 31344, 32575, 32576, 33136, 33365, 33479, 34608]
+average accuracy:  0.8547962401641102
+average fscore:  0.4643171973972992
+average consistency:  0.0
+total time:  2095.560326081002
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  30 [8201, 8414, 8559, 8732, 8908, 9062, 11276, 13908, 14063, 14261, 14909, 28044, 28218, 28379, 28804, 28851, 29006, 29526, 29659, 29942, 30037, 30227, 30381, 30541, 30710, 30871, 31036, 31201, 31353, 35417]
+average accuracy:  0.8624659379688313
+average fscore:  0.47229181923123764
+average consistency:  0.0
+total time:  1978.4224207559892
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+New best accuracy: 0.8624659379688313
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  22 [8662, 8761, 8955, 9063, 10621, 13888, 13972, 14170, 15000, 28091, 28257, 28430, 28985, 29125, 29275, 29472, 29600, 29966, 30016, 30362, 30438, 48772]
+average accuracy:  0.864639784452405
+average fscore:  0.46720813015263646
+average consistency:  0.0
+total time:  1747.5539136060106
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+New best accuracy: 0.864639784452405
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  30
+------------Updating Models------------
+update activity num:  30  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  25 [8748, 8937, 8958, 9116, 9960, 13809, 13885, 14335, 14570, 28106, 28260, 28439, 29012, 29459, 29607, 30193, 30327, 30488, 30692, 30836, 31003, 31259, 31786, 32401, 34680]
+average accuracy:  0.8591592419093108
+average fscore:  0.46821973364784975
+average consistency:  0.0
+total time:  1781.5722433129995
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  27  ->  30
+------------Updating Models------------
+update activity num:  30  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  9 [13812, 13986, 14184, 28161, 29768, 30072, 30136, 30302, 30462]
+average accuracy:  0.8499433575212026
+average fscore:  0.4594588418241035
+average consistency:  0.0
+total time:  1177.4957045889896
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  27  ->  30
+------------Updating Models------------
+update activity num:  30  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  9 [13812, 13986, 14184, 28182, 29773, 30068, 30137, 30307, 30465]
+average accuracy:  0.8460549278956554
+average fscore:  0.4547045009760084
+average consistency:  0.0
+total time:  1172.9885175909876
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  27  ->  30
+------------Updating Models------------
+update activity num:  30  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Saving Results------------
+drift:  4 [13812, 13986, 14184, 28231]
+average accuracy:  0.8235204066011451
+average fscore:  0.44797888874576797
+average consistency:  0.0
+total time:  960.6376317870017
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  29
+------------Updating Models------------
+update activity num:  29  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  33  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  37 [8201, 8378, 8539, 8715, 8931, 9065, 9834, 10832, 12034, 12188, 12350, 13808, 13971, 14169, 14374, 28116, 28226, 28423, 28766, 28852, 29007, 29506, 29645, 30215, 30353, 30515, 30716, 30861, 31025, 31192, 31344, 32575, 32576, 33136, 33365, 33479, 34608]
+average accuracy:  0.8547962401641102
+average fscore:  0.4643171973972992
+average consistency:  0.0
+total time:  2051.8673446040048
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  31
+------------Updating Models------------
+update activity num:  31  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  33  ->  34
+------------Updating Models------------
+update activity num:  34  ->  35
+------------Updating Models------------
+update activity num:  35  ->  36
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  34 [8201, 8542, 8618, 10591, 13822, 13957, 14335, 14520, 15192, 15205, 15332, 15520, 15873, 17025, 28173, 29598, 30316, 30390, 30471, 30624, 30788, 30950, 31133, 31283, 31561, 31674, 31844, 32002, 32162, 32319, 32486, 32646, 32801, 33960]
+average accuracy:  0.8696763724319525
+average fscore:  0.4835679836816131
+average consistency:  0.0
+total time:  2023.5010424520005
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+New best accuracy: 0.8696763724319525
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  36
+------------Saving Results------------
+drift:  6 [8201, 8611, 10702, 13886, 13955, 45203]
+average accuracy:  0.7805027402712715
+average fscore:  0.4209902832570401
+average consistency:  0.0
+total time:  1128.7003921740106
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  36
+------------Saving Results------------
+drift:  6 [8201, 8611, 10702, 13886, 13955, 45203]
+average accuracy:  0.7805027402712715
+average fscore:  0.4209902832570401
+average consistency:  0.0
+total time:  1127.8333392659988
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  27  ->  30
+------------Updating Models------------
+update activity num:  30  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Saving Results------------
+drift:  3 [13812, 13986, 14184]
+average accuracy:  0.7529775573313738
+average fscore:  0.378787554532993
+average consistency:  0.0
+total time:  860.872476908
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  27  ->  30
+------------Updating Models------------
+update activity num:  30  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Saving Results------------
+drift:  3 [13812, 13986, 14184]
+average accuracy:  0.7529775573313738
+average fscore:  0.378787554532993
+average consistency:  0.0
+total time:  860.0599553140055
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  27  ->  30
+------------Updating Models------------
+update activity num:  30  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Saving Results------------
+drift:  3 [13812, 13986, 14184]
+average accuracy:  0.7529775573313738
+average fscore:  0.378787554532993
+average consistency:  0.0
+total time:  862.8683726769814
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  33  ->  34
+------------Saving Results------------
+drift:  11 [8201, 8611, 10702, 13886, 13955, 14291, 14432, 14867, 14927, 15110, 15557]
+average accuracy:  0.8386607880958942
+average fscore:  0.43794000723723603
+average consistency:  0.0
+total time:  997.0126382769959
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  32
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  33  ->  34
+------------Saving Results------------
+drift:  11 [8201, 8611, 10702, 13886, 13955, 14331, 14513, 14925, 14981, 15166, 15541]
+average accuracy:  0.8384005388689875
+average fscore:  0.42865948164363765
+average consistency:  0.0
+total time:  995.6484525910055
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  29
+------------Updating Models------------
+update activity num:  29  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Saving Results------------
+drift:  6 [8201, 8612, 13798, 13990, 14188, 14976]
+average accuracy:  0.8279599522366125
+average fscore:  0.4314528648436054
+average consistency:  0.0
+total time:  912.0113541309838
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  27  ->  29
+------------Updating Models------------
+update activity num:  29  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Updating Models------------
+------------Saving Results------------
+drift:  6 [8201, 8619, 13801, 13992, 14191, 14981]
+average accuracy:  0.8272863660022657
+average fscore:  0.4263122139956228
+average consistency:  0.0
+total time:  909.7928481560084
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  27  ->  30
+------------Updating Models------------
+update activity num:  30  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Saving Results------------
+drift:  3 [13812, 13986, 14184]
+average accuracy:  0.7529775573313738
+average fscore:  0.378787554532993
+average consistency:  0.0
+total time:  869.1503468480078
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  27  ->  30
+------------Updating Models------------
+update activity num:  30  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Saving Results------------
+drift:  3 [13812, 13986, 14184]
+average accuracy:  0.7529775573313738
+average fscore:  0.378787554532993
+average consistency:  0.0
+total time:  862.9149326790066
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv
+event_log:BPIC2020_InternationalDeclarations, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  27  ->  30
+------------Updating Models------------
+update activity num:  30  ->  32
+------------Updating Models------------
+update activity num:  32  ->  33
+------------Saving Results------------
+drift:  3 [13812, 13986, 14184]
+average accuracy:  0.7529775573313738
+average fscore:  0.378787554532993
+average consistency:  0.0
+total time:  872.489961935993
+Experiment results saved to results/result_BPIC2020_InternationalDeclarations.csv

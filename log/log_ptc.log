@@ -1,0 +1,2610 @@
+nohup: 忽略输入
+Processing event log: BPIC2020_PrepaidTravelCost
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+update activity num:  28  ->  30
+------------Saving Results------------
+drift:  4 [2366, 2688, 2815, 4206]
+average accuracy:  0.8216823565138172
+average fscore:  0.41866564505921566
+average consistency:  0.0
+total time:  125.637929274
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+New best accuracy: 0.8216823565138172
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+update activity num:  28  ->  32
+------------Saving Results------------
+drift:  4 [2366, 2691, 2816, 7788]
+average accuracy:  0.8419678105071363
+average fscore:  0.4650034108730276
+average consistency:  0.0
+total time:  168.362295439
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+New best accuracy: 0.8419678105071363
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+update activity num:  28  ->  31
+------------Saving Results------------
+drift:  4 [2366, 2706, 2821, 6212]
+average accuracy:  0.8443364713027635
+average fscore:  0.4597664049701849
+average consistency:  0.0
+total time:  155.706669649
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+New best accuracy: 0.8443364713027635
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  27
+------------Updating Models------------
+update activity num:  27  ->  28
+------------Updating Models------------
+update activity num:  28  ->  32
+------------Saving Results------------
+drift:  3 [2728, 2931, 18913]
+average accuracy:  0.7490434254479198
+average fscore:  0.33790177098638113
+average consistency:  0.0
+total time:  204.639425577
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  28
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  28  ->  32
+------------Saving Results------------
+drift:  3 [2739, 2937, 13801]
+average accuracy:  0.7969025204980261
+average fscore:  0.3979643165011995
+average consistency:  0.0
+total time:  193.596524661
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  28
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  28  ->  32
+------------Saving Results------------
+drift:  3 [2741, 2938, 13871]
+average accuracy:  0.8066201032493168
+average fscore:  0.4072664601503386
+average consistency:  0.0
+total time:  189.8959581869999
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  28
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  28  ->  32
+------------Saving Results------------
+drift:  3 [2746, 2942, 13058]
+average accuracy:  0.7603401153962952
+average fscore:  0.3763135248214782
+average consistency:  0.0
+total time:  178.28810157399994
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  28  ->  29
+------------Updating Models------------
+update activity num:  29  ->  30
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  30  ->  31
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  31  ->  32
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  57 [2366, 2688, 2815, 3005, 3191, 3705, 3718, 4133, 4183, 4351, 4530, 4693, 4855, 5022, 5198, 5461, 5771, 5848, 6202, 6281, 6447, 6636, 6792, 9189, 9247, 9416, 9575, 9828, 9949, 10112, 10273, 10495, 10639, 10798, 10962, 11148, 11300, 11466, 11640, 11896, 12016, 12180, 12344, 12506, 12731, 12858, 13035, 13205, 13374, 13532, 13839, 13928, 14575, 19145, 19320, 19404, 19568]
+average accuracy:  0.8536896447008806
+average fscore:  0.470434179150222
+average consistency:  0.0
+total time:  399.6814172630002
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+New best accuracy: 0.8536896447008806
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+update activity num:  28  ->  32
+------------Saving Results------------
+drift:  4 [2366, 2691, 2816, 7788]
+average accuracy:  0.8419678105071363
+average fscore:  0.4650034108730276
+average consistency:  0.0
+total time:  169.71307984999999
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+update activity num:  28  ->  31
+------------Saving Results------------
+drift:  4 [2366, 2701, 2819, 6211]
+average accuracy:  0.852232007288187
+average fscore:  0.4610097008703567
+average consistency:  0.0
+total time:  148.60595770999998
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+update activity num:  28  ->  32
+------------Saving Results------------
+drift:  4 [2366, 2703, 2820, 7803]
+average accuracy:  0.834315214090495
+average fscore:  0.4613656340419946
+average consistency:  0.0
+total time:  167.91264906999982
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2721, 2722, 2927]
+average accuracy:  0.7387184937746736
+average fscore:  0.32909837344703485
+average consistency:  0.0
+total time:  132.85358210200002
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  2 [2724, 2928]
+average accuracy:  0.7224415426662618
+average fscore:  0.3654564419369988
+average consistency:  0.0
+total time:  135.38043266199975
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  27
+------------Updating Models------------
+update activity num:  27  ->  28
+------------Updating Models------------
+update activity num:  28  ->  32
+------------Saving Results------------
+drift:  3 [2730, 2932, 12832]
+average accuracy:  0.7587002733070148
+average fscore:  0.40863823315783454
+average consistency:  0.0
+total time:  195.160518185
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  28  ->  29
+------------Updating Models------------
+update activity num:  29  ->  30
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  30  ->  31
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  31  ->  32
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  57 [2366, 2688, 2815, 3005, 3191, 3705, 3718, 4133, 4183, 4351, 4530, 4693, 4855, 5022, 5198, 5461, 5771, 5848, 6202, 6281, 6447, 6636, 6792, 9189, 9247, 9416, 9575, 9828, 9949, 10112, 10273, 10495, 10639, 10798, 10962, 11148, 11300, 11466, 11640, 11896, 12016, 12180, 12344, 12506, 12731, 12858, 13035, 13205, 13374, 13532, 13839, 13928, 14575, 19145, 19320, 19404, 19568]
+average accuracy:  0.8536896447008806
+average fscore:  0.470434179150222
+average consistency:  0.0
+total time:  409.18573929700005
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  28  ->  29
+------------Updating Models------------
+update activity num:  29  ->  30
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  30  ->  31
+------------Updating Models------------
+update activity num:  31  ->  32
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  58 [2366, 2697, 2819, 3008, 3240, 3695, 3755, 4077, 4167, 5785, 6991, 7284, 7340, 8124, 8159, 8235, 9935, 10004, 10067, 10236, 10577, 10655, 10815, 10977, 11148, 11308, 11475, 11647, 11896, 12023, 12191, 13754, 14333, 14420, 14576, 14721, 14895, 15053, 15218, 15385, 15552, 15937, 15983, 16144, 16889, 17188, 17231, 17430, 17555, 18351, 19410, 19411, 19418, 19669, 19786, 19950, 20112, 20273]
+average accuracy:  0.8552687518979654
+average fscore:  0.4786000488710743
+average consistency:  0.0
+total time:  396.6297509299998
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+New best accuracy: 0.8552687518979654
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+update activity num:  28  ->  32
+------------Updating Models------------
+------------Saving Results------------
+drift:  5 [2366, 2697, 2819, 6333, 6421]
+average accuracy:  0.8440935317339812
+average fscore:  0.46576205860136677
+average consistency:  0.0
+total time:  158.58627215600018
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+update activity num:  28  ->  32
+------------Saving Results------------
+drift:  4 [2366, 2701, 2819, 7836]
+average accuracy:  0.8367446097783177
+average fscore:  0.46411394616938034
+average consistency:  0.0
+total time:  175.01844966199997
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+update activity num:  28  ->  32
+------------Saving Results------------
+drift:  4 [2380, 2706, 2824, 10432]
+average accuracy:  0.7965988460370483
+average fscore:  0.43433842341893014
+average consistency:  0.0
+total time:  190.76929070899996
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2709, 2716, 2921]
+average accuracy:  0.779836015791072
+average fscore:  0.34822016892185026
+average consistency:  0.0
+total time:  145.130006418
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2715, 2721, 2924]
+average accuracy:  0.7670209535378074
+average fscore:  0.341743017043561
+average consistency:  0.0
+total time:  138.40010564400018
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  28  ->  29
+------------Updating Models------------
+update activity num:  29  ->  30
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  30  ->  31
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  31  ->  32
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  57 [2366, 2688, 2815, 3005, 3191, 3705, 3718, 4133, 4183, 4351, 4530, 4693, 4855, 5022, 5198, 5461, 5771, 5848, 6202, 6281, 6447, 6636, 6792, 9189, 9247, 9416, 9575, 9828, 9949, 10112, 10273, 10495, 10639, 10798, 10962, 11148, 11300, 11466, 11640, 11896, 12016, 12180, 12344, 12506, 12731, 12858, 13035, 13205, 13374, 13532, 13839, 13928, 14575, 19145, 19320, 19404, 19568]
+average accuracy:  0.8536896447008806
+average fscore:  0.470434179150222
+average consistency:  0.0
+total time:  390.7743369709997
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  28  ->  29
+------------Saving Results------------
+drift:  5 [2366, 2697, 2819, 3008, 3199]
+average accuracy:  0.8148800485879137
+average fscore:  0.37991063945240044
+average consistency:  0.0
+total time:  118.88787686900014
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+update activity num:  28  ->  32
+------------Saving Results------------
+drift:  4 [2366, 2697, 2819, 9588]
+average accuracy:  0.8202247191011236
+average fscore:  0.4521525125632044
+average consistency:  0.0
+total time:  175.30226532899997
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2366, 2702, 2820]
+average accuracy:  0.7228059520194352
+average fscore:  0.3040487929826288
+average consistency:  0.0
+total time:  110.43658442300057
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2703, 2713, 2918]
+average accuracy:  0.7441238991800789
+average fscore:  0.3644038421967013
+average consistency:  0.0
+total time:  137.91009570300048
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2706, 2715, 2919]
+average accuracy:  0.730397813543881
+average fscore:  0.3480053228678581
+average consistency:  0.0
+total time:  135.09428742900036
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2711, 2718, 2923]
+average accuracy:  0.7744913452778621
+average fscore:  0.3526560417382788
+average consistency:  0.0
+total time:  134.67446882999957
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  28  ->  29
+------------Saving Results------------
+drift:  5 [2366, 2697, 2819, 3008, 3188]
+average accuracy:  0.7957485575463104
+average fscore:  0.36813526351309805
+average consistency:  0.0
+total time:  116.26295689200015
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  28  ->  29
+------------Saving Results------------
+drift:  5 [2366, 2697, 2819, 3008, 3198]
+average accuracy:  0.8148800485879137
+average fscore:  0.3798930964939913
+average consistency:  0.0
+total time:  115.62502580799992
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2366, 2701, 2819]
+average accuracy:  0.7558457333738232
+average fscore:  0.324094056052028
+average consistency:  0.0
+total time:  116.41790800999934
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2366, 2703, 2820]
+average accuracy:  0.7384755542058913
+average fscore:  0.3084371694953171
+average consistency:  0.0
+total time:  117.52895503799937
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2703, 2713, 2918]
+average accuracy:  0.7441238991800789
+average fscore:  0.3644038421967013
+average consistency:  0.0
+total time:  133.44668921999983
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+/home/inspur/anaconda3/envs/coap/lib/python3.12/site-packages/torch/nn/modules/transformer.py:508: UserWarning: The PyTorch API of nested tensors is in prototype stage and will change in the near future. We recommend specifying layout=torch.jagged when constructing a nested tensor, as this layout receives active development, has better operator coverage, and works with torch.compile. (Triggered internally at /pytorch/aten/src/ATen/NestedTensorImpl.cpp:178.)
+  output = torch._nested_tensor_from_mask(
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2707, 2715, 2919]
+average accuracy:  0.7794716064378986
+average fscore:  0.35633808729760763
+average consistency:  0.0
+total time:  134.59850137899957
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2713, 2718, 2923]
+average accuracy:  0.769754023686608
+average fscore:  0.3402807244835395
+average consistency:  0.0
+total time:  134.66540792700016
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+update activity num:  28  ->  32
+------------Saving Results------------
+drift:  4 [2685, 2707, 2913, 10481]
+average accuracy:  0.8205283935621014
+average fscore:  0.4541058184081002
+average consistency:  0.0
+total time:  284.39881108400004
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2688, 2707, 2913]
+average accuracy:  0.7183723048891588
+average fscore:  0.3682398887534556
+average consistency:  0.0
+total time:  209.73030629200002
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+update activity num:  28  ->  32
+------------Saving Results------------
+drift:  4 [2697, 2716, 2919, 13836]
+average accuracy:  0.7959914971150926
+average fscore:  0.4331292512670602
+average consistency:  0.0
+total time:  294.6013850489999
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2703, 2715, 2919]
+average accuracy:  0.7819010021257212
+average fscore:  0.3874519608092207
+average consistency:  0.0
+total time:  216.21061259399994
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2718, 2722, 2927]
+average accuracy:  0.7670209535378074
+average fscore:  0.3831586761330151
+average consistency:  0.0
+total time:  225.4545966859996
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2722, 2724, 2928]
+average accuracy:  0.7396902520498027
+average fscore:  0.3804232887074491
+average consistency:  0.0
+total time:  219.25815336600044
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  27
+------------Updating Models------------
+update activity num:  27  ->  28
+------------Saving Results------------
+drift:  2 [2735, 2934]
+average accuracy:  0.7904038870331005
+average fscore:  0.39027854900223063
+average consistency:  0.0
+total time:  212.4333548929999
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  4 [2366, 2534, 2724, 2928]
+average accuracy:  0.7712116610993015
+average fscore:  0.3756046599442217
+average consistency:  0.0
+total time:  189.30498446399997
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2688, 2707, 2913]
+average accuracy:  0.7183723048891588
+average fscore:  0.3682398887534556
+average consistency:  0.0
+total time:  207.3134500140004
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2696, 2709, 2915]
+average accuracy:  0.7184937746735499
+average fscore:  0.3746883916744429
+average consistency:  0.0
+total time:  215.20787708599892
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2697, 2711, 2917]
+average accuracy:  0.7322805952019436
+average fscore:  0.3884516116221183
+average consistency:  0.0
+total time:  217.95786344999942
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2706, 2715, 2919]
+average accuracy:  0.7688430003036745
+average fscore:  0.3854039355583316
+average consistency:  0.0
+total time:  215.47797646400068
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2707, 2715, 2919]
+average accuracy:  0.7321591254175523
+average fscore:  0.36774744832224465
+average consistency:  0.0
+total time:  209.55673503800062
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2715, 2721, 2924]
+average accuracy:  0.7526267840874582
+average fscore:  0.3724642571530054
+average consistency:  0.0
+total time:  217.98118651299956
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  4 [2366, 2534, 2724, 2928]
+average accuracy:  0.7712116610993015
+average fscore:  0.3756046599442217
+average consistency:  0.0
+total time:  207.26284532299906
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  28
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  28  ->  32
+------------Saving Results------------
+drift:  5 [2366, 2556, 2737, 2937, 11814]
+average accuracy:  0.7905253568174917
+average fscore:  0.41085622943349503
+average consistency:  0.0
+total time:  284.9142855679984
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2696, 2709, 2915]
+average accuracy:  0.7184937746735499
+average fscore:  0.3746883916744429
+average consistency:  0.0
+total time:  213.8420469320008
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2696, 2709, 2915]
+average accuracy:  0.7184937746735499
+average fscore:  0.3746883916744429
+average consistency:  0.0
+total time:  210.88394612499906
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2701, 2711, 2917]
+average accuracy:  0.7161858487701185
+average fscore:  0.3945193141610309
+average consistency:  0.0
+total time:  208.1865362360004
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2702, 2713, 2918]
+average accuracy:  0.7460066808381415
+average fscore:  0.3733448264031605
+average consistency:  0.0
+total time:  216.78469151600075
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2707, 2715, 2919]
+average accuracy:  0.7321591254175523
+average fscore:  0.36774744832224465
+average consistency:  0.0
+total time:  217.29049471899998
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  4 [2366, 2534, 2724, 2928]
+average accuracy:  0.7712116610993015
+average fscore:  0.3756046599442217
+average consistency:  0.0
+total time:  193.69161668800007
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  28  ->  29
+------------Saving Results------------
+drift:  5 [2366, 2697, 2819, 3008, 3189]
+average accuracy:  0.8059520194351655
+average fscore:  0.39169998202249334
+average consistency:  0.0
+total time:  196.8766104590013
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2366, 2697, 2819]
+average accuracy:  0.8100212572122685
+average fscore:  0.38837955616153347
+average consistency:  0.0
+total time:  195.45697304999885
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2366, 2697, 2819]
+average accuracy:  0.8100212572122685
+average fscore:  0.38837955616153347
+average consistency:  0.0
+total time:  196.82647708500008
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2702, 2713, 2918]
+average accuracy:  0.7460066808381415
+average fscore:  0.3733448264031605
+average consistency:  0.0
+total time:  210.27616655199927
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2703, 2713, 2918]
+average accuracy:  0.7406012754327361
+average fscore:  0.36834932565302614
+average consistency:  0.0
+total time:  212.92436856600034
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2707, 2715, 2919]
+average accuracy:  0.7321591254175523
+average fscore:  0.36774744832224465
+average consistency:  0.0
+total time:  219.220989464
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  28  ->  29
+------------Saving Results------------
+drift:  5 [2366, 2697, 2819, 3008, 3188]
+average accuracy:  0.8063164287883389
+average fscore:  0.3890511022878894
+average consistency:  0.0
+total time:  205.1100402539996
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  28  ->  29
+------------Saving Results------------
+drift:  5 [2366, 2697, 2819, 3008, 3198]
+average accuracy:  0.8062556938961434
+average fscore:  0.39157432641131573
+average consistency:  0.0
+total time:  218.810886872001
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2366, 2701, 2819]
+average accuracy:  0.8136653507440025
+average fscore:  0.38433547687430825
+average consistency:  0.0
+total time:  199.69988327400097
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2366, 2703, 2820]
+average accuracy:  0.7687215305192834
+average fscore:  0.3727330751494837
+average consistency:  0.0
+total time:  197.7352229799999
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2703, 2713, 2918]
+average accuracy:  0.7406012754327361
+average fscore:  0.36834932565302614
+average consistency:  0.0
+total time:  214.1681630589992
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2707, 2715, 2919]
+average accuracy:  0.7321591254175523
+average fscore:  0.36774744832224465
+average consistency:  0.0
+total time:  199.22286406799867
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2713, 2718, 2923]
+average accuracy:  0.7180078955359854
+average fscore:  0.33669643047463316
+average consistency:  0.0
+total time:  174.7339907229998
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+update activity num:  28  ->  30
+------------Saving Results------------
+drift:  4 [2366, 2688, 2815, 4206]
+average accuracy:  0.8218645611904039
+average fscore:  0.4075194731936265
+average consistency:  0.0
+total time:  120.19170122000105
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+update activity num:  28  ->  32
+------------Saving Results------------
+drift:  4 [2366, 2691, 2816, 7788]
+average accuracy:  0.8420892802915275
+average fscore:  0.4666469717731065
+average consistency:  0.0
+total time:  133.73423665300106
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+update activity num:  28  ->  31
+------------Saving Results------------
+drift:  4 [2366, 2706, 2821, 6212]
+average accuracy:  0.8474946856969329
+average fscore:  0.4624555979008634
+average consistency:  0.0
+total time:  129.3548641360012
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  27
+------------Updating Models------------
+update activity num:  27  ->  28
+------------Updating Models------------
+update activity num:  28  ->  32
+------------Saving Results------------
+drift:  3 [2728, 2931, 18913]
+average accuracy:  0.7532948679016095
+average fscore:  0.33913556220244817
+average consistency:  0.0
+total time:  184.3833608370005
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  28
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  28  ->  32
+------------Saving Results------------
+drift:  3 [2739, 2937, 13801]
+average accuracy:  0.8007288187063468
+average fscore:  0.39983796681407335
+average consistency:  0.0
+total time:  161.76358357199933
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  28
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  28  ->  32
+------------Saving Results------------
+drift:  3 [2741, 2938, 13871]
+average accuracy:  0.8072274521712723
+average fscore:  0.40689931855375333
+average consistency:  0.0
+total time:  163.92274041999917
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  28
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  28  ->  32
+------------Saving Results------------
+drift:  3 [2746, 2942, 13058]
+average accuracy:  0.7608259945338597
+average fscore:  0.37755237019435833
+average consistency:  0.0
+total time:  156.1252332740005
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  28  ->  29
+------------Updating Models------------
+update activity num:  29  ->  30
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  30  ->  31
+------------Updating Models------------
+update activity num:  31  ->  32
+------------Updating Models------------
+------------Saving Results------------
+drift:  12 [2366, 2688, 2815, 3005, 3191, 3705, 3718, 4133, 4183, 5770, 6983, 19510]
+average accuracy:  0.8655936835712117
+average fscore:  0.4785374013509393
+average consistency:  0.0
+total time:  213.52802058000088
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+New best accuracy: 0.8655936835712117
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+update activity num:  28  ->  32
+------------Saving Results------------
+drift:  4 [2366, 2691, 2816, 7788]
+average accuracy:  0.8420892802915275
+average fscore:  0.4666469717731065
+average consistency:  0.0
+total time:  137.11861784999928
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+update activity num:  28  ->  31
+------------Saving Results------------
+drift:  4 [2366, 2697, 2819, 5100]
+average accuracy:  0.830245976313392
+average fscore:  0.4180156802327637
+average consistency:  0.0
+total time:  127.65216074599994
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+update activity num:  28  ->  32
+------------Saving Results------------
+drift:  4 [2706, 2715, 2919, 13832]
+average accuracy:  0.7869419981779532
+average fscore:  0.4188972476475217
+average consistency:  0.0
+total time:  166.75360510500104
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2718, 2722, 2927]
+average accuracy:  0.7783176434861828
+average fscore:  0.3437936918544562
+average consistency:  0.0
+total time:  113.93280080799923
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2721, 2722, 2927]
+average accuracy:  0.7768600060734893
+average fscore:  0.33917557826535805
+average consistency:  0.0
+total time:  112.74614191099863
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  27
+------------Updating Models------------
+update activity num:  27  ->  28
+------------Saving Results------------
+drift:  2 [2728, 2931]
+average accuracy:  0.7429092013361677
+average fscore:  0.31705973260246645
+average consistency:  0.0
+total time:  112.78139610299877
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  28  ->  29
+------------Updating Models------------
+update activity num:  29  ->  30
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  30  ->  31
+------------Updating Models------------
+update activity num:  31  ->  32
+------------Updating Models------------
+------------Saving Results------------
+drift:  12 [2366, 2688, 2815, 3005, 3191, 3705, 3718, 4133, 4183, 5770, 6983, 19510]
+average accuracy:  0.8655936835712117
+average fscore:  0.4785374013509393
+average consistency:  0.0
+total time:  207.30399663200114
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  28  ->  29
+------------Updating Models------------
+update activity num:  29  ->  32
+------------Saving Results------------
+drift:  6 [2366, 2696, 2818, 3007, 3241, 7449]
+average accuracy:  0.8542362587306408
+average fscore:  0.4835837163576499
+average consistency:  0.0
+total time:  127.08573050900122
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+update activity num:  28  ->  31
+------------Saving Results------------
+drift:  4 [2691, 2708, 2914, 5427]
+average accuracy:  0.8430610385666566
+average fscore:  0.4402269350296898
+average consistency:  0.0
+total time:  121.81449885899929
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+update activity num:  28  ->  31
+------------Saving Results------------
+drift:  4 [2696, 2709, 2915, 4992]
+average accuracy:  0.823382933495293
+average fscore:  0.419906144003435
+average consistency:  0.0
+total time:  125.04547273199933
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2702, 2713, 2918]
+average accuracy:  0.7758275129061646
+average fscore:  0.3620190565053402
+average consistency:  0.0
+total time:  114.81730555000104
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2703, 2713, 2918]
+average accuracy:  0.7518372304889159
+average fscore:  0.36736640914465996
+average consistency:  0.0
+total time:  114.39475249300085
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2709, 2716, 2921]
+average accuracy:  0.7849377467354995
+average fscore:  0.3515629836133471
+average consistency:  0.0
+total time:  90.74053958100194
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  28  ->  29
+------------Updating Models------------
+update activity num:  29  ->  30
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  30  ->  31
+------------Updating Models------------
+update activity num:  31  ->  32
+------------Updating Models------------
+------------Saving Results------------
+drift:  12 [2366, 2688, 2815, 3005, 3191, 3705, 3718, 4133, 4183, 5770, 6983, 19510]
+average accuracy:  0.8655936835712117
+average fscore:  0.4785374013509393
+average consistency:  0.0
+total time:  184.31462624699998
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+update activity num:  28  ->  31
+------------Saving Results------------
+drift:  4 [2689, 2708, 2914, 5428]
+average accuracy:  0.8371697540236867
+average fscore:  0.4356591994026615
+average consistency:  0.0
+total time:  125.12554608500068
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+update activity num:  28  ->  32
+------------Saving Results------------
+drift:  4 [2689, 2708, 2914, 9681]
+average accuracy:  0.7877315517764956
+average fscore:  0.4511020093764498
+average consistency:  0.0
+total time:  137.60406550999687
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+update activity num:  28  ->  32
+------------Saving Results------------
+drift:  4 [2691, 2708, 2914, 11555]
+average accuracy:  0.7895535985423626
+average fscore:  0.4338392003912934
+average consistency:  0.0
+total time:  101.88508943100169
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2697, 2711, 2917]
+average accuracy:  0.7768600060734893
+average fscore:  0.4012284407270876
+average consistency:  0.0
+total time:  84.50698223600193
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2702, 2713, 2918]
+average accuracy:  0.7758275129061646
+average fscore:  0.3620190565053402
+average consistency:  0.0
+total time:  83.932779605002
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2703, 2713, 2918]
+average accuracy:  0.7518372304889159
+average fscore:  0.36736640914465996
+average consistency:  0.0
+total time:  108.57146906100024
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2689, 2708, 2914]
+average accuracy:  0.6400242939568782
+average fscore:  0.3240923441803313
+average consistency:  0.0
+total time:  112.21309161499812
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2689, 2708, 2914]
+average accuracy:  0.6400242939568782
+average fscore:  0.3240923441803313
+average consistency:  0.0
+total time:  112.42734947200006
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2689, 2708, 2914]
+average accuracy:  0.6400242939568782
+average fscore:  0.3240923441803313
+average consistency:  0.0
+total time:  112.96161195899913
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2689, 2708, 2914]
+average accuracy:  0.6400242939568782
+average fscore:  0.3240923441803313
+average consistency:  0.0
+total time:  111.95898568300254
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2696, 2709, 2915]
+average accuracy:  0.7155784998481628
+average fscore:  0.35799111275725926
+average consistency:  0.0
+total time:  112.94555857299929
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2701, 2711, 2917]
+average accuracy:  0.7741876708168843
+average fscore:  0.3791979172769286
+average consistency:  0.0
+total time:  109.83884471900092
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2706, 2715, 2919]
+average accuracy:  0.7338597023990282
+average fscore:  0.351880763583061
+average consistency:  0.0
+total time:  109.3040728470005
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+update activity num:  28  ->  32
+------------Saving Results------------
+drift:  4 [2685, 2707, 2913, 10481]
+average accuracy:  0.821014272699666
+average fscore:  0.45579233865165025
+average consistency:  0.0
+total time:  237.43410299899915
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2688, 2707, 2913]
+average accuracy:  0.7197084725174613
+average fscore:  0.3679642788379457
+average consistency:  0.0
+total time:  190.71048095900187
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+update activity num:  28  ->  32
+------------Saving Results------------
+drift:  4 [2697, 2716, 2919, 13836]
+average accuracy:  0.7982994230185242
+average fscore:  0.43472786018350856
+average consistency:  0.0
+total time:  266.413748641
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2703, 2715, 2919]
+average accuracy:  0.7856058305496508
+average fscore:  0.38942901947184183
+average consistency:  0.0
+total time:  196.21233128099993
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2718, 2722, 2927]
+average accuracy:  0.7690859398724568
+average fscore:  0.38466764292999434
+average consistency:  0.0
+total time:  192.08048816999872
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2722, 2724, 2928]
+average accuracy:  0.7410871545703006
+average fscore:  0.38147160159703075
+average consistency:  0.0
+total time:  189.04046867800207
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  27
+------------Updating Models------------
+update activity num:  27  ->  28
+------------Saving Results------------
+drift:  2 [2735, 2934]
+average accuracy:  0.7914363802004252
+average fscore:  0.3907508159101835
+average consistency:  0.0
+total time:  191.7151833579992
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+update activity num:  28  ->  32
+------------Saving Results------------
+drift:  4 [2685, 2707, 2913, 10481]
+average accuracy:  0.821014272699666
+average fscore:  0.45579233865165025
+average consistency:  0.0
+total time:  249.75696883199998
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2688, 2707, 2913]
+average accuracy:  0.7197084725174613
+average fscore:  0.3679642788379457
+average consistency:  0.0
+total time:  189.36109126600059
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2689, 2708, 2914]
+average accuracy:  0.7732159125417553
+average fscore:  0.3817765493536758
+average consistency:  0.0
+total time:  190.08843036899998
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+update activity num:  28  ->  32
+------------Saving Results------------
+drift:  4 [2693, 2709, 2915, 10267]
+average accuracy:  0.8000607348921955
+average fscore:  0.4510337172064665
+average consistency:  0.0
+total time:  235.55091464499856
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+update activity num:  28  ->  32
+------------Saving Results------------
+drift:  4 [2702, 2713, 2918, 19095]
+average accuracy:  0.7602793805040996
+average fscore:  0.3897491753234536
+average consistency:  0.0
+total time:  299.88773763399877
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2706, 2715, 2919]
+average accuracy:  0.770300637716368
+average fscore:  0.3848751314602871
+average consistency:  0.0
+total time:  191.71549226800198
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2709, 2722, 2924]
+average accuracy:  0.7683571211661099
+average fscore:  0.3476537549577869
+average consistency:  0.0
+total time:  192.2349821280004
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+update activity num:  28  ->  32
+------------Saving Results------------
+drift:  4 [2685, 2707, 2913, 10481]
+average accuracy:  0.821014272699666
+average fscore:  0.45579233865165025
+average consistency:  0.0
+total time:  237.10501081199982
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2689, 2708, 2914]
+average accuracy:  0.7732159125417553
+average fscore:  0.3817765493536758
+average consistency:  0.0
+total time:  175.56562863900035
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2689, 2708, 2914]
+average accuracy:  0.7732159125417553
+average fscore:  0.3817765493536758
+average consistency:  0.0
+total time:  172.90396658400277
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2689, 2708, 2914]
+average accuracy:  0.7732159125417553
+average fscore:  0.3817765493536758
+average consistency:  0.0
+total time:  188.31130525000117
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2696, 2709, 2915]
+average accuracy:  0.7189189189189189
+average fscore:  0.3728093060802264
+average consistency:  0.0
+total time:  195.5302994679987
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2697, 2711, 2917]
+average accuracy:  0.7347707257819618
+average fscore:  0.3905735209280089
+average consistency:  0.0
+total time:  191.23212651300128
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2702, 2713, 2918]
+average accuracy:  0.7510476768903736
+average fscore:  0.3771851526053016
+average consistency:  0.0
+total time:  174.38281021199873
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Updating Models------------
+update activity num:  28  ->  32
+------------Saving Results------------
+drift:  4 [2685, 2707, 2913, 10481]
+average accuracy:  0.821014272699666
+average fscore:  0.45579233865165025
+average consistency:  0.0
+total time:  236.76930693699978
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2689, 2708, 2914]
+average accuracy:  0.7732159125417553
+average fscore:  0.3817765493536758
+average consistency:  0.0
+total time:  188.58312827999907
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2689, 2708, 2914]
+average accuracy:  0.7732159125417553
+average fscore:  0.3817765493536758
+average consistency:  0.0
+total time:  189.2798598469999
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2689, 2708, 2914]
+average accuracy:  0.7732159125417553
+average fscore:  0.3817765493536758
+average consistency:  0.0
+total time:  183.526940183001
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2693, 2709, 2915]
+average accuracy:  0.6951108411782569
+average fscore:  0.3504496884711621
+average consistency:  0.0
+total time:  184.25093085299886
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2696, 2709, 2915]
+average accuracy:  0.7189189189189189
+average fscore:  0.3728093060802264
+average consistency:  0.0
+total time:  189.87501487900226
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2702, 2713, 2918]
+average accuracy:  0.7510476768903736
+average fscore:  0.3771851526053016
+average consistency:  0.0
+total time:  194.05370908199984
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2689, 2708, 2914]
+average accuracy:  0.7732159125417553
+average fscore:  0.3817765493536758
+average consistency:  0.0
+total time:  194.66487590199904
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2689, 2708, 2914]
+average accuracy:  0.7732159125417553
+average fscore:  0.3817765493536758
+average consistency:  0.0
+total time:  193.34398169799897
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2689, 2708, 2914]
+average accuracy:  0.7732159125417553
+average fscore:  0.3817765493536758
+average consistency:  0.0
+total time:  193.382864514002
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2689, 2708, 2914]
+average accuracy:  0.7732159125417553
+average fscore:  0.3817765493536758
+average consistency:  0.0
+total time:  189.78043479299959
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2696, 2709, 2915]
+average accuracy:  0.7189189189189189
+average fscore:  0.3728093060802264
+average consistency:  0.0
+total time:  193.9548252550012
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2701, 2711, 2917]
+average accuracy:  0.7200728818706347
+average fscore:  0.3973257948864097
+average consistency:  0.0
+total time:  184.11254154699782
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
+event_log:BPIC2020_PrepaidTravelCost, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+update activity num:  24  ->  26
+------------Updating Models------------
+------------Updating Models------------
+update activity num:  26  ->  28
+------------Saving Results------------
+drift:  3 [2706, 2715, 2919]
+average accuracy:  0.770300637716368
+average fscore:  0.3848751314602871
+average consistency:  0.0
+total time:  183.53436586500175
+Experiment results saved to results/result_BPIC2020_PrepaidTravelCost.csv
