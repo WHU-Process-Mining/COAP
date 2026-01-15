@@ -30,6 +30,7 @@ First, you need to specify the `data_path` and `dataset` in the `/eventlog` dire
 - `/eventlog/csv`: stores the event stream (CSV) files
 
 ## Running
+You can run the following code to reproduce the experimental results on different datasets. The experimental logs and the corresponding results are available in the `/log` and `/results` directories.
 
 ```bash
 python main.py

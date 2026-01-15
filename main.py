@@ -22,13 +22,13 @@ event_logs = [
 ]
 
 discovery_algorithms = [
-    # DiscoveryAlgorithm.IND,
+    DiscoveryAlgorithm.IND,
     DiscoveryAlgorithm.ILP
 ]
 
 prediction_algorithms = [
     PredictionAlgorithm.LSTM,
-    # PredictionAlgorithm.Transformer
+    PredictionAlgorithm.Transformer
 ]
 
 dynamic_update_settings = [
@@ -65,11 +65,11 @@ confidence_threshold_settings = [
 ]
 
 consistency_alpha_settings= [
-#     0,
-#     0.25,
-      0.5,
-#     0.75,
-#     1.0,
+    0,
+    0.25,
+    0.5,
+    0.75,
+    1.0,
 ]
 
 win_min_settings = [
@@ -83,13 +83,13 @@ win_min_settings = [
 
 
 drift_threshold_settings= [
-#     0, # ~p<0.5 的阈值
-      0.674, # ~p<0.25 的阈值
-#     1.282, # ~p<0.1 的阈值
-#     1.645, # ~p<0.05 的阈值
-#     2.326, # ~p<0.01 的阈值
-#     2.576, # ~p<0.005 的阈值
-#     3.090, # ~p<0.001 的阈值
+    0, # ~p<0.5 的阈值
+    0.674, # ~p<0.25 的阈值
+    1.282, # ~p<0.1 的阈值
+    1.645, # ~p<0.05 的阈值
+    2.326, # ~p<0.01 的阈值
+    2.576, # ~p<0.005 的阈值
+    3.090, # ~p<0.001 的阈值
 ]
 
 
