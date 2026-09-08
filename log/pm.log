@@ -1,0 +1,1783 @@
+nohup: 忽略输入
+Processing event log: prodrift_pm_5k
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 16366, 17662]
+average accuracy:  0.8075722768844004
+average fscore:  0.7258487766669559
+average consistency:  0.0
+total time:  478.208057047
+Experiment results saved to results/result_prodrift_pm_5k.csv
+New best accuracy: 0.8075722768844004
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 16366, 17662]
+average accuracy:  0.8075722768844004
+average fscore:  0.7258487766669559
+average consistency:  0.0
+total time:  486.732036464
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 16366, 17662]
+average accuracy:  0.8075722768844004
+average fscore:  0.7258487766669559
+average consistency:  0.0
+total time:  477.82758255099986
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 16366, 17695]
+average accuracy:  0.8114516059121841
+average fscore:  0.7260897217178828
+average consistency:  0.0
+total time:  471.4694530930001
+Experiment results saved to results/result_prodrift_pm_5k.csv
+New best accuracy: 0.8114516059121841
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  5 [5952, 17007, 19064, 19083, 27559]
+average accuracy:  0.798296562784448
+average fscore:  0.7180817997655298
+average consistency:  0.0
+total time:  494.58786627099994
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5995]
+average accuracy:  0.8030211087512461
+average fscore:  0.7146755209861829
+average consistency:  0.0
+total time:  439.14298062299986
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.7683455420224524
+average fscore:  0.6574724253572075
+average consistency:  0.0
+total time:  536.6159332950001
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 16366, 17662]
+average accuracy:  0.8075722768844004
+average fscore:  0.7258487766669559
+average consistency:  0.0
+total time:  605.368716033
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 16366, 17662]
+average accuracy:  0.8075722768844004
+average fscore:  0.7258487766669559
+average consistency:  0.0
+total time:  554.7528331169997
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 16366, 17662]
+average accuracy:  0.8075722768844004
+average fscore:  0.7258487766669559
+average consistency:  0.0
+total time:  529.0126569629992
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 16366, 17743]
+average accuracy:  0.8111265224741017
+average fscore:  0.7265575806326063
+average consistency:  0.0
+total time:  521.142720246
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  4 [5952, 17102, 20182, 23706]
+average accuracy:  0.8082007715313597
+average fscore:  0.7243356059502397
+average consistency:  0.0
+total time:  541.9872257340003
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8008972302891075
+average fscore:  0.7119697957525947
+average consistency:  0.0
+total time:  498.32387106199985
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5994]
+average accuracy:  0.8023709418750813
+average fscore:  0.713242249546281
+average consistency:  0.0
+total time:  505.4262933610007
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 16366, 17662]
+average accuracy:  0.8075722768844004
+average fscore:  0.7258487766669559
+average consistency:  0.0
+total time:  564.8628939509999
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 16366, 17662]
+average accuracy:  0.8075722768844004
+average fscore:  0.7258487766669559
+average consistency:  0.0
+total time:  547.1137009380009
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 16366, 17805]
+average accuracy:  0.8111265224741017
+average fscore:  0.7266025427482209
+average consistency:  0.0
+total time:  546.3009555170011
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  7 [5952, 17007, 19064, 19083, 19182, 19258, 23657]
+average accuracy:  0.8071171600710849
+average fscore:  0.7225534398554384
+average consistency:  0.0
+total time:  547.2086534560003
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8008972302891075
+average fscore:  0.7119697957525947
+average consistency:  0.0
+total time:  505.97036867099996
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8008972302891075
+average fscore:  0.7119697957525947
+average consistency:  0.0
+total time:  504.5347794930003
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5978]
+average accuracy:  0.8030427809804517
+average fscore:  0.714814279649634
+average consistency:  0.0
+total time:  520.1009251749983
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 16366, 17662]
+average accuracy:  0.8075722768844004
+average fscore:  0.7258487766669559
+average consistency:  0.0
+total time:  564.4161775969988
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 16848, 19768]
+average accuracy:  0.7950240561744181
+average fscore:  0.7045477571269206
+average consistency:  0.0
+total time:  558.027514165
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8008972302891075
+average fscore:  0.7119697957525947
+average consistency:  0.0
+total time:  510.7599000120008
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8008972302891075
+average fscore:  0.7119697957525947
+average consistency:  0.0
+total time:  498.88436486700084
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5960]
+average accuracy:  0.8017641194573274
+average fscore:  0.7139658954505972
+average consistency:  0.0
+total time:  492.48860528799923
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5978]
+average accuracy:  0.8030427809804517
+average fscore:  0.714814279649634
+average consistency:  0.0
+total time:  487.3894601150005
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5995]
+average accuracy:  0.8030211087512461
+average fscore:  0.7146755209861829
+average consistency:  0.0
+total time:  491.8681956700002
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8008972302891075
+average fscore:  0.7119697957525947
+average consistency:  0.0
+total time:  507.3117979430008
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8008972302891075
+average fscore:  0.7119697957525947
+average consistency:  0.0
+total time:  489.025570451
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8008972302891075
+average fscore:  0.7119697957525947
+average consistency:  0.0
+total time:  515.3420846619993
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5958]
+average accuracy:  0.8013956915608339
+average fscore:  0.7132505758532324
+average consistency:  0.0
+total time:  510.79057477600145
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5986]
+average accuracy:  0.8029777642928352
+average fscore:  0.7144243176767573
+average consistency:  0.0
+total time:  501.21683949900034
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.576/home/inspur/anaconda3/envs/coap/lib/python3.12/site-packages/torch/nn/modules/transformer.py:508: UserWarning: The PyTorch API of nested tensors is in prototype stage and will change in the near future. We recommend specifying layout=torch.jagged when constructing a nested tensor, as this layout receives active development, has better operator coverage, and works with torch.compile. (Triggered internally at /pytorch/aten/src/ATen/NestedTensorImpl.cpp:178.)
+  output = torch._nested_tensor_from_mask(
+
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.7683455420224524
+average fscore:  0.6574724253572075
+average consistency:  0.0
+total time:  510.27246466400175
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.7683455420224524
+average fscore:  0.6574724253572075
+average consistency:  0.0
+total time:  510.1641070779988
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 7307, 12079]
+average accuracy:  0.8132504009362403
+average fscore:  0.7250242662773665
+average consistency:  0.0
+total time:  831.6478253269997
+Experiment results saved to results/result_prodrift_pm_5k.csv
+New best accuracy: 0.8132504009362403
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 7307, 12079]
+average accuracy:  0.8132504009362403
+average fscore:  0.7250242662773665
+average consistency:  0.0
+total time:  826.6265893230011
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  714.2646531399987
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  784.7640901799969
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  808.9062081539996
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  792.1315238030002
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5995]
+average accuracy:  0.8062719431320705
+average fscore:  0.6917094945373183
+average consistency:  0.0
+total time:  794.3493612040002
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 7307, 12079]
+average accuracy:  0.8132504009362403
+average fscore:  0.7250242662773665
+average consistency:  0.0
+total time:  815.8710702489989
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 7308, 11997]
+average accuracy:  0.8131420397902128
+average fscore:  0.7253980353645841
+average consistency:  0.0
+total time:  823.5507785269983
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  989.3680265319999
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  994.4477406290025
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  915.2491094510005
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  821.7730356930006
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5978]
+average accuracy:  0.795587534133761
+average fscore:  0.6754421895649964
+average consistency:  0.0
+total time:  812.3645687099997
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 7307, 12079]
+average accuracy:  0.8132504009362403
+average fscore:  0.7250242662773665
+average consistency:  0.0
+total time:  864.6729501609989
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 7368, 12065]
+average accuracy:  0.8130336786441853
+average fscore:  0.7189470122643518
+average consistency:  0.0
+total time:  901.1132935419992
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  878.5910177369988
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  849.3334981169974
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  820.3092221020052
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  806.8419030619989
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5975]
+average accuracy:  0.806683715486975
+average fscore:  0.6896616722296084
+average consistency:  0.0
+total time:  819.9535489800037
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 7307, 12079]
+average accuracy:  0.8132504009362403
+average fscore:  0.7250242662773665
+average consistency:  0.0
+total time:  897.6941529940013
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  921.8131531979961
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  870.2184622849963
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  855.382369609004
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5960]
+average accuracy:  0.7827142299856963
+average fscore:  0.6501656165017589
+average consistency:  0.0
+total time:  827.3435516649988
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5961]
+average accuracy:  0.8064886654241256
+average fscore:  0.6920778522470658
+average consistency:  0.0
+total time:  819.6981601459993
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5986]
+average accuracy:  0.8090243162411686
+average fscore:  0.6869525451380001
+average consistency:  0.0
+total time:  833.2280004880013
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  856.4901075169983
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  902.1425149830029
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  836.3770134870065
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5958]
+average accuracy:  0.7882406484330978
+average fscore:  0.6627486125582353
+average consistency:  0.0
+total time:  836.1172803340014
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5986]
+average accuracy:  0.8090243162411686
+average fscore:  0.6869525451380001
+average consistency:  0.0
+total time:  829.3435263909996
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.7931169000043344
+average fscore:  0.678322866468033
+average consistency:  0.0
+total time:  820.6128768679991
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:IND, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.7931169000043344
+average fscore:  0.678322866468033
+average consistency:  0.0
+total time:  820.4493101959961
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 16366, 17662]
+average accuracy:  0.8075722768844004
+average fscore:  0.7258487766669559
+average consistency:  0.0
+total time:  606.6815030170037
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 16366, 17662]
+average accuracy:  0.8075722768844004
+average fscore:  0.7258487766669559
+average consistency:  0.0
+total time:  592.4553625300032
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 16366, 17662]
+average accuracy:  0.8075722768844004
+average fscore:  0.7258487766669559
+average consistency:  0.0
+total time:  591.5668849930007
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 16366, 17695]
+average accuracy:  0.8114516059121841
+average fscore:  0.7260897217178828
+average consistency:  0.0
+total time:  568.723209568001
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  5 [5952, 17007, 19064, 19083, 27559]
+average accuracy:  0.798296562784448
+average fscore:  0.7180817997655298
+average consistency:  0.0
+total time:  580.3454492300007
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5995]
+average accuracy:  0.8030211087512461
+average fscore:  0.7146755209861829
+average consistency:  0.0
+total time:  530.2194074360013
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.7683455420224524
+average fscore:  0.6574724253572075
+average consistency:  0.0
+total time:  527.5662987539981
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 16366, 17662]
+average accuracy:  0.8075722768844004
+average fscore:  0.7258487766669559
+average consistency:  0.0
+total time:  550.1102048489993
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 16366, 17662]
+average accuracy:  0.8075722768844004
+average fscore:  0.7258487766669559
+average consistency:  0.0
+total time:  539.0145711250007
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 16366, 17662]
+average accuracy:  0.8075722768844004
+average fscore:  0.7258487766669559
+average consistency:  0.0
+total time:  523.9854866840033
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 16366, 17743]
+average accuracy:  0.8111265224741017
+average fscore:  0.7265575806326063
+average consistency:  0.0
+total time:  512.172287925001
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  4 [5952, 17102, 20182, 23706]
+average accuracy:  0.8082007715313597
+average fscore:  0.7243356059502397
+average consistency:  0.0
+total time:  525.3846057410046
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8008972302891075
+average fscore:  0.7119697957525947
+average consistency:  0.0
+total time:  492.5534736049958
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5994]
+average accuracy:  0.8026960253131638
+average fscore:  0.7140020280008229
+average consistency:  0.0
+total time:  485.36673078400054
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 16366, 17662]
+average accuracy:  0.8075722768844004
+average fscore:  0.7258487766669559
+average consistency:  0.0
+total time:  523.4301778050067
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 16366, 17662]
+average accuracy:  0.8075722768844004
+average fscore:  0.7258487766669559
+average consistency:  0.0
+total time:  519.4532276419995
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 16366, 17805]
+average accuracy:  0.8111265224741017
+average fscore:  0.7266025427482209
+average consistency:  0.0
+total time:  520.4139743470005
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  7 [5952, 17007, 19064, 19083, 19182, 19258, 23657]
+average accuracy:  0.8071171600710849
+average fscore:  0.7225534398554384
+average consistency:  0.0
+total time:  539.6741519030038
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8008972302891075
+average fscore:  0.7119697957525947
+average consistency:  0.0
+total time:  503.3150359200008
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8008972302891075
+average fscore:  0.7119697957525947
+average consistency:  0.0
+total time:  501.19431628500024
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5978]
+average accuracy:  0.8030427809804517
+average fscore:  0.714814279649634
+average consistency:  0.0
+total time:  490.35939315499854
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 16366, 17662]
+average accuracy:  0.8075722768844004
+average fscore:  0.7258487766669559
+average consistency:  0.0
+total time:  538.6999908750004
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 16848, 19768]
+average accuracy:  0.7950240561744181
+average fscore:  0.7045477571269206
+average consistency:  0.0
+total time:  558.3412907780003
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8008972302891075
+average fscore:  0.7119697957525947
+average consistency:  0.0
+total time:  486.1576709200017
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8008972302891075
+average fscore:  0.7119697957525947
+average consistency:  0.0
+total time:  483.7988294780007
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5960]
+average accuracy:  0.8017641194573274
+average fscore:  0.7139658954505972
+average consistency:  0.0
+total time:  493.1371246380004
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5978]
+average accuracy:  0.8030427809804517
+average fscore:  0.714814279649634
+average consistency:  0.0
+total time:  460.239616193001
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5995]
+average accuracy:  0.8030211087512461
+average fscore:  0.7146755209861829
+average consistency:  0.0
+total time:  482.6834093679936
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8008972302891075
+average fscore:  0.7119697957525947
+average consistency:  0.0
+total time:  497.45511263200024
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8008972302891075
+average fscore:  0.7119697957525947
+average consistency:  0.0
+total time:  500.7503191290016
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8008972302891075
+average fscore:  0.7119697957525947
+average consistency:  0.0
+total time:  510.03303597599734
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5958]
+average accuracy:  0.8014173637900395
+average fscore:  0.7133014168504344
+average consistency:  0.0
+total time:  508.20347057800245
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5986]
+average accuracy:  0.8029994365220406
+average fscore:  0.714475658348201
+average consistency:  0.0
+total time:  486.1698561079975
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.7683455420224524
+average fscore:  0.6574724253572075
+average consistency:  0.0
+total time:  509.9418546820016
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:LSTM, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.7683455420224524
+average fscore:  0.6574724253572075
+average consistency:  0.0
+total time:  522.8913310599964
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 7307, 12079]
+average accuracy:  0.8132504009362403
+average fscore:  0.7250242662773665
+average consistency:  0.0
+total time:  845.6494076950039
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 7307, 12079]
+average accuracy:  0.8132504009362403
+average fscore:  0.7250242662773665
+average consistency:  0.0
+total time:  839.2962102400052
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  802.328457317999
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  810.6612147420092
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  788.86665149701
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  805.2554581779987
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5995]
+average accuracy:  0.8077239824888388
+average fscore:  0.6982621454548105
+average consistency:  0.0
+total time:  799.2343735449977
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 7307, 12079]
+average accuracy:  0.8132504009362403
+average fscore:  0.7250242662773665
+average consistency:  0.0
+total time:  860.9428991249879
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 7308, 11997]
+average accuracy:  0.8131420397902128
+average fscore:  0.7253980353645841
+average consistency:  0.0
+total time:  854.5695250540011
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  816.8136174340034
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  790.0763753589999
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  776.754023261994
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  753.826172643996
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.25, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5978]
+average accuracy:  0.7972996402409952
+average fscore:  0.6771787995942443
+average consistency:  0.0
+total time:  756.2818614110001
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 7307, 12079]
+average accuracy:  0.8132504009362403
+average fscore:  0.7250242662773665
+average consistency:  0.0
+total time:  767.168812577991
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 7368, 12065]
+average accuracy:  0.8130336786441853
+average fscore:  0.7189470122643518
+average consistency:  0.0
+total time:  842.3870941170026
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  811.1591460220079
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  806.8995170090056
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  799.5495305730001
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  780.6903181139933
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.5, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5975]
+average accuracy:  0.806683715486975
+average fscore:  0.689632066401889
+average consistency:  0.0
+total time:  796.2577474179998
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Updating Models------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  3 [5952, 7307, 12079]
+average accuracy:  0.8132504009362403
+average fscore:  0.7250242662773665
+average consistency:  0.0
+total time:  832.1143700529938
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  826.9388337369892
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  817.2245947290066
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  814.6862874219951
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5960]
+average accuracy:  0.7840145637380261
+average fscore:  0.6524378427889893
+average consistency:  0.0
+total time:  807.3099711530085
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5961]
+average accuracy:  0.8077889991764553
+average fscore:  0.6951757904178105
+average consistency:  0.0
+total time:  799.452193612
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:0.75, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5986]
+average accuracy:  0.8090243162411686
+average fscore:  0.6869525451380001
+average consistency:  0.0
+total time:  725.2070076129894
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  677.764215571995
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:0.674
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  713.6577418469969
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.282
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5952]
+average accuracy:  0.8049932816089463
+average fscore:  0.6874388609397333
+average consistency:  0.0
+total time:  698.7392771850136
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:1.645
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5958]
+average accuracy:  0.7882406484330978
+average fscore:  0.6627486125582353
+average consistency:  0.0
+total time:  702.0968197939947
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.326
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Updating Models------------
+------------Saving Results------------
+drift:  1 [5986]
+average accuracy:  0.8090243162411686
+average fscore:  0.6869525451380001
+average consistency:  0.0
+total time:  697.1817282990087
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:2.576
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.7931169000043344
+average fscore:  0.678322866468033
+average consistency:  0.0
+total time:  693.4342344530014
+Experiment results saved to results/result_prodrift_pm_5k.csv
+event_log:prodrift_pm_5k, discovery_algorithm:ILP, prediction_algorithm:Transformer, dynamic_update:True, update_strategy:finetune, apply_constraint:True, use_consistency:True, use_only_conflict_data:True, confidence_threshold:0.5, consistency_alpha:1.0, win_min:300, adwin_threshold:3.09
+torch_device: cuda:0
+------------Initialization------------
+------------Online ActivityPrediction------------
+------------Saving Results------------
+drift:  0 []
+average accuracy:  0.7931169000043344
+average fscore:  0.678322866468033
+average consistency:  0.0
+total time:  725.9205442350067
+Experiment results saved to results/result_prodrift_pm_5k.csv
